@@ -1,0 +1,257 @@
+'use client';
+
+import { useState, useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+import { CldUploadWidget } from 'next-cloudinary';
+import dynamic from 'next/dynamic';
+import { use } from 'react';
+
+const BlockNoteEditor = dynamic(() => import('@/components/BlockNoteEditor'), {
+  ssr: false,
+  loading: () => <div className="p-4 text-center">एडिटर लोड हो रहा है...</div>
+});
+
+export default function EditBlogPage({ params }) {
+  const resolvedParams = use(params);
+  const router = useRouter();
+  const [loading, setLoading] = useState(true);
+  const [saving, setSaving] = useState(false);
+  const [content, setContent] = useState('');
+  const [formData, setFormData] = useState({
+    title: '',
+    slug: '',
+    featured_image: '',
+    status: 'draft'
+  });
+  const [media, setMedia] = useState([]);
+
+  useEffect(() => {
+    fetchBlog();
+  }, []);
+
+  async function fetchBlog() {
+    try {
+      const res = await fetch(`/api/blogs/${resolvedParams.slug}`);
+      const data = await res.json();
+      setFormData({
+        title: data.title,
+        slug: data.slug,
+        featured_image: data.featured_image || '',
+        status: data.status
+      });
+      setContent(data.content || '');
+      setMedia(data.media || []);
+    } catch (error) {
+      console.error('Error:', error);
+    } finally {
+      setLoading(false);
+    }
+  }
+
+  function handleChange(e) {
+    const { name, value } = e.target;
+    setFormData(prev => ({ ...prev, [name]: value }));
+  }
+
+  function addMedia(type, url, caption = '') {
+    setMedia(prev => [...prev, { media_type: type, media_url: url, caption }]);
+  }
+
+  function removeMedia(index) {
+    setMedia(prev => prev.filter((_, i) => i !== index));
+  }
+
+  async function handleSubmit(e) {
+    e.preventDefault();
+    setSaving(true);
+
+    try {
+      const res = await fetch(`/api/blogs/${resolvedParams.slug}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...formData, content, media })
+      });
+
+      if (res.ok) {
+        alert('ब्लॉग अपडेट हो गया!');
+        router.push('/admin/blogs');
+      } else {
+        alert('ब्लॉग अपडेट नहीं हो सका');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      alert('ब्लॉग अपडेट नहीं हो सका');
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  if (loading) return <div className="p-6 text-center">लोड हो रहा है...</div>;
+
+  return (
+    <div className="p-6">
+      <h2 className="text-3xl font-bold text-gray-900 mb-6">ब्लॉग एडिट करें</h2>
+
+      <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-lg p-8 max-w-4xl">
+        <div className="space-y-6">
+          
+          <div>
+            <label className="block text-gray-800 font-semibold mb-2">शीर्षक *</label>
+            <input
+              type="text"
+              name="title"
+              value={formData.title}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
+            />
+          </div>
+
+          <div>
+            <label className="block text-gray-800 font-semibold mb-2">Slug (URL) *</label>
+            <input
+              type="text"
+              name="slug"
+              value={formData.slug}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
+            />
+          </div>
+
+          <div>
+            <label className="block text-gray-800 font-semibold mb-2">मुख्य इमेज</label>
+            <CldUploadWidget
+              uploadPreset="agoraprakashan"
+              onSuccess={(result) => {
+                setFormData(prev => ({ ...prev, featured_image: result.info.secure_url }));
+              }}
+            >
+              {({ open }) => (
+                <div>
+                  <button
+                    type="button"
+                    onClick={() => open()}
+                    className="w-full px-4 py-3 text-white bg-teal-600 hover:bg-teal-700 rounded-lg font-semibold"
+                  >
+                    📤 इमेज अपलोड करें
+                  </button>
+                  {formData.featured_image && (
+                    <div className="mt-4">
+                      <img 
+                        src={formData.featured_image} 
+                        alt="Featured" 
+                        className="h-40 w-auto object-cover rounded-lg border-2 border-gray-300"
+                      />
+                    </div>
+                  )}
+                </div>
+              )}
+            </CldUploadWidget>
+          </div>
+
+          <div>
+            <label className="block text-gray-800 font-semibold mb-2">विवरण *</label>
+            <BlockNoteEditor 
+              initialContent={content}
+              onChange={setContent} 
+            />
+          </div>
+
+          <div>
+            <label className="block text-gray-800 font-semibold mb-2">अतिरिक्त फोटो/वीडियो</label>
+            
+            <div className="grid grid-cols-2 gap-4 mb-4">
+              <CldUploadWidget
+                uploadPreset="agoraprakashan"
+                onSuccess={(result) => {
+                  addMedia('image', result.info.secure_url);
+                }}
+              >
+                {({ open }) => (
+                  <button
+                    type="button"
+                    onClick={() => open()}
+                    className="px-4 py-3 text-white bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold"
+                  >
+                    📷 फोटो जोड़ें
+                  </button>
+                )}
+              </CldUploadWidget>
+
+              <button
+                type="button"
+                onClick={() => {
+                  const url = prompt('YouTube/Vimeo URL डालें:');
+                  if (url) addMedia('video', url);
+                }}
+                className="px-4 py-3 text-white bg-red-600 hover:bg-red-700 rounded-lg font-semibold"
+              >
+                🎥 वीडियो जोड़ें
+              </button>
+            </div>
+
+            {media.length > 0 && (
+              <div className="space-y-3 mt-4">
+                {media.map((item, index) => (
+                  <div key={index} className="flex items-center gap-4 p-3 bg-gray-50 rounded-lg">
+                    {item.media_type === 'image' ? (
+                      <img src={item.media_url} alt="" className="h-16 w-16 object-cover rounded" />
+                    ) : (
+                      <div className="h-16 w-16 bg-red-100 rounded flex items-center justify-center text-2xl">
+                        🎥
+                      </div>
+                    )}
+                    <div className="flex-1">
+                      <p className="text-sm text-gray-700 font-semibold">
+                        {item.media_type === 'image' ? 'फोटो' : 'वीडियो'}
+                      </p>
+                      <p className="text-xs text-gray-500 truncate">{item.media_url}</p>
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => removeMedia(index)}
+                      className="text-red-600 hover:text-red-800 font-semibold"
+                    >
+                      हटाएं
+                    </button>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
+          <div>
+            <label className="block text-gray-800 font-semibold mb-2">स्थिति</label>
+            <select
+              name="status"
+              value={formData.status}
+              onChange={handleChange}
+              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
+            >
+              <option value="draft">ड्राफ्ट</option>
+              <option value="published">प्रकाशित</option>
+            </select>
+          </div>
+        </div>
+
+        <div className="flex gap-4 mt-8">
+          <button
+            type="submit"
+            disabled={saving}
+            className="bg-teal-600 hover:bg-teal-700 disabled:bg-gray-400 text-white px-8 py-3 rounded-lg font-semibold"
+          >
+            {saving ? 'सेव हो रहा है...' : 'अपडेट करें'}
+          </button>
+          <button
+            type="button"
+            onClick={() => router.back()}
+            className="bg-gray-500 hover:bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold"
+          >
+            रद्द करें
+          </button>
+        </div>
+      </form>
+    </div>
+  );
+}
