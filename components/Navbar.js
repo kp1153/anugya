@@ -15,105 +15,105 @@ const Navbar = () => {
   const navItems = {
     hi: [
       { name: 'होम', href: '/' },
-      { name: 'उपन्यास', href: '/उपन्यास' },
-      { name: 'कहानी', href: '/कहानी' },
-      { name: 'आदिवासी कविता', href: '/आदिवासी-कविता' },
-      { name: 'जीवनी', href: '/जीवनी' },
-      { name: 'आत्मकथा', href: '/आत्मकथा' },
+      { name: 'उपन्यास', href: '/novel' },
+      { name: 'कहानी', href: '/story' },
+      { name: 'आदिवासी कविता', href: '/tribal-poetry' },
+      { name: 'जीवनी', href: '/biography' },
+      { name: 'आत्मकथा', href: '/autobiography' },
       { 
         name: 'विमर्श', 
-        href: '/विमर्श',
+        href: '/discourse',
         children: [
-          { name: 'दलित', href: '/विमर्श/दलित' },
-          { name: 'स्त्री', href: '/विमर्श/स्त्री' },
-          { name: 'आदिवासी', href: '/विमर्श/आदिवासी' },
-          { name: 'गांधीवादी', href: '/विमर्श/गांधीवादी' },
+          { name: 'दलित', href: '/discourse/dalit' },
+          { name: 'स्त्री', href: '/discourse/women' },
+          { name: 'आदिवासी', href: '/discourse/tribal' },
+          { name: 'गांधीवादी', href: '/discourse/gandhian' },
         ]
       },
       { 
         name: 'क्लासिक्स', 
-        href: '/क्लासिक्स',
+        href: '/classics',
         children: [
-          { name: 'अनुज्ञा क्लासिक्स', href: '/क्लासिक्स/अनुज्ञा-क्लासिक्स' },
-          { name: 'रशियन क्लासिक्स', href: '/क्लासिक्स/रशियन-क्लासिक्स' },
+          { name: 'अनुज्ञा क्लासिक्स', href: '/classics/anuugya-classics' },
+          { name: 'रशियन क्लासिक्स', href: '/classics/russian-classics' },
         ]
       },
       { 
-        name: 'शैक्षणिक', 
-        href: '/शैक्षणिक',
+        name: 'अकादमिक', 
+        href: '/academic',
         children: [
-          { name: 'आलोचना', href: '/शैक्षणिक/आलोचना' },
-          { name: 'भाषाविज्ञान', href: '/शैक्षणिक/भाषाविज्ञान' },
-          { name: 'दर्शन', href: '/शैक्षणिक/दर्शन' },
-          { name: 'इतिहास-राजनीति', href: '/शैक्षणिक/इतिहास-राजनीति' },
+          { name: 'आलोचना', href: '/academic/criticism' },
+          { name: 'भाषाविज्ञान', href: '/academic/linguistics' },
+          { name: 'दर्शन', href: '/academic/philosophy' },
+          { name: 'इतिहास-राजनीति', href: '/academic/history-politics' },
         ]
       },
       { 
         name: 'भाषा', 
-        href: '/भाषा',
+        href: '/language',
         children: [
-          { name: 'हिंदी', href: '/भाषा/हिंदी' },
-          { name: 'अंग्रेजी', href: '/भाषा/अंग्रेजी' },
-          { name: 'भोजपुरी', href: '/भाषा/भोजपुरी' },
-          { name: 'बुंदेली', href: '/भाषा/बुंदेली' },
-          { name: 'उर्दू', href: '/भाषा/उर्दू' },
+          { name: 'हिंदी', href: '/language/hindi' },
+          { name: 'अंग्रेजी', href: '/language/english' },
+          { name: 'भोजपुरी', href: '/language/bhojpuri' },
+          { name: 'बुंदेली', href: '/language/bundeli' },
+          { name: 'उर्दू', href: '/language/urdu' },
         ]
       },
-      { name: 'लेखक', href: '/लेखक' },
-      { name: 'अनुवादक', href: '/अनुवादक' },
-      { name: 'ट्रैकिंग', href: '/ट्रैकिंग' },
-      { name: 'संपर्क', href: '/संपर्क' },
+      { name: 'लेखक', href: '/authors' },
+      { name: 'अनुवादक', href: '/translators' },
+      { name: 'ट्रैकिंग', href: '/tracking' },
+      { name: 'संपर्क', href: '/contact' },
     ],
     en: [
       { name: 'Home', href: '/' },
-      { name: 'Novel', href: '/उपन्यास' },
-      { name: 'Story', href: '/कहानी' },
-      { name: 'Tribal Poetry', href: '/आदिवासी-कविता' },
-      { name: 'Biography', href: '/जीवनी' },
-      { name: 'Autobiography', href: '/आत्मकथा' },
+      { name: 'Novel', href: '/novel' },
+      { name: 'Story', href: '/story' },
+      { name: 'Tribal Poetry', href: '/tribal-poetry' },
+      { name: 'Biography', href: '/biography' },
+      { name: 'Autobiography', href: '/autobiography' },
       { 
         name: 'Discourse', 
-        href: '/विमर्श',
+        href: '/discourse',
         children: [
-          { name: 'Dalit', href: '/विमर्श/दलित' },
-          { name: 'Women', href: '/विमर्श/स्त्री' },
-          { name: 'Tribal', href: '/विमर्श/आदिवासी' },
-          { name: 'Gandhian', href: '/विमर्श/गांधीवादी' },
+          { name: 'Dalit', href: '/discourse/dalit' },
+          { name: 'Women', href: '/discourse/women' },
+          { name: 'Tribal', href: '/discourse/tribal' },
+          { name: 'Gandhian', href: '/discourse/gandhian' },
         ]
       },
       { 
         name: 'Classics', 
-        href: '/क्लासिक्स',
+        href: '/classics',
         children: [
-          { name: 'Anuugya Classics', href: '/क्लासिक्स/अनुज्ञा-क्लासिक्स' },
-          { name: 'Russian Classics', href: '/क्लासिक्स/रशियन-क्लासिक्स' },
+          { name: 'Anuugya Classics', href: '/classics/anuugya-classics' },
+          { name: 'Russian Classics', href: '/classics/russian-classics' },
         ]
       },
       { 
         name: 'Academic', 
-        href: '/शैक्षणिक',
+        href: '/academic',
         children: [
-          { name: 'Criticism', href: '/शैक्षणिक/आलोचना' },
-          { name: 'Linguistics', href: '/शैक्षणिक/भाषाविज्ञान' },
-          { name: 'Philosophy', href: '/शैक्षणिक/दर्शन' },
-          { name: 'History-Politics', href: '/शैक्षणिक/इतिहास-राजनीति' },
+          { name: 'Criticism', href: '/academic/criticism' },
+          { name: 'Linguistics', href: '/academic/linguistics' },
+          { name: 'Philosophy', href: '/academic/philosophy' },
+          { name: 'History-Politics', href: '/academic/history-politics' },
         ]
       },
       { 
         name: 'Language', 
-        href: '/भाषा',
+        href: '/language',
         children: [
-          { name: 'Hindi', href: '/भाषा/हिंदी' },
-          { name: 'English', href: '/भाषा/अंग्रेजी' },
-          { name: 'Bhojpuri', href: '/भाषा/भोजपुरी' },
-          { name: 'Bundeli', href: '/भाषा/बुंदेली' },
-          { name: 'Urdu', href: '/भाषा/उर्दू' },
+          { name: 'Hindi', href: '/language/hindi' },
+          { name: 'English', href: '/language/english' },
+          { name: 'Bhojpuri', href: '/language/bhojpuri' },
+          { name: 'Bundeli', href: '/language/bundeli' },
+          { name: 'Urdu', href: '/language/urdu' },
         ]
       },
-      { name: 'Authors', href: '/लेखक' },
-      { name: 'Translators', href: '/अनुवादक' },
-      { name: 'Tracking', href: '/ट्रैकिंग' },
-      { name: 'Contact', href: '/संपर्क' },
+      { name: 'Authors', href: '/authors' },
+      { name: 'Translators', href: '/translators' },
+      { name: 'Tracking', href: '/tracking' },
+      { name: 'Contact', href: '/contact' },
     ]
   };
 
@@ -124,10 +124,10 @@ const Navbar = () => {
   return (
     <nav className="bg-[#8B4513] border-b-2 border-[#654321] shadow-md sticky top-0 z-50">
       <style dangerouslySetInnerHTML={{__html: `
-        .menu-scroll::-webkit-scrollbar { height: 8px; }
+        .menu-scroll::-webkit-scrollbar { height: 12px; }
         .menu-scroll::-webkit-scrollbar-track { background: #654321; }
-        .menu-scroll::-webkit-scrollbar-thumb { background: #dc2626; border-radius: 6px; }
-        .menu-scroll::-webkit-scrollbar-thumb:hover { background: #ef4444; }
+        .menu-scroll::-webkit-scrollbar-thumb { background: #1d4ed8; border-radius: 6px; }
+        .menu-scroll::-webkit-scrollbar-thumb:hover { background: #2563eb; }
       `}} />
       
       <div className="max-w-7xl mx-auto px-4">
@@ -181,20 +181,20 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className={`pt-1 pb-2 ${isMenuOpen ? "block" : "hidden"} md:block`}>
+        <div className={`pt-1 pb-8 ${isMenuOpen ? "block" : "hidden"} md:block`}>
           <div className="hidden md:flex flex-nowrap w-full justify-between overflow-x-auto pb-2 menu-scroll gap-1">
             {currentNavItems.map((item, index) => (
               <div 
                 key={item.name}
-                className="relative group"
+                className="relative flex-shrink-0"
               >
                 {item.children ? (
                   <button
-                    onMouseEnter={() => setActiveDropdown(index)}
+                    onClick={() => setActiveDropdown(activeDropdown === index ? null : index)}
                     className={`
                       text-white text-center font-medium rounded-md whitespace-nowrap block w-full
-                      px-2 py-2 text-xs
-                      hover:bg-[#A0522D] transition-colors
+                      px-3 py-2 text-sm
+                      hover:bg-[#A0522D] transition-colors cursor-pointer
                       ${isActive(item.href) ? "bg-[#A0522D] ring-1 ring-white" : ""}
                     `}
                   >
@@ -205,7 +205,7 @@ const Navbar = () => {
                     href={item.href}
                     className={`
                       text-white text-center font-medium rounded-md whitespace-nowrap block
-                      px-2 py-2 text-xs
+                      px-3 py-2 text-sm
                       hover:bg-[#A0522D] transition-colors
                       ${isActive(item.href) ? "bg-[#A0522D] ring-1 ring-white" : ""}
                     `}
@@ -215,15 +215,12 @@ const Navbar = () => {
                 )}
                 
                 {item.children && activeDropdown === index && (
-                  <div 
-                    className="absolute left-0 mt-1 w-48 bg-[#654321] rounded-md shadow-xl z-[100] border border-[#A0522D]"
-                    onMouseEnter={() => setActiveDropdown(index)}
-                    onMouseLeave={() => setActiveDropdown(null)}
-                  >
+                  <div className="fixed mt-1 w-48 bg-[#654321] rounded-md shadow-xl border border-[#A0522D] z-[9999]">
                     {item.children.map((child) => (
                       <Link
                         key={child.name}
                         href={child.href}
+                        onClick={() => setActiveDropdown(null)}
                         className={`
                           block px-4 py-2 text-sm text-white hover:bg-[#A0522D] first:rounded-t-md last:rounded-b-md transition-colors
                           ${isActive(child.href) ? "bg-[#A0522D]" : ""}
@@ -237,8 +234,8 @@ const Navbar = () => {
               </div>
             ))}
             <Link
-              href="/कार्ट"
-              className="text-white text-center font-medium rounded-md whitespace-nowrap px-2 py-2 text-xs hover:bg-[#A0522D] transition-colors"
+              href="/cart"
+              className="text-white text-center font-medium rounded-md whitespace-nowrap px-3 py-2 text-sm hover:bg-[#A0522D] transition-colors flex-shrink-0"
             >
               {language === 'hi' ? 'कार्ट' : 'Cart'}
             </Link>
@@ -288,7 +285,7 @@ const Navbar = () => {
                   </div>
                 ))}
                 <Link
-                  href="/कार्ट"
+                  href="/cart"
                   onClick={() => setIsMenuOpen(false)}
                   className="block px-4 py-2 text-white hover:bg-[#A0522D] rounded-lg transition-colors"
                 >
