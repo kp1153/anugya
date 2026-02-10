@@ -99,6 +99,7 @@ const Navbar = () => {
           { name: 'History-Politics', href: '/academic/history-politics' },
         ]
       },
+      { name: 'विविध', href: '/Miscellaneous' },
       { 
         name: 'Language', 
         href: '/language',
