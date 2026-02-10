@@ -15,11 +15,25 @@ const Navbar = () => {
   const navItems = {
   hi: [
     { name: 'होम', href: '/' },
-    { name: 'उपन्यास', href: '/novel' },
-    { name: 'कहानी', href: '/story' },
-    { name: 'आदिवासी कविता', href: '/tribal-poetry' },
-    { name: 'जीवनी', href: '/biography' },
-    { name: 'आत्मकथा', href: '/autobiography' },
+    { 
+      name: 'विधा', 
+      href: '/genre',
+      children: [
+        { name: 'उपन्यास', href: '/novel' },
+        { name: 'जीवनी', href: '/biography' },
+        { name: 'आत्मकथा', href: '/autobiography' },
+        { name: 'कहानी', href: '/story' },
+      ]
+    },
+    { 
+      name: 'कविता', 
+      href: '/poetry',
+      children: [
+        { name: 'दलित कविता', href: '/poetry/dalit' },
+        { name: 'आदिवासी कविता', href: '/tribal-poetry' },
+      ]
+    },
+    { name: 'अनुज्ञा क्लासिक्स', href: '/classics/anuugya-classics' },
     { 
       name: 'विमर्श', 
       href: '/discourse',
@@ -28,14 +42,6 @@ const Navbar = () => {
         { name: 'स्त्री', href: '/discourse/women' },
         { name: 'आदिवासी', href: '/discourse/tribal' },
         { name: 'गांधीवादी', href: '/discourse/gandhian' },
-      ]
-    },
-    { 
-      name: 'क्लासिक्स', 
-      href: '/classics',
-      children: [
-        { name: 'अनुज्ञा क्लासिक्स', href: '/classics/anuugya-classics' },
-        { name: 'रशियन क्लासिक्स', href: '/classics/russian-classics' },
       ]
     },
     { 
@@ -67,11 +73,25 @@ const Navbar = () => {
   ],
   en: [
     { name: 'Home', href: '/' },
-    { name: 'Novel', href: '/novel' },
-    { name: 'Story', href: '/story' },
-    { name: 'Tribal Poetry', href: '/tribal-poetry' },
-    { name: 'Biography', href: '/biography' },
-    { name: 'Autobiography', href: '/autobiography' },
+    { 
+      name: 'Genre', 
+      href: '/genre',
+      children: [
+        { name: 'Novel', href: '/novel' },
+        { name: 'Biography', href: '/biography' },
+        { name: 'Autobiography', href: '/autobiography' },
+        { name: 'Story', href: '/story' },
+      ]
+    },
+    { 
+      name: 'Poetry', 
+      href: '/poetry',
+      children: [
+        { name: 'Dalit Poetry', href: '/poetry/dalit' },
+        { name: 'Tribal Poetry', href: '/tribal-poetry' },
+      ]
+    },
+    { name: 'Anuugya Classics', href: '/classics/anuugya-classics' },
     { 
       name: 'Discourse', 
       href: '/discourse',
@@ -80,14 +100,6 @@ const Navbar = () => {
         { name: 'Women', href: '/discourse/women' },
         { name: 'Tribal', href: '/discourse/tribal' },
         { name: 'Gandhian', href: '/discourse/gandhian' },
-      ]
-    },
-    { 
-      name: 'Classics', 
-      href: '/classics',
-      children: [
-        { name: 'Anuugya Classics', href: '/classics/anuugya-classics' },
-        { name: 'Russian Classics', href: '/classics/russian-classics' },
       ]
     },
     { 
@@ -126,10 +138,10 @@ const Navbar = () => {
   return (
     <nav className="bg-[#8B4513] border-b-2 border-[#654321] shadow-md sticky top-0 z-50">
       <style dangerouslySetInnerHTML={{__html: `
-        .menu-scroll::-webkit-scrollbar { height: 12px; }
-        .menu-scroll::-webkit-scrollbar-track { background: #654321; }
-        .menu-scroll::-webkit-scrollbar-thumb { background: #1d4ed8; border-radius: 6px; }
-        .menu-scroll::-webkit-scrollbar-thumb:hover { background: #2563eb; }
+        *::-webkit-scrollbar { width: 12px; height: 12px; }
+        *::-webkit-scrollbar-track { background: #654321; }
+        *::-webkit-scrollbar-thumb { background: #DC143C; border-radius: 6px; }
+        *::-webkit-scrollbar-thumb:hover { background: #FF0000; }
       `}} />
       
       <div className="max-w-7xl mx-auto px-4">
@@ -168,7 +180,7 @@ const Navbar = () => {
               </Link>
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="p-2 rounded-md text-white hover:bg-[#A0522D] md:hidden transition-colors"
+                className="p-2 rounded-md text-white hover:bg-[#A0522D] transition-colors"
               >
                 <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path
@@ -183,119 +195,62 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className={`pt-1 pb-8 ${isMenuOpen ? "block" : "hidden"} md:block`}>
-          <div className="hidden md:flex flex-nowrap w-full justify-between overflow-x-auto pb-2 menu-scroll gap-1">
-            {currentNavItems.map((item, index) => (
-              <div 
-                key={item.name}
-                className="relative flex-shrink-0"
-              >
-                {item.children ? (
-                  <button
-                    onClick={() => setActiveDropdown(activeDropdown === index ? null : index)}
-                    className={`
-                      text-white text-center font-medium rounded-md whitespace-nowrap block w-full
-                      px-3 py-2 text-sm
-                      hover:bg-[#A0522D] transition-colors cursor-pointer
-                      ${isActive(item.href) ? "bg-[#A0522D] ring-1 ring-white" : ""}
-                    `}
-                  >
-                    {item.name} ▼
-                  </button>
-                ) : (
-                  <Link
-                    href={item.href}
-                    className={`
-                      text-white text-center font-medium rounded-md whitespace-nowrap block
-                      px-3 py-2 text-sm
-                      hover:bg-[#A0522D] transition-colors
-                      ${isActive(item.href) ? "bg-[#A0522D] ring-1 ring-white" : ""}
-                    `}
-                  >
-                    {item.name}
-                  </Link>
-                )}
-                
-                {item.children && activeDropdown === index && (
-                  <div className="fixed mt-1 w-48 bg-[#654321] rounded-md shadow-xl border border-[#A0522D] z-[9999]">
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.name}
-                        href={child.href}
-                        onClick={() => setActiveDropdown(null)}
-                        className={`
-                          block px-4 py-2 text-sm text-white hover:bg-[#A0522D] first:rounded-t-md last:rounded-b-md transition-colors
-                          ${isActive(child.href) ? "bg-[#A0522D]" : ""}
-                        `}
+        <div className={`pt-1 pb-8 ${isMenuOpen ? "block" : "hidden"}`}>
+          <div className="pb-4 max-h-[70vh] overflow-y-auto">
+            <div className="space-y-2">
+              {currentNavItems.map((item, index) => (
+                <div 
+                  key={item.name}
+                  onMouseEnter={() => item.children && setActiveDropdown(index)}
+                  onMouseLeave={() => item.children && setActiveDropdown(null)}
+                >
+                  <div className="flex items-center justify-between">
+                    <Link
+                      href={item.href}
+                      onClick={() => !item.children && setIsMenuOpen(false)}
+                      className={`flex-1 px-4 py-2 text-white hover:bg-[#A0522D] rounded-lg transition-colors ${
+                        isActive(item.href) ? "bg-[#A0522D]" : ""
+                      }`}
+                    >
+                      {item.name}
+                    </Link>
+                    {item.children && (
+                      <button
+                        onClick={() => setActiveDropdown(activeDropdown === index ? null : index)}
+                        className="px-4 py-2 text-white hover:bg-[#A0522D] rounded-lg transition-colors"
                       >
-                        {child.name}
-                      </Link>
-                    ))}
-                  </div>
-                )}
-              </div>
-            ))}
-            <Link
-              href="/cart"
-              className="text-white text-center font-medium rounded-md whitespace-nowrap px-3 py-2 text-sm hover:bg-[#A0522D] transition-colors flex-shrink-0"
-            >
-              {language === 'hi' ? 'कार्ट' : 'Cart'}
-            </Link>
-          </div>
-
-          {isMenuOpen && (
-            <div className="md:hidden pb-4 max-h-[70vh] overflow-y-auto">
-              <div className="space-y-2">
-                {currentNavItems.map((item, index) => (
-                  <div key={item.name}>
-                    <div className="flex items-center justify-between">
-                      <Link
-                        href={item.href}
-                        onClick={() => !item.children && setIsMenuOpen(false)}
-                        className={`flex-1 px-4 py-2 text-white hover:bg-[#A0522D] rounded-lg transition-colors ${
-                          isActive(item.href) ? "bg-[#A0522D]" : ""
-                        }`}
-                      >
-                        {item.name}
-                      </Link>
-                      {item.children && (
-                        <button
-                          onClick={() => setActiveDropdown(activeDropdown === index ? null : index)}
-                          className="px-4 py-2 text-white hover:bg-[#A0522D] rounded-lg transition-colors"
-                        >
-                          {activeDropdown === index ? '▲' : '▼'}
-                        </button>
-                      )}
-                    </div>
-                    
-                    {item.children && activeDropdown === index && (
-                      <div className="ml-4 mt-1 space-y-1">
-                        {item.children.map((child) => (
-                          <Link
-                            key={child.name}
-                            href={child.href}
-                            onClick={() => setIsMenuOpen(false)}
-                            className={`block px-4 py-2 text-sm text-white hover:bg-[#A0522D] rounded-lg transition-colors ${
-                              isActive(child.href) ? "bg-[#A0522D]" : ""
-                            }`}
-                          >
-                            {child.name}
-                          </Link>
-                        ))}
-                      </div>
+                        {activeDropdown === index ? '▲' : '▼'}
+                      </button>
                     )}
                   </div>
-                ))}
-                <Link
-                  href="/cart"
-                  onClick={() => setIsMenuOpen(false)}
-                  className="block px-4 py-2 text-white hover:bg-[#A0522D] rounded-lg transition-colors"
-                >
-                  {language === 'hi' ? 'कार्ट' : 'Cart'}
-                </Link>
-              </div>
+                  
+                  {item.children && activeDropdown === index && (
+                    <div className="ml-4 mt-1 space-y-1">
+                      {item.children.map((child) => (
+                        <Link
+                          key={child.name}
+                          href={child.href}
+                          onClick={() => setIsMenuOpen(false)}
+                          className={`block px-4 py-2 text-sm text-white hover:bg-[#A0522D] rounded-lg transition-colors ${
+                            isActive(child.href) ? "bg-[#A0522D]" : ""
+                          }`}
+                        >
+                          {child.name}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              ))}
+              <Link
+                href="/cart"
+                onClick={() => setIsMenuOpen(false)}
+                className="block px-4 py-2 text-white hover:bg-[#A0522D] rounded-lg transition-colors"
+              >
+                {language === 'hi' ? 'कार्ट' : 'Cart'}
+              </Link>
             </div>
-          )}
+          </div>
         </div>
       </div>
     </nav>
