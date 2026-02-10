@@ -12,7 +12,7 @@ const Navbar = () => {
   const pathname = usePathname();
   const { totalItems } = useCart();
 
-  const navItems = {
+ const navItems = {
   hi: [
     { name: 'होम', href: '/' },
     { 
@@ -55,17 +55,7 @@ const Navbar = () => {
       ]
     },
     { name: 'विविध', href: '/miscellaneous' },
-    { 
-      name: 'भाषा', 
-      href: '/language',
-      children: [
-        { name: 'हिंदी', href: '/language/hindi' },
-        { name: 'अंग्रेजी', href: '/language/english' },
-        { name: 'भोजपुरी', href: '/language/bhojpuri' },
-        { name: 'बुंदेली', href: '/language/bundeli' },
-        { name: 'उर्दू', href: '/language/urdu' },
-      ]
-    },
+    { name: 'उर्दू', href: '/language/urdu' },
     { name: 'लेखक', href: '/authors' },
     { name: 'अनुवादक', href: '/translators' },
     { name: 'ट्रैकिंग', href: '/tracking' },
@@ -113,17 +103,7 @@ const Navbar = () => {
       ]
     },
     { name: 'Miscellaneous', href: '/miscellaneous' },
-    { 
-      name: 'Language', 
-      href: '/language',
-      children: [
-        { name: 'Hindi', href: '/language/hindi' },
-        { name: 'English', href: '/language/english' },
-        { name: 'Bhojpuri', href: '/language/bhojpuri' },
-        { name: 'Bundeli', href: '/language/bundeli' },
-        { name: 'Urdu', href: '/language/urdu' },
-      ]
-    },
+    { name: 'Urdu', href: '/language/urdu' },
     { name: 'Authors', href: '/authors' },
     { name: 'Translators', href: '/translators' },
     { name: 'Tracking', href: '/tracking' },
