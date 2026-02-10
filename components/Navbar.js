@@ -13,110 +13,111 @@ const Navbar = () => {
   const { totalItems } = useCart();
 
   const navItems = {
-    hi: [
-      { name: 'होम', href: '/' },
-      { name: 'उपन्यास', href: '/novel' },
-      { name: 'कहानी', href: '/story' },
-      { name: 'आदिवासी कविता', href: '/tribal-poetry' },
-      { name: 'जीवनी', href: '/biography' },
-      { name: 'आत्मकथा', href: '/autobiography' },
-      { 
-        name: 'विमर्श', 
-        href: '/discourse',
-        children: [
-          { name: 'दलित', href: '/discourse/dalit' },
-          { name: 'स्त्री', href: '/discourse/women' },
-          { name: 'आदिवासी', href: '/discourse/tribal' },
-          { name: 'गांधीवादी', href: '/discourse/gandhian' },
-        ]
-      },
-      { 
-        name: 'क्लासिक्स', 
-        href: '/classics',
-        children: [
-          { name: 'अनुज्ञा क्लासिक्स', href: '/classics/anuugya-classics' },
-          { name: 'रशियन क्लासिक्स', href: '/classics/russian-classics' },
-        ]
-      },
-      { 
-        name: 'अकादमिक', 
-        href: '/academic',
-        children: [
-          { name: 'आलोचना', href: '/academic/criticism' },
-          { name: 'भाषाविज्ञान', href: '/academic/linguistics' },
-          { name: 'दर्शन', href: '/academic/philosophy' },
-          { name: 'इतिहास-राजनीति', href: '/academic/history-politics' },
-        ]
-      },
-      { 
-        name: 'भाषा', 
-        href: '/language',
-        children: [
-          { name: 'हिंदी', href: '/language/hindi' },
-          { name: 'अंग्रेजी', href: '/language/english' },
-          { name: 'भोजपुरी', href: '/language/bhojpuri' },
-          { name: 'बुंदेली', href: '/language/bundeli' },
-          { name: 'उर्दू', href: '/language/urdu' },
-        ]
-      },
-      { name: 'लेखक', href: '/authors' },
-      { name: 'अनुवादक', href: '/translators' },
-      { name: 'ट्रैकिंग', href: '/tracking' },
-      { name: 'संपर्क', href: '/contact' },
-    ],
-    en: [
-      { name: 'Home', href: '/' },
-      { name: 'Novel', href: '/novel' },
-      { name: 'Story', href: '/story' },
-      { name: 'Tribal Poetry', href: '/tribal-poetry' },
-      { name: 'Biography', href: '/biography' },
-      { name: 'Autobiography', href: '/autobiography' },
-      { 
-        name: 'Discourse', 
-        href: '/discourse',
-        children: [
-          { name: 'Dalit', href: '/discourse/dalit' },
-          { name: 'Women', href: '/discourse/women' },
-          { name: 'Tribal', href: '/discourse/tribal' },
-          { name: 'Gandhian', href: '/discourse/gandhian' },
-        ]
-      },
-      { 
-        name: 'Classics', 
-        href: '/classics',
-        children: [
-          { name: 'Anuugya Classics', href: '/classics/anuugya-classics' },
-          { name: 'Russian Classics', href: '/classics/russian-classics' },
-        ]
-      },
-      { 
-        name: 'Academic', 
-        href: '/academic',
-        children: [
-          { name: 'Criticism', href: '/academic/criticism' },
-          { name: 'Linguistics', href: '/academic/linguistics' },
-          { name: 'Philosophy', href: '/academic/philosophy' },
-          { name: 'History-Politics', href: '/academic/history-politics' },
-        ]
-      },
-      { name: 'विविध', href: '/Miscellaneous' },
-      { 
-        name: 'Language', 
-        href: '/language',
-        children: [
-          { name: 'Hindi', href: '/language/hindi' },
-          { name: 'English', href: '/language/english' },
-          { name: 'Bhojpuri', href: '/language/bhojpuri' },
-          { name: 'Bundeli', href: '/language/bundeli' },
-          { name: 'Urdu', href: '/language/urdu' },
-        ]
-      },
-      { name: 'Authors', href: '/authors' },
-      { name: 'Translators', href: '/translators' },
-      { name: 'Tracking', href: '/tracking' },
-      { name: 'Contact', href: '/contact' },
-    ]
-  };
+  hi: [
+    { name: 'होम', href: '/' },
+    { name: 'उपन्यास', href: '/novel' },
+    { name: 'कहानी', href: '/story' },
+    { name: 'आदिवासी कविता', href: '/tribal-poetry' },
+    { name: 'जीवनी', href: '/biography' },
+    { name: 'आत्मकथा', href: '/autobiography' },
+    { 
+      name: 'विमर्श', 
+      href: '/discourse',
+      children: [
+        { name: 'दलित', href: '/discourse/dalit' },
+        { name: 'स्त्री', href: '/discourse/women' },
+        { name: 'आदिवासी', href: '/discourse/tribal' },
+        { name: 'गांधीवादी', href: '/discourse/gandhian' },
+      ]
+    },
+    { 
+      name: 'क्लासिक्स', 
+      href: '/classics',
+      children: [
+        { name: 'अनुज्ञा क्लासिक्स', href: '/classics/anuugya-classics' },
+        { name: 'रशियन क्लासिक्स', href: '/classics/russian-classics' },
+      ]
+    },
+    { 
+      name: 'अकादमिक', 
+      href: '/academic',
+      children: [
+        { name: 'आलोचना', href: '/academic/criticism' },
+        { name: 'भाषाविज्ञान', href: '/academic/linguistics' },
+        { name: 'दर्शन', href: '/academic/philosophy' },
+        { name: 'इतिहास-राजनीति', href: '/academic/history-politics' },
+      ]
+    },
+    { name: 'विविध', href: '/miscellaneous' },
+    { 
+      name: 'भाषा', 
+      href: '/language',
+      children: [
+        { name: 'हिंदी', href: '/language/hindi' },
+        { name: 'अंग्रेजी', href: '/language/english' },
+        { name: 'भोजपुरी', href: '/language/bhojpuri' },
+        { name: 'बुंदेली', href: '/language/bundeli' },
+        { name: 'उर्दू', href: '/language/urdu' },
+      ]
+    },
+    { name: 'लेखक', href: '/authors' },
+    { name: 'अनुवादक', href: '/translators' },
+    { name: 'ट्रैकिंग', href: '/tracking' },
+    { name: 'संपर्क', href: '/contact' },
+  ],
+  en: [
+    { name: 'Home', href: '/' },
+    { name: 'Novel', href: '/novel' },
+    { name: 'Story', href: '/story' },
+    { name: 'Tribal Poetry', href: '/tribal-poetry' },
+    { name: 'Biography', href: '/biography' },
+    { name: 'Autobiography', href: '/autobiography' },
+    { 
+      name: 'Discourse', 
+      href: '/discourse',
+      children: [
+        { name: 'Dalit', href: '/discourse/dalit' },
+        { name: 'Women', href: '/discourse/women' },
+        { name: 'Tribal', href: '/discourse/tribal' },
+        { name: 'Gandhian', href: '/discourse/gandhian' },
+      ]
+    },
+    { 
+      name: 'Classics', 
+      href: '/classics',
+      children: [
+        { name: 'Anuugya Classics', href: '/classics/anuugya-classics' },
+        { name: 'Russian Classics', href: '/classics/russian-classics' },
+      ]
+    },
+    { 
+      name: 'Academic', 
+      href: '/academic',
+      children: [
+        { name: 'Criticism', href: '/academic/criticism' },
+        { name: 'Linguistics', href: '/academic/linguistics' },
+        { name: 'Philosophy', href: '/academic/philosophy' },
+        { name: 'History-Politics', href: '/academic/history-politics' },
+      ]
+    },
+    { name: 'Miscellaneous', href: '/miscellaneous' },
+    { 
+      name: 'Language', 
+      href: '/language',
+      children: [
+        { name: 'Hindi', href: '/language/hindi' },
+        { name: 'English', href: '/language/english' },
+        { name: 'Bhojpuri', href: '/language/bhojpuri' },
+        { name: 'Bundeli', href: '/language/bundeli' },
+        { name: 'Urdu', href: '/language/urdu' },
+      ]
+    },
+    { name: 'Authors', href: '/authors' },
+    { name: 'Translators', href: '/translators' },
+    { name: 'Tracking', href: '/tracking' },
+    { name: 'Contact', href: '/contact' },
+  ]
+};
 
   const currentNavItems = navItems[language];
 
