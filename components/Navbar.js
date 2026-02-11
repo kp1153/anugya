@@ -85,8 +85,8 @@ const Navbar = () => {
       ]
     },
     { name: 'रचनावली', href: '/rachnawali' },
-    { name: 'पॉपुलर', href: '/popular' },
-    { name: 'लेटेस्ट', href: '/latest' },
+    { name: 'लेखक', href: '/author' },
+    { name: 'अनुवादक', href: '/translator' },
     { name: 'विविध', href: '/miscellaneous' },
     { name: 'ट्रैकिंग', href: '/tracking' },
     { name: 'संपर्क', href: '/contact' },
@@ -161,8 +161,8 @@ const Navbar = () => {
       ]
     },
     { name: 'Rachnawali', href: '/rachnawali' },
-    { name: 'Popular', href: '/popular' },
-    { name: 'Latest', href: '/latest' },
+    { name: 'Author', href: '/author' },
+    { name: 'Translator', href: '/translator' },
     { name: 'Miscellaneous', href: '/miscellaneous' },
     { name: 'Tracking', href: '/tracking' },
     { name: 'Contact', href: '/contact' },
@@ -230,7 +230,7 @@ const Navbar = () => {
               <Link href="/" className="flex-1 flex justify-center">
                 <Image 
                   src="/logo.jpg" 
-                  alt="अनुग्या बुक्स" 
+                  alt="अनुज्ञा बुक्स" 
                   width={70} 
                   height={35}
                   className="object-contain"
@@ -253,7 +253,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* होरिजॉन्टल मेन्यू */}
+          {/* होरिज़ॉन्टल मेन्यू */}
           <div className="pb-2">
             <div className="overflow-x-auto">
               <div className="flex items-center gap-1 min-w-max">

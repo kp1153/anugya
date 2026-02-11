@@ -1,260 +1,445 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { CldUploadWidget } from 'next-cloudinary';
 
 export default function NewBookPage() {
   const router = useRouter();
   const [loading, setLoading] = useState(false);
+  const [authors, setAuthors] = useState([]);
+  const [translators, setTranslators] = useState([]);
   const [formData, setFormData] = useState({
-    title: '',
-    author: '',
-    category: '',
-    price: '',
-    description: '',
-    cover_image: '',
     isbn: '',
+    title: '',
+    author_id: '',
+    translator_id: '',
+    category: '',
+    language: 'Hindi',
     pages: '',
+    length: '',
+    width: '',
+    height: '',
+    weight: '',
+    is_multi_volume: false,
+    number_of_volumes: 1,
+    paperback_single_price: '',
+    hardbound_single_price: '',
+    paperback_set_price: '',
+    hardbound_set_price: '',
+    cover_image: '',
+    description: '',
     stock: 0,
     featured: false,
-    popular: false  // नया फील्ड
+    popular: false
   });
 
-  function handleChange(e) {
-    const { name, value, type, checked } = e.target;
-    setFormData(prev => ({
-      ...prev,
-      [name]: type === 'checkbox' ? checked : value
-    }));
+  useEffect(() => {
+    fetchAuthors();
+    fetchTranslators();
+  }, []);
+
+  async function fetchAuthors() {
+    try {
+      const res = await fetch('/api/authors');
+      const data = await res.json();
+      setAuthors(data);
+    } catch (error) {
+      console.error('Error:', error);
+    }
   }
 
-  async function handleSubmit(e) {
+  async function fetchTranslators() {
+    try {
+      const res = await fetch('/api/translators');
+      const data = await res.json();
+      setTranslators(data);
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  }
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
 
     try {
+      const submitData = {
+        ...formData,
+        author_id: formData.author_id ? parseInt(formData.author_id) : null,
+        translator_id: formData.translator_id ? parseInt(formData.translator_id) : null,
+        pages: formData.pages ? parseInt(formData.pages) : null,
+        length: formData.length ? parseFloat(formData.length) : null,
+        width: formData.width ? parseFloat(formData.width) : null,
+        height: formData.height ? parseFloat(formData.height) : null,
+        weight: formData.weight ? parseFloat(formData.weight) : null,
+        number_of_volumes: parseInt(formData.number_of_volumes),
+        paperback_single_price: formData.paperback_single_price ? parseFloat(formData.paperback_single_price) : null,
+        hardbound_single_price: formData.hardbound_single_price ? parseFloat(formData.hardbound_single_price) : null,
+        paperback_set_price: formData.paperback_set_price ? parseFloat(formData.paperback_set_price) : null,
+        hardbound_set_price: formData.hardbound_set_price ? parseFloat(formData.hardbound_set_price) : null,
+        stock: parseInt(formData.stock)
+      };
+
       const res = await fetch('/api/books', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(formData)
+        body: JSON.stringify(submitData)
       });
 
       if (res.ok) {
-        alert('किताब सफलतापूर्वक जोड़ी गई!');
-        router.push('/admin');
+        alert('Book added successfully!');
+        router.push('/admin/books');
       } else {
-        alert('किताब जोड़ने में समस्या आई');
+        const error = await res.json();
+        alert('Failed to add book: ' + (error.error || 'Unknown error'));
       }
     } catch (error) {
       console.error('Error:', error);
-      alert('किताब जोड़ने में समस्या आई');
+      alert('Failed to add book');
     } finally {
       setLoading(false);
     }
-  }
-
-  const navItems = [
-    { name: 'होम', href: '/' },
-    { name: 'कविता', href: '/portry' },
-    { name: 'कहानी', href: '/story' },
-    { name: 'पत्रकारिता', href: '/journalism' },
-    { name: 'समाज विज्ञान', href: '/social-science' },
-    { name: 'स्त्री अध्ययन', href: '/woman-study' },
-    { name: 'शिक्षा', href: '/education' },
-    { name: 'ब्लॉग', href: '/blog' },
-    { name: 'सामाजिक न्याय', href: '/social-justice' },
-    { name: 'आत्मकथा', href: '/autobiography' },
-    { name: 'लोक साहित्य', href: '/folk-literare' },
-    { name: 'कला', href: '/art' },
-    { name: 'संपर्क करें', href: '/contact' },
-  ];
+  };
 
   return (
-    <div className="p-6">
-      <h2 className="text-3xl font-bold text-gray-900 mb-6">नई किताब जोड़ें</h2>
+    <div className="p-8 max-w-4xl mx-auto">
+      <h1 className="text-3xl font-bold mb-6">Add New Book</h1>
 
-      <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow-lg p-8 max-w-4xl">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          
+      <form onSubmit={handleSubmit} className="space-y-6 bg-white p-6 rounded-lg shadow">
+        
+        {/* Basic Info */}
+        <div className="grid grid-cols-2 gap-4">
           <div>
-            <label className="block text-gray-800 font-semibold mb-2">शीर्षक *</label>
+            <label className="block text-sm font-medium mb-2">ISBN/Barcode</label>
             <input
               type="text"
-              name="title"
+              value={formData.isbn}
+              onChange={(e) => setFormData({...formData, isbn: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+              placeholder="ISBN Code"
+            />
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium mb-2">Title *</label>
+            <input
+              type="text"
+              required
               value={formData.title}
-              onChange={handleChange}
-              required
-              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200"
-              placeholder="किताब का नाम"
+              onChange={(e) => setFormData({...formData, title: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+              placeholder="Book title"
             />
           </div>
+        </div>
 
+        {/* Author & Translator */}
+        <div className="grid grid-cols-2 gap-4">
           <div>
-            <label className="block text-gray-800 font-semibold mb-2">लेखक *</label>
-            <input
-              type="text"
-              name="author"
-              value={formData.author}
-              onChange={handleChange}
-              required
-              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200"
-              placeholder="लेखक का नाम"
-            />
-          </div>
-
-          <div>
-            <label className="block text-gray-800 font-semibold mb-2">कैटेगरी *</label>
+            <label className="block text-sm font-medium mb-2">Author</label>
             <select
-              name="category"
-              value={formData.category}
-              onChange={handleChange}
-              required
-              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200"
+              value={formData.author_id}
+              onChange={(e) => setFormData({...formData, author_id: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
             >
-              <option value="">चुनें</option>
-              {navItems.filter(item => item.href !== '/' && item.href !== '/contact').map(item => (
-                <option key={item.href} value={item.name}>{item.name}</option>
+              <option value="">Select Author</option>
+              {authors.map(author => (
+                <option key={author.id} value={author.id}>{author.name}</option>
               ))}
             </select>
           </div>
 
           <div>
-            <label className="block text-gray-800 font-semibold mb-2">कीमत (₹) *</label>
-            <input
-              type="number"
-              name="price"
-              value={formData.price}
-              onChange={handleChange}
-              required
-              min="0"
-              step="0.01"
-              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200"
-              placeholder="299"
-            />
-          </div>
-
-          <div>
-            <label className="block text-gray-800 font-semibold mb-2">ISBN</label>
-            <input
-              type="text"
-              name="isbn"
-              value={formData.isbn}
-              onChange={handleChange}
-              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200"
-              placeholder="978-XXXXXXXXXX"
-            />
-          </div>
-
-          <div>
-            <label className="block text-gray-800 font-semibold mb-2">पृष्ठ संख्या</label>
-            <input
-              type="number"
-              name="pages"
-              value={formData.pages}
-              onChange={handleChange}
-              min="0"
-              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200"
-              placeholder="200"
-            />
-          </div>
-
-          <div>
-            <label className="block text-gray-800 font-semibold mb-2">स्टॉक</label>
-            <input
-              type="number"
-              name="stock"
-              value={formData.stock}
-              onChange={handleChange}
-              min="0"
-              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200"
-              placeholder="10"
-            />
-          </div>
-
-          <div className="md:col-span-2">
-            <label className="block text-gray-800 font-semibold mb-2">कवर इमेज *</label>
-            <CldUploadWidget
-              uploadPreset="agoraprakashan"
-              onSuccess={(result) => {
-                setFormData(prev => ({ ...prev, cover_image: result.info.secure_url }));
-              }}
+            <label className="block text-sm font-medium mb-2">Translator</label>
+            <select
+              value={formData.translator_id}
+              onChange={(e) => setFormData({...formData, translator_id: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
             >
-              {({ open }) => (
-                <div>
-                  <button
-                    type="button"
-                    onClick={() => open()}
-                    className="w-full px-4 py-3 text-white bg-teal-600 hover:bg-teal-700 border-2 border-teal-600 rounded-lg font-semibold"
-                  >
-                    📤 इमेज अपलोड करें
-                  </button>
-                  {formData.cover_image && (
-                    <div className="mt-4">
-                      <img 
-                        src={formData.cover_image} 
-                        alt="Cover preview" 
-                        className="h-40 w-auto object-cover rounded-lg border-2 border-gray-300"
-                      />
-                      <p className="text-sm text-green-600 mt-2">✓ इमेज अपलोड हो गई</p>
-                    </div>
-                  )}
-                </div>
-              )}
-            </CldUploadWidget>
-          </div>
-
-          <div className="md:col-span-2">
-            <label className="block text-gray-800 font-semibold mb-2">विवरण</label>
-            <textarea
-              name="description"
-              value={formData.description}
-              onChange={handleChange}
-              rows="4"
-              className="w-full px-4 py-3 text-gray-900 bg-white border-2 border-gray-300 rounded-lg focus:outline-none focus:border-teal-500 focus:ring-2 focus:ring-teal-200 resize-none"
-              placeholder="किताब के बारे में..."
-            />
-          </div>
-
-          <div className="md:col-span-2 space-y-3">
-            <label className="flex items-center gap-3 cursor-pointer">
-              <input
-                type="checkbox"
-                name="featured"
-                checked={formData.featured}
-                onChange={handleChange}
-                className="w-5 h-5 text-teal-600 border-2 border-gray-300 rounded focus:ring-2 focus:ring-teal-500 cursor-pointer"
-              />
-              <span className="text-gray-800 font-semibold">फ़ीचर्ड किताब (बाईं साइड में दिखेगी)</span>
-            </label>
-
-            <label className="flex items-center gap-3 cursor-pointer">
-              <input
-                type="checkbox"
-                name="popular"
-                checked={formData.popular}
-                onChange={handleChange}
-                className="w-5 h-5 text-teal-600 border-2 border-gray-300 rounded focus:ring-2 focus:ring-teal-500 cursor-pointer"
-              />
-              <span className="text-gray-800 font-semibold">लोकप्रिय किताब (दाईं साइड में दिखेगी)</span>
-            </label>
+              <option value="">Select Translator (Optional)</option>
+              {translators.map(translator => (
+                <option key={translator.id} value={translator.id}>{translator.name}</option>
+              ))}
+            </select>
           </div>
         </div>
 
-        <div className="flex gap-4 mt-8">
+        {/* Category & Language */}
+        <div className="grid grid-cols-2 gap-4">
+          <div>
+            <label className="block text-sm font-medium mb-2">Category *</label>
+            <select
+              required
+              value={formData.category}
+              onChange={(e) => setFormData({...formData, category: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            >
+              <option value="">Select Category</option>
+              <option value="novel">Novel</option>
+              <option value="story">Story</option>
+              <option value="russian-literature">Russian Literature</option>
+              <option value="autobiography">Autobiography</option>
+              <option value="biography">Biography</option>
+              <option value="criticism">Criticism</option>
+              <option value="ghazal">Ghazal</option>
+              <option value="tribal-literature/poetry">Tribal Literature - Poetry</option>
+              <option value="tribal-literature/prose">Tribal Literature - Prose</option>
+              <option value="dalit-literature/poetry">Dalit Literature - Poetry</option>
+              <option value="dalit-literature/prose">Dalit Literature - Prose</option>
+              <option value="classics/anuugya-classics">Anuugya Classics</option>
+              <option value="northeast-literature">North-East Literature</option>
+              <option value="discourse/women">Women Discourse</option>
+              <option value="academic/journalism">Academic - Journalism</option>
+              <option value="academic/linguistics">Academic - Linguistics</option>
+              <option value="academic/philosophy">Academic - Philosophy</option>
+              <option value="academic/history-politics">Academic - History & Politics</option>
+              <option value="rachnawali">Rachnawali</option>
+              <option value="miscellaneous">Miscellaneous</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium mb-2">Language</label>
+            <select
+              value={formData.language}
+              onChange={(e) => setFormData({...formData, language: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            >
+              <option value="Hindi">Hindi</option>
+              <option value="Urdu">Urdu</option>
+              <option value="Bundelkhandi">Bundelkhandi</option>
+              <option value="Bhojpuri">Bhojpuri</option>
+              <option value="English">English</option>
+            </select>
+          </div>
+        </div>
+
+        {/* Physical Details */}
+        <div className="grid grid-cols-4 gap-4">
+          <div>
+            <label className="block text-sm font-medium mb-2">Pages</label>
+            <input
+              type="number"
+              value={formData.pages}
+              onChange={(e) => setFormData({...formData, pages: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+              placeholder="Number of pages"
+            />
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium mb-2">Length (cm)</label>
+            <input
+              type="number"
+              step="0.1"
+              value={formData.length}
+              onChange={(e) => setFormData({...formData, length: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+              placeholder="Length"
+            />
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium mb-2">Width (cm)</label>
+            <input
+              type="number"
+              step="0.1"
+              value={formData.width}
+              onChange={(e) => setFormData({...formData, width: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+              placeholder="Width"
+            />
+          </div>
+
+          <div>
+            <label className="block text-sm font-medium mb-2">Height (cm)</label>
+            <input
+              type="number"
+              step="0.1"
+              value={formData.height}
+              onChange={(e) => setFormData({...formData, height: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+              placeholder="Height"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label className="block text-sm font-medium mb-2">Weight (grams)</label>
+          <input
+            type="number"
+            step="0.1"
+            value={formData.weight}
+            onChange={(e) => setFormData({...formData, weight: e.target.value})}
+            className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            placeholder="Weight in grams"
+          />
+        </div>
+
+        {/* Multi-Volume */}
+        <div className="flex items-center gap-4">
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={formData.is_multi_volume}
+              onChange={(e) => setFormData({...formData, is_multi_volume: e.target.checked})}
+              className="w-4 h-4"
+            />
+            <span className="text-sm font-medium">Multi-Volume Set</span>
+          </label>
+
+          {formData.is_multi_volume && (
+            <div>
+              <input
+                type="number"
+                min="2"
+                value={formData.number_of_volumes}
+                onChange={(e) => setFormData({...formData, number_of_volumes: e.target.value})}
+                className="w-24 px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+                placeholder="Volumes"
+              />
+            </div>
+          )}
+        </div>
+
+        {/* Pricing */}
+        <div className="border-t pt-4">
+          <h3 className="text-lg font-semibold mb-4">Pricing</h3>
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <label className="block text-sm font-medium mb-2">Paperback Single Price (₹)</label>
+              <input
+                type="number"
+                step="0.01"
+                value={formData.paperback_single_price}
+                onChange={(e) => setFormData({...formData, paperback_single_price: e.target.value})}
+                className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+                placeholder="Single paperback price"
+              />
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium mb-2">Hardbound Single Price (₹)</label>
+              <input
+                type="number"
+                step="0.01"
+                value={formData.hardbound_single_price}
+                onChange={(e) => setFormData({...formData, hardbound_single_price: e.target.value})}
+                className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+                placeholder="Single hardbound price"
+              />
+            </div>
+
+            {formData.is_multi_volume && (
+              <>
+                <div>
+                  <label className="block text-sm font-medium mb-2">Paperback Set Price (₹)</label>
+                  <input
+                    type="number"
+                    step="0.01"
+                    value={formData.paperback_set_price}
+                    onChange={(e) => setFormData({...formData, paperback_set_price: e.target.value})}
+                    className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+                    placeholder="Paperback set price"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-sm font-medium mb-2">Hardbound Set Price (₹)</label>
+                  <input
+                    type="number"
+                    step="0.01"
+                    value={formData.hardbound_set_price}
+                    onChange={(e) => setFormData({...formData, hardbound_set_price: e.target.value})}
+                    className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+                    placeholder="Hardbound set price"
+                  />
+                </div>
+              </>
+            )}
+          </div>
+        </div>
+
+        {/* Cover Image */}
+        <div>
+          <label className="block text-sm font-medium mb-2">Cover Image URL</label>
+          <input
+            type="url"
+            value={formData.cover_image}
+            onChange={(e) => setFormData({...formData, cover_image: e.target.value})}
+            className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            placeholder="https://example.com/cover.jpg"
+          />
+          {formData.cover_image && (
+            <img 
+              src={formData.cover_image} 
+              alt="Cover preview" 
+              className="mt-2 w-32 h-40 object-cover rounded"
+            />
+          )}
+        </div>
+
+        {/* Description */}
+        <div>
+          <label className="block text-sm font-medium mb-2">Description</label>
+          <textarea
+            value={formData.description}
+            onChange={(e) => setFormData({...formData, description: e.target.value})}
+            className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            rows="4"
+            placeholder="Book description..."
+          />
+        </div>
+
+        {/* Stock & Flags */}
+        <div className="grid grid-cols-3 gap-4">
+          <div>
+            <label className="block text-sm font-medium mb-2">Stock</label>
+            <input
+              type="number"
+              value={formData.stock}
+              onChange={(e) => setFormData({...formData, stock: e.target.value})}
+              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+              placeholder="Stock quantity"
+            />
+          </div>
+
+          <label className="flex items-center gap-2 pt-8">
+            <input
+              type="checkbox"
+              checked={formData.featured}
+              onChange={(e) => setFormData({...formData, featured: e.target.checked})}
+              className="w-4 h-4"
+            />
+            <span className="text-sm font-medium">Featured</span>
+          </label>
+
+          <label className="flex items-center gap-2 pt-8">
+            <input
+              type="checkbox"
+              checked={formData.popular}
+              onChange={(e) => setFormData({...formData, popular: e.target.checked})}
+              className="w-4 h-4"
+            />
+            <span className="text-sm font-medium">Popular</span>
+          </label>
+        </div>
+
+        {/* Submit Buttons */}
+        <div className="flex gap-4">
           <button
             type="submit"
             disabled={loading}
-            className="bg-teal-600 hover:bg-teal-700 disabled:bg-gray-400 text-white px-8 py-3 rounded-lg font-semibold transition-all disabled:cursor-not-allowed"
+            className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 disabled:bg-gray-400"
           >
-            {loading ? 'जोड़ा जा रहा है...' : 'किताब जोड़ें'}
+            {loading ? 'Adding...' : 'Add Book'}
           </button>
           <button
             type="button"
             onClick={() => router.back()}
-            className="bg-gray-500 hover:bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold transition-all"
+            className="bg-gray-500 text-white px-6 py-2 rounded hover:bg-gray-600"
           >
-            रद्द करें
+            Cancel
           </button>
         </div>
       </form>

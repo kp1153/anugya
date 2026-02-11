@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter, useParams } from 'next/navigation';
+import { CldUploadWidget } from 'next-cloudinary';
 
 export default function EditBookPage() {
   const router = useRouter();
@@ -11,6 +12,7 @@ export default function EditBookPage() {
   const [formData, setFormData] = useState({
     title: '',
     author: '',
+    translator: '',
     category: '',
     price: '',
     description: '',
@@ -20,8 +22,22 @@ export default function EditBookPage() {
     publisher: '',
     published_date: '',
     stock: 0,
-    featured: false
+    binding_type: 'paperback',
+    language: 'Hindi',
+    featured: false,
+    popular: false
   });
+
+  const categories = [
+    'novel', 'story', 'russian-literature', 'autobiography', 'biography', 
+    'criticism', 'ghazal', 'tribal-literature/poetry', 'tribal-literature/prose',
+    'dalit-literature/poetry', 'dalit-literature/prose', 'classics/anuugya-classics',
+    'northeast-literature', 'discourse/women', 'academic/journalism', 
+    'academic/linguistics', 'academic/philosophy', 'academic/history-politics',
+    'translation/foreign-literature', 'translation/indian-literature',
+    'language/urdu', 'language/bundelkhandi', 'language/bhojpuri',
+    'rachnawali', 'miscellaneous'
+  ];
 
   useEffect(() => {
     fetchBook();
@@ -34,6 +50,7 @@ export default function EditBookPage() {
       setFormData({
         title: data.title || '',
         author: data.author || '',
+        translator: data.translator || '',
         category: data.category || '',
         price: data.price || '',
         description: data.description || '',
@@ -43,11 +60,14 @@ export default function EditBookPage() {
         publisher: data.publisher || '',
         published_date: data.published_date || '',
         stock: data.stock || 0,
-        featured: data.featured || false
+        binding_type: data.binding_type || 'paperback',
+        language: data.language || 'Hindi',
+        featured: data.featured || false,
+        popular: data.popular || false
       });
     } catch (error) {
       console.error('Error:', error);
-      alert('किताब लोड करने में समस्या आई');
+      alert('Failed to load book');
     } finally {
       setFetching(false);
     }
@@ -73,75 +93,114 @@ export default function EditBookPage() {
       });
 
       if (res.ok) {
-        alert('किताब सफलतापूर्वक अपडेट हुई!');
+        alert('Book updated successfully!');
         router.push('/admin/books');
       } else {
-        alert('किताब अपडेट करने में समस्या आई');
+        alert('Failed to update book');
       }
     } catch (error) {
       console.error('Error:', error);
-      alert('किताब अपडेट करने में समस्या आई');
+      alert('Failed to update book');
     } finally {
       setLoading(false);
     }
   }
 
   if (fetching) {
-    return <div className="text-center py-12">लोड हो रहा है...</div>;
+    return <div className="text-center py-12">Loading...</div>;
   }
 
   return (
     <div>
-      <h2 className="text-3xl font-bold text-gray-800 mb-6">किताब एडिट करें</h2>
+      <h2 className="text-3xl font-bold text-gray-800 mb-6">Edit Book</h2>
 
-      <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow p-6 max-w-3xl">
+      <form onSubmit={handleSubmit} className="bg-white rounded-lg shadow p-6 max-w-4xl">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           
           <div>
-            <label className="block text-gray-700 font-semibold mb-2">शीर्षक *</label>
+            <label className="block text-gray-700 font-semibold mb-2">Title *</label>
             <input
               type="text"
               name="title"
               value={formData.title}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
             />
           </div>
 
           <div>
-            <label className="block text-gray-700 font-semibold mb-2">लेखक *</label>
+            <label className="block text-gray-700 font-semibold mb-2">Author *</label>
             <input
               type="text"
               name="author"
               value={formData.author}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
             />
           </div>
 
           <div>
-            <label className="block text-gray-700 font-semibold mb-2">कैटेगरी *</label>
+            <label className="block text-gray-700 font-semibold mb-2">Translator</label>
+            <input
+              type="text"
+              name="translator"
+              value={formData.translator}
+              onChange={handleChange}
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
+            />
+          </div>
+
+          <div>
+            <label className="block text-gray-700 font-semibold mb-2">Category *</label>
             <select
               name="category"
               value={formData.category}
               onChange={handleChange}
               required
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
             >
-              <option value="">चुनें</option>
-              <option value="साहित्य">साहित्य</option>
-              <option value="कविता">कविता</option>
-              <option value="उपन्यास">उपन्यास</option>
-              <option value="कहानी संग्रह">कहानी संग्रह</option>
-              <option value="निबंध">निबंध</option>
-              <option value="आत्मकथा">आत्मकथा</option>
+              <option value="">Select Category</option>
+              {categories.map(cat => (
+                <option key={cat} value={cat}>{cat}</option>
+              ))}
             </select>
           </div>
 
           <div>
-            <label className="block text-gray-700 font-semibold mb-2">कीमत (₹) *</label>
+            <label className="block text-gray-700 font-semibold mb-2">Binding Type *</label>
+            <select
+              name="binding_type"
+              value={formData.binding_type}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
+            >
+              <option value="paperback">Paperback</option>
+              <option value="hardbound">Hardbound</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-gray-700 font-semibold mb-2">Language *</label>
+            <select
+              name="language"
+              value={formData.language}
+              onChange={handleChange}
+              required
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
+            >
+              <option value="Hindi">Hindi</option>
+              <option value="Urdu">Urdu</option>
+              <option value="Bundelkhandi">Bundelkhandi</option>
+              <option value="Bhojpuri">Bhojpuri</option>
+              <option value="English">English</option>
+            </select>
+          </div>
+
+          <div>
+            <label className="block text-gray-700 font-semibold mb-2">Price (₹) *</label>
             <input
               type="number"
               name="price"
@@ -150,7 +209,19 @@ export default function EditBookPage() {
               required
               min="0"
               step="0.01"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
+            />
+          </div>
+
+          <div>
+            <label className="block text-gray-700 font-semibold mb-2">Stock</label>
+            <input
+              type="number"
+              name="stock"
+              value={formData.stock}
+              onChange={handleChange}
+              min="0"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
             />
           </div>
 
@@ -161,88 +232,109 @@ export default function EditBookPage() {
               name="isbn"
               value={formData.isbn}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
             />
           </div>
 
           <div>
-            <label className="block text-gray-700 font-semibold mb-2">पृष्ठ संख्या</label>
+            <label className="block text-gray-700 font-semibold mb-2">Pages</label>
             <input
               type="number"
               name="pages"
               value={formData.pages}
               onChange={handleChange}
               min="0"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
             />
           </div>
 
           <div>
-            <label className="block text-gray-700 font-semibold mb-2">प्रकाशक</label>
+            <label className="block text-gray-700 font-semibold mb-2">Publisher</label>
             <input
               type="text"
               name="publisher"
               value={formData.publisher}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
             />
           </div>
 
           <div>
-            <label className="block text-gray-700 font-semibold mb-2">प्रकाशन तिथि</label>
+            <label className="block text-gray-700 font-semibold mb-2">Published Date</label>
             <input
               type="date"
               name="published_date"
               value={formData.published_date}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-            />
-          </div>
-
-          <div>
-            <label className="block text-gray-700 font-semibold mb-2">स्टॉक</label>
-            <input
-              type="number"
-              name="stock"
-              value={formData.stock}
-              onChange={handleChange}
-              min="0"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
             />
           </div>
 
           <div className="md:col-span-2">
-            <label className="block text-gray-700 font-semibold mb-2">कवर इमेज URL</label>
-            <input
-              type="url"
-              name="cover_image"
-              value={formData.cover_image}
-              onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-            />
+            <label className="block text-gray-700 font-semibold mb-2">Cover Image</label>
+            <div className="flex gap-4 items-center">
+              <CldUploadWidget
+                uploadPreset="anugya_books"
+                onSuccess={(result) => {
+                  setFormData(prev => ({ ...prev, cover_image: result.info.secure_url }));
+                }}
+              >
+                {({ open }) => (
+                  <button
+                    type="button"
+                    onClick={() => open()}
+                    className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
+                  >
+                    Upload New Image
+                  </button>
+                )}
+              </CldUploadWidget>
+              <input
+                type="url"
+                name="cover_image"
+                value={formData.cover_image}
+                onChange={handleChange}
+                placeholder="Or paste image URL"
+                className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
+              />
+            </div>
+            {formData.cover_image && (
+              <img src={formData.cover_image} alt="Cover" className="mt-4 w-32 h-48 object-cover rounded" />
+            )}
           </div>
 
           <div className="md:col-span-2">
-            <label className="block text-gray-700 font-semibold mb-2">विवरण</label>
+            <label className="block text-gray-700 font-semibold mb-2">Description</label>
             <textarea
               name="description"
               value={formData.description}
               onChange={handleChange}
               rows="4"
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:border-teal-500"
             />
           </div>
 
-          <div className="md:col-span-2">
+          <div className="md:col-span-2 flex gap-6">
             <label className="flex items-center gap-2">
               <input
                 type="checkbox"
                 name="featured"
                 checked={formData.featured}
                 onChange={handleChange}
-                className="w-5 h-5 text-teal-600 rounded focus:ring-2 focus:ring-teal-500"
+                className="w-5 h-5"
               />
-              <span className="text-gray-700 font-semibold">फ़ीचर्ड किताब</span>
+              <span className="text-gray-700 font-semibold">Featured</span>
+            </label>
+
+            <label className="flex items-center gap-2">
+              <input
+                type="checkbox"
+                name="popular"
+                checked={formData.popular}
+                onChange={handleChange}
+                className="w-5 h-5"
+              />
+              <span className="text-gray-700 font-semibold">Popular</span>
             </label>
           </div>
         </div>
@@ -253,14 +345,14 @@ export default function EditBookPage() {
             disabled={loading}
             className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors disabled:bg-gray-400"
           >
-            {loading ? 'अपडेट हो रहा है...' : 'अपडेट करें'}
+            {loading ? 'Updating...' : 'Update Book'}
           </button>
           <button
             type="button"
             onClick={() => router.back()}
             className="bg-gray-500 hover:bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
-            रद्द करें
+            Cancel
           </button>
         </div>
       </form>
