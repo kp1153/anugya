@@ -1,3 +1,4 @@
+// app/page.js
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -16,10 +17,20 @@ export default function HomePage() {
     try {
       const res = await fetch('/api/books?limit=12');
       const data = await res.json();
-      setBooks(data);
-      setFeaturedBooks(data.slice(0, 4));
+      
+      // Check करो data array है या नहीं
+      if (Array.isArray(data)) {
+        setBooks(data);
+        setFeaturedBooks(data.slice(0, 4));
+      } else {
+        console.error('API returned non-array:', data);
+        setBooks([]);
+        setFeaturedBooks([]);
+      }
     } catch (error) {
       console.error('Error:', error);
+      setBooks([]);
+      setFeaturedBooks([]);
     } finally {
       setLoading(false);
     }

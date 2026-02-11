@@ -1,3 +1,4 @@
+// app/api/books/route.js
 import { turso } from '@/lib/db';
 import { NextResponse } from 'next/server';
 
@@ -9,12 +10,12 @@ export async function GET(request) {
     const popular = url.searchParams.get('popular');
     const latest = url.searchParams.get('latest');
     const limit = url.searchParams.get('limit');
-    
+
     let sql = `
-      SELECT 
+      SELECT
         b.*,
         a.name as author_name,
-        a.photo as author_photo,
+        a.profile_image as author_photo,
         t.name as translator_name,
         t.photo as translator_photo
       FROM books b
@@ -22,6 +23,7 @@ export async function GET(request) {
       LEFT JOIN translators t ON b.translator_id = t.id
       WHERE 1=1
     `;
+
     const args = [];
 
     if (category) {
@@ -56,10 +58,10 @@ export async function GET(request) {
   }
 }
 
+// POST वाला हिस्सा वही रहेगा
 export async function POST(request) {
   try {
     const data = await request.json();
-
     console.log('📦 Received data:', JSON.stringify(data, null, 2));
 
     const result = await turso.execute({
