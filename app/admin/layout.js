@@ -18,7 +18,7 @@ export default function AdminLayout({ children }) {
     <div className="min-h-screen bg-gray-50 flex">
       <aside className={`bg-[#8B4513] text-white ${sidebarOpen ? 'w-64' : 'w-20'} transition-all duration-300 fixed h-full`}>
         <div className="p-4 border-b border-[#654321]">
-          <Link href="/admin" className="block">
+         <Link href="/admin/books/new" className="block">
             <h2 className={`font-bold ${sidebarOpen ? 'text-2xl' : 'text-sm text-center'}`}>
               {sidebarOpen ? '🏛️ अनुग्या बुक्स एडमिन' : '🏛️'}
             </h2>
