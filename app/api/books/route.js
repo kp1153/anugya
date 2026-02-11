@@ -11,44 +11,32 @@ export async function GET(request) {
     const latest = url.searchParams.get('latest');
     const limit = url.searchParams.get('limit');
 
-    let sql = `
-      SELECT
-        b.*,
-        a.name as author_name,
-        a.profile_image as author_photo,
-        t.name as translator_name,
-        t.photo as translator_photo
-      FROM books b
-      LEFT JOIN authors a ON b.author_id = a.id
-      LEFT JOIN translators t ON b.translator_id = t.id
-      WHERE 1=1
-    `;
-
+    let sql = `SELECT * FROM books WHERE 1=1`;
     const args = [];
 
     if (category) {
-      sql += ' AND b.category = ?';
+      sql += ' AND category = ?';
       args.push(category);
     }
 
     if (language) {
-      sql += ' AND b.language = ?';
+      sql += ' AND language = ?';
       args.push(language);
     }
 
     if (author) {
-      sql += ' AND a.name = ?';
-      args.push(author);
+      sql += ' AND author LIKE ?';
+      args.push(`%${author}%`);
     }
 
     if (popular === 'true') {
-      sql += ' AND b.popular = 1';
+      sql += ' AND popular = 1';
     }
 
     if (latest === 'true') {
-      sql += ' ORDER BY b.id DESC LIMIT 20';
+      sql += ' ORDER BY id DESC LIMIT 20';
     } else {
-      sql += ' ORDER BY b.id DESC';
+      sql += ' ORDER BY id DESC';
     }
 
     if (limit) {
@@ -76,7 +64,7 @@ export async function POST(request) {
         paperback_single_price, hardbound_single_price,
         paperback_set_price, hardbound_set_price,
         cover_image, description, stock
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,   
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       args: [
         data.isbn || null,
         data.title,

@@ -14,7 +14,9 @@ export default function AuthorDetailPage() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetchAuthorAndBooks();
+    if (slug) {
+      fetchAuthorAndBooks();
+    }
   }, [slug]);
 
   async function fetchAuthorAndBooks() {
@@ -27,7 +29,7 @@ export default function AuthorDetailPage() {
       const authorData = await authorRes.json();
       setAuthor(authorData);
 
-      const booksRes = await fetch(`/api/books?author=${authorData.name}`);
+      const booksRes = await fetch(`/api/books?author=${encodeURIComponent(authorData.name)}`);
       const booksData = await booksRes.json();
       setBooks(booksData);
     } catch (error) {

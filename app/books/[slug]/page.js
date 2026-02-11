@@ -2,36 +2,13 @@
 
 import Link from 'next/link';
 import { useCart } from '@/context/CartContext';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, use } from 'react';
+import { useParams } from 'next/navigation';
 
-async function getBook(slug) {
-  try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/books/${slug}`, {
-      cache: 'no-store'
-    });
-    if (!res.ok) return null;
-    return await res.json();
-  } catch (error) {
-    console.error('Error:', error);
-    return null;
-  }
-}
-
-async function getRelatedBooks(category, currentId) {
-  try {
-    const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'}/api/books`, {
-      cache: 'no-store'
-    });
-    const books = await res.json();
-    return books
-      .filter(b => b.category === category && b.id !== currentId)
-      .slice(0, 4);
-  } catch (error) {
-    return [];
-  }
-}
-
-export default function BookDetailPage({ params }) {
+export default function BookDetailPage() {
+  const params = useParams();
+  const bookId = params.slug;
+  
   const { addToCart } = useCart();
   const [book, setBook] = useState(null);
   const [relatedBooks, setRelatedBooks] = useState([]);
@@ -39,18 +16,27 @@ export default function BookDetailPage({ params }) {
 
   useEffect(() => {
     async function fetchData() {
-      const resolvedParams = await params;
-      const bookData = await getBook(resolvedParams.slug);
-      
-      if (bookData) {
+      try {
+        const res = await fetch(`/api/books/${bookId}`);
+        if (!res.ok) throw new Error('Book not found');
+        const bookData = await res.json();
         setBook(bookData);
-        const related = await getRelatedBooks(bookData.category, bookData.id);
+
+        const relatedRes = await fetch(`/api/books?category=${encodeURIComponent(bookData.category)}&limit=5`);
+        const allBooks = await relatedRes.json();
+        const related = allBooks.filter(b => b.id !== bookData.id).slice(0, 4);
         setRelatedBooks(related);
+      } catch (error) {
+        console.error('Error:', error);
+      } finally {
+        setLoading(false);
       }
-      setLoading(false);
     }
-    fetchData();
-  }, [params]);
+    
+    if (bookId) {
+      fetchData();
+    }
+  }, [bookId]);
 
   if (loading) return <div className="min-h-screen flex items-center justify-center">लोड हो रहा है...</div>;
   if (!book) return <div className="min-h-screen flex items-center justify-center">पुस्तक नहीं मिली</div>;
@@ -94,7 +80,7 @@ export default function BookDetailPage({ params }) {
               </p>
 
               <div className="flex items-center gap-4 mb-6">
-                <span className="text-4xl font-bold text-teal-600">₹{book.price}</span>
+                <span className="text-4xl font-bold text-teal-600">₹{book.price || 0}</span>
                 {book.stock > 0 ? (
                   <span className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
                     स्टॉक में उपलब्ध
@@ -179,7 +165,7 @@ export default function BookDetailPage({ params }) {
                     <div className="p-4">
                       <h3 className="font-bold text-gray-800 mb-2 line-clamp-2">{relBook.title}</h3>
                       <p className="text-sm text-gray-600 mb-2">{relBook.author}</p>
-                      <p className="text-lg font-bold text-teal-600">₹{relBook.price}</p>
+                      <p className="text-lg font-bold text-teal-600">₹{relBook.price || 0}</p>
                     </div>
                   </div>
                 </Link>
