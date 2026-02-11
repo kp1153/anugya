@@ -49,7 +49,7 @@ export async function GET(request) {
     }
 
     const result = await turso.execute({ sql, args });
-    return NextResponse.json(result.rows);
+    return NextResponse.json(Array.isArray(result.rows) ? result.rows : []);
   } catch (error) {
     console.error('GET Error:', error);
     return NextResponse.json({ error: 'Failed to load books' }, { status: 500 });
@@ -69,8 +69,8 @@ export async function POST(request) {
         is_multi_volume, number_of_volumes,
         paperback_single_price, hardbound_single_price,
         paperback_set_price, hardbound_set_price,
-        cover_image, description, stock, featured, popular
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+        cover_image, description, stock
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
       args: [
         data.isbn || null,
         data.title,
@@ -91,9 +91,7 @@ export async function POST(request) {
         data.hardbound_set_price || null,
         data.cover_image || null,
         data.description || null,
-        data.stock || 0,
-        data.featured ? 1 : 0,
-        data.popular ? 1 : 0
+        data.stock || 0
       ]
     });
 

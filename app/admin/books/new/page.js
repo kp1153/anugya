@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { CldUploadWidget } from 'next-cloudinary';
 
 export default function NewBookPage() {
   const router = useRouter();
@@ -28,9 +29,7 @@ export default function NewBookPage() {
     hardbound_set_price: '',
     cover_image: '',
     description: '',
-    stock: 0,
-    featured: false,
-    popular: false
+    stock: 0
   });
 
   useEffect(() => {
@@ -360,22 +359,34 @@ export default function NewBookPage() {
           </div>
         </div>
 
-        {/* Cover Image */}
+        {/* Cover Image - Cloudinary Upload */}
         <div>
-          <label className="block text-sm font-medium mb-2">Cover Image URL</label>
-          <input
-            type="url"
-            value={formData.cover_image}
-            onChange={(e) => setFormData({...formData, cover_image: e.target.value})}
-            className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
-            placeholder="https://example.com/cover.jpg"
-          />
+          <label className="block text-sm font-medium mb-2">Cover Image</label>
+          <CldUploadWidget
+            uploadPreset="your_upload_preset"
+            onSuccess={(result) => {
+              setFormData({...formData, cover_image: result.info.secure_url});
+            }}
+          >
+            {({ open }) => (
+              <button
+                type="button"
+                onClick={() => open()}
+                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+              >
+                Upload Cover Image
+              </button>
+            )}
+          </CldUploadWidget>
           {formData.cover_image && (
-            <img 
-              src={formData.cover_image} 
-              alt="Cover preview" 
-              className="mt-2 w-32 h-40 object-cover rounded"
-            />
+            <div className="mt-2">
+              <img 
+                src={formData.cover_image} 
+                alt="Cover preview" 
+                className="w-32 h-40 object-cover rounded"
+              />
+              <p className="text-xs text-gray-600 mt-1 break-all">{formData.cover_image}</p>
+            </div>
           )}
         </div>
 
@@ -391,38 +402,16 @@ export default function NewBookPage() {
           />
         </div>
 
-        {/* Stock & Flags */}
-        <div className="grid grid-cols-3 gap-4">
-          <div>
-            <label className="block text-sm font-medium mb-2">Stock</label>
-            <input
-              type="number"
-              value={formData.stock}
-              onChange={(e) => setFormData({...formData, stock: e.target.value})}
-              className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
-              placeholder="Stock quantity"
-            />
-          </div>
-
-          <label className="flex items-center gap-2 pt-8">
-            <input
-              type="checkbox"
-              checked={formData.featured}
-              onChange={(e) => setFormData({...formData, featured: e.target.checked})}
-              className="w-4 h-4"
-            />
-            <span className="text-sm font-medium">Featured</span>
-          </label>
-
-          <label className="flex items-center gap-2 pt-8">
-            <input
-              type="checkbox"
-              checked={formData.popular}
-              onChange={(e) => setFormData({...formData, popular: e.target.checked})}
-              className="w-4 h-4"
-            />
-            <span className="text-sm font-medium">Popular</span>
-          </label>
+        {/* Stock */}
+        <div>
+          <label className="block text-sm font-medium mb-2">Stock</label>
+          <input
+            type="number"
+            value={formData.stock}
+            onChange={(e) => setFormData({...formData, stock: e.target.value})}
+            className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
+            placeholder="Stock quantity"
+          />
         </div>
 
         {/* Submit Buttons */}

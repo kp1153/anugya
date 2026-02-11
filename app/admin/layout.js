@@ -9,8 +9,6 @@ export default function AdminLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
   const menuItems = [
-    { name: 'डैशबोर्ड', path: '/admin', icon: '📊' },
-    { name: 'सभी किताबें', path: '/admin/books', icon: '📚' },
     { name: 'नई किताब जोड़ें', path: '/admin/books/new', icon: '➕' },
     { name: 'ऑर्डर्स', path: '/admin/orders', icon: '🛒' },
     { name: 'कैटेगरी', path: '/admin/categories', icon: '📁' },
