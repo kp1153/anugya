@@ -1,4 +1,3 @@
-// app/api/books/route.js
 import { turso } from '@/lib/db';
 import { NextResponse } from 'next/server';
 
@@ -7,6 +6,7 @@ export async function GET(request) {
     const url = new URL(request.url);
     const category = url.searchParams.get('category');
     const language = url.searchParams.get('language');
+    const author = url.searchParams.get('author');
     const popular = url.searchParams.get('popular');
     const latest = url.searchParams.get('latest');
     const limit = url.searchParams.get('limit');
@@ -36,6 +36,11 @@ export async function GET(request) {
       args.push(language);
     }
 
+    if (author) {
+      sql += ' AND a.name = ?';
+      args.push(author);
+    }
+
     if (popular === 'true') {
       sql += ' AND b.popular = 1';
     }
@@ -51,14 +56,13 @@ export async function GET(request) {
     }
 
     const result = await turso.execute({ sql, args });
-    return NextResponse.json(Array.isArray(result.rows) ? result.rows : []);
+    return NextResponse.json(Array.isArray(result.rows) ? result.rows : []);    
   } catch (error) {
     console.error('GET Error:', error);
     return NextResponse.json({ error: 'Failed to load books' }, { status: 500 });
   }
 }
 
-// POST वाला हिस्सा वही रहेगा
 export async function POST(request) {
   try {
     const data = await request.json();
@@ -72,7 +76,7 @@ export async function POST(request) {
         paperback_single_price, hardbound_single_price,
         paperback_set_price, hardbound_set_price,
         cover_image, description, stock
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`,   
       args: [
         data.isbn || null,
         data.title,
