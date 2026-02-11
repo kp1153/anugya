@@ -1,0 +1,4902 @@
+[
+  {
+    "id": 744,
+    "count": 1,
+    "description": "आमिर फ़राज़ – पाकिस्तान के प्रसिद्ध कहानीकार। अफ़रा बुख़ारी के बेटे।\r\n",
+    "link": "https://anuugyabooks.com/bookauthor/aamir-faraz-%e0%a4%86%e0%a4%ae%e0%a4%bf%e0%a4%b0-%e0%a4%ab%e0%a4%bc%e0%a4%b0%e0%a4%be%e0%a4%9c%e0%a4%bc/",
+    "name": "Aamir Faraz / आमिर फ़राज़",
+    "slug": "aamir-faraz-%e0%a4%86%e0%a4%ae%e0%a4%bf%e0%a4%b0-%e0%a4%ab%e0%a4%bc%e0%a4%b0%e0%a4%be%e0%a4%9c%e0%a4%bc",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/744",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=744"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=744"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 93,
+    "count": 1,
+    "description": "अभय ( जन्म : 26 सितम्बर, 1948 | निधन : 6 नवम्बर, 2015 )\r\n\r\nबिहार के एक छोटे-से कस्बे सासाराम के निकटवर्ती गाँव में जन्म। सन् 1975-80 के आस पास उभरी पीढ़ी के महत्त्वपूर्ण लेखक। साहित्यिक लघुपत्रिका ‘अब’ का समवेत सम्पादन। बाद में ‘परिकथा’ के भी सौजन्य सम्पादक। लगभग 43 वर्षों तक सासाराम कोर्ट में एक प्रतिष्ठित अधिवक्ता के रूप में वकालत। इस बीच कानून की भी एक महत्त्वपूर्ण किताब का लेखन। दो बार बिहार प्रगतिशील लेखक संघ के महासचिव।\r\n\r\nकृतियाँ–\r\nएक अदद माँ (कविता-संग्रह) | कठिन समय के विरुद्ध (कविता-संग्रह) | आलपीन (कहानी-संग्रह) | जलसा (कहानी-संग्रह) | सोन चिरइया (कहानी-संग्रह)\r\n",
+    "link": "https://anuugyabooks.com/bookauthor/https-anuugyabooks-com-wp-content-uploads-2020-06-abhay-jpg/",
+    "name": "Abhay / अभय",
+    "slug": "https-anuugyabooks-com-wp-content-uploads-2020-06-abhay-jpg",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/93",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=93"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=93"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 99,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/abhay-parmar/",
+    "name": "Abhay Parmar / अभय परमार",
+    "slug": "abhay-parmar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/99",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=99"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=99"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 291,
+    "count": 0,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/abhay-pratap/",
+    "name": "Abhay Pratap / अभय प्रताप",
+    "slug": "abhay-pratap",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/291",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=291"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=291"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 499,
+    "count": 1,
+    "description": "अभिषेक श्रीवास्तव\r\nउत्‍तर प्रदेश के शहीदी जिले ग़ाज़ीपुर में जन्‍म, काशी हिंदू विश्‍वविद्यालय से गणित में औपचारिक शिक्षण। भारतीय जनसंचार संस्‍थान से पत्रकारिता में प्रशिक्षण के बाद पिछले दो दशक से दिल्‍ली एनसीआर में प्रवास। शुरुआत के दस साल कई मीडिया की दुकानों में नौकरी की। पिछले दस साल से स्‍वतंत्र लेखन और अनुवाद। अगोरा प्रकाशन, बनारस से 2018 में छपी पहली पुस्‍तक ‘देसगांव’ देश के नौ राज्‍यों में चल रहे जन-आंदोलनों पर केंद्रित रिपोर्ताज का संकलन है। ‘आम आदमी के नाम पर’ जनवरी 2022 में पंजाबी में प्रकाशित। राजकमल प्रकाशन से एक यात्रा संस्‍मरण प्रकाशनाधीन। राजकमल प्रकाशन से दो अनुवाद प्रकाशित: ‘आरटीआइ कैसे आई’ (अरुणा रॉय) और गौरव ग्रंथमाला के अंतर्गत 1984 (जॉर्ज ऑरवेल)। ऑक्‍सफोर्ड युनिवर्सिटी प्रेस से एक अनुवाद प्रकाशनाधीन।\r\nई-मेल : guruweltschmerz@gmail.com",
+    "link": "https://anuugyabooks.com/bookauthor/abhishek-shrivastava/",
+    "name": "Abhishek Shrivastava / अभिषेक श्रीवास्तव",
+    "slug": "abhishek-shrivastava",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/499",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=499"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=499"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 752,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/acharya-chatursen-shastri-%e0%a4%86%e0%a4%9a%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%af-%e0%a4%9a%e0%a4%a4%e0%a5%81%e0%a4%b0%e0%a4%b8%e0%a5%87%e0%a4%a8-%e0%a4%b6%e0%a4%be%e0%a4%b8%e0%a5%8d%e0%a4%a4/",
+    "name": "Acharya Chatursen Shastri / आचार्य चतुरसेन शास्त्री",
+    "slug": "acharya-chatursen-shastri-%e0%a4%86%e0%a4%9a%e0%a4%be%e0%a4%b0%e0%a5%8d%e0%a4%af-%e0%a4%9a%e0%a4%a4%e0%a5%81%e0%a4%b0%e0%a4%b8%e0%a5%87%e0%a4%a8-%e0%a4%b6%e0%a4%be%e0%a4%b8%e0%a5%8d%e0%a4%a4",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/752",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=752"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=752"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 204,
+    "count": 1,
+    "description": "\r\n",
+    "link": "https://anuugyabooks.com/bookauthor/acharya-j-b-kripalani/",
+    "name": "Acharya J B Kripalani / आचार्य जे.बी कृपलानी",
+    "slug": "acharya-j-b-kripalani",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/204",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=204"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=204"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 694,
+    "count": 1,
+    "description": "अफ़रा बुख़ारी – पाकिस्तान की सुप्रसिद्ध कहानीकार हैं। मध्यवर्गीय जीवन के यथार्थ को अत्यंत सहजता से अभिव्यक्त करने की जो कला इनके पास है, वैसी कम ही लेखकों को नसीब होती है। 14 मार्च 1938 को अमृतसर में जन्मी अफ़रा बुख़ारी 1947 को पाकिस्तान चले जाने तक अमृतसर और लुधियाना, जहाँ उनका ननिहाल था, आती-जाती रहीं। आजीवन वे इन दो शहरों को न भूल पाईं। 1953 को लाहौर में मैट्रिक के बाद बी.ए. पास किया। कुछ समय एक निजी स्कूल में प्रधानाचार्य रहीं। 1952 में बच्चों के कहानी लेखन से उनकी लेखन यात्रा शुरू होती है जो 1958 में नियमित लेखन का रूप ग्रहण कर लेती है। ये यात्रा, बीच के कुछ अंतराल को छोड़कर, उनके निधन जनवरी 2022 तक जारी रही। उन्होंने 1992 में एक प्रकाशन और प्रेस भी खोला जिसे वे 2011 तक चलाती रहीं। अफ़रा जी के पाँच कहानी-संग्रह प्रकाशित हो चुके हैं– फ़ासले (1964), नजात (1998), रेत में पाँव (2003), आँख और अँधेरा (2009) और संगे स्याह (2021)। उनकी सम्पूर्ण रचनाएँ ‘उसकी दुनिया’ नाम से उनके बेटे और प्रसिद्ध कहानीकार जनाब ‘आमिर फ़राज़’ के सम्पादकत्व में प्रकाशित होने जा रही हैं। इस बीच उनकी कहानियाँ विभिन्न स्तरीय साहित्यिक पत्रिकाओं में प्रकाशित होती रहीं, मगर प्रशंसा के बावजूद ख़ुद साहित्यिक सरगर्मियों से दूर रहीं। उनकी कहानियों के बारे में प्रोफ़ेसर जिलानी कामरान का कथन महत्वपूर्ण है, “अफ़रा बुख़ारी की कहानी लेखन कला काफी परिष्कृत है। वह विषय की सामग्री को एक दूरी से देखती हैं और पात्रों को उनके मनोवैज्ञानिक एवं सामाजिक आयामों में देखती हैं। नारी पात्रों की मानवीयता और ईर्द-गिर्द के समाज की विमुखता की प्रवृत्ति के बीच की टकराहट से करुणा उत्पन्न होती है।” ये कहानियाँ उनके समाज का ही नहीं, हमारे समाज का भी आईना हैं। अफ़रा बुख़ारी का हिन्दी में यह पहला कहानी-संग्रह है।",
+    "link": "https://anuugyabooks.com/bookauthor/afra-bhukari/",
+    "name": "Afra Bhukari / अफ़रा बुख़ारी",
+    "slug": "afra-bhukari",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/694",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=694"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=694"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 315,
+    "count": 0,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/gebreyesus-hailus/",
+    "name": "AG Hailu (Gebreyesus Hailu) / ऐ.जी. हैलू",
+    "slug": "gebreyesus-hailus",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/315",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=315"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=315"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 293,
+    "count": 2,
+    "description": "#अहमद सगीर\r\n\r\nअहमद सग़ीर पुत्र स्व. मो. हनीफ; जन्म–21 नवम्बर 1963; शिक्षा–एम.ए. (उर्दू), पीएच.डी.। प्रकाशित कृतियां (उर्दू) : मुंडेर पर बैठा परिंदा (कहानी संग्रह), 1995; अन्ना को आने दो (कहानी संग्रह), 2001; जंग जारी है (उपन्यास), 2002; आधूनिक उर्दू कहानियों में विरोध की आवाज़ (शोद्यालोचना), 2003; एक बून्द उजाला (उपन्यास), 2013; कहानी अभी ख़त्म नहीं हुई है (कहानी संग्रह), 2015। प्रकाशित कृतियां (हिन्दी) : चिंगारियों के दरम्यान (ग़ज़लें) 2002; घर वापसी (कहानी संग्रह), 2019; दरवाज़ा अभी बन्द है (उपन्यास), 2019। अनुवाद (उर्दू से हिन्दी) : बेशिनाख़्त (कहानी संग्रह) नासिर बुग़दाददी, पाकिस्तानी कथाकार, 2000; तलाशे बहाराँ (शायरी), किशोरी लाल नसीम, 2000; प्रतिनिधि शायरी (शायरी), अकबर इलाहाबादी, 2001; प्रतिनिधि शायरी (शायरी), ख़्वाजा मीर दर्द, 2004; प्रतिनिधि शायरी (शायरी), शकेब जलाली, 2004। पुरस्कार : मुंडेर पर बैठा परिंदा (बिहार उर्दू अकादमी), 1995; अन्ना को आने दो (पश्चिम बंगाल उर्दू अकादमी), 2001; आधूनिक उर्दू कहानियों में विरोध की आवाज़ (दिल्ली उर्दू अकादमी), 2003; एक बून्द उजाला (बिहार उर्दू अकादमी), 2013; कहानी अभी ख़त्म नहीं हुई है (उत्तर प्रदेश उर्दू अकादमी), 2015। संपर्क–हनीफ मंजील, कोयली पोखर, पुलिस लाइन, गयवाल बिगहा, गया (बिहार) मोबाईल नं./ई-मेल : 9931421834] ahmadsagheer59@gmail.com",
+    "link": "https://anuugyabooks.com/bookauthor/ahmad-sagheer/",
+    "name": "Ahmad Sagheer / अहमद सगीर",
+    "slug": "ahmad-sagheer",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/293",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=293"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=293"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 294,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/ajay-mehtab/",
+    "name": "Ajay Mehtab / अजय मेहताब",
+    "slug": "ajay-mehtab",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/294",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=294"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=294"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 86,
+    "count": 1,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2022/01/ajit-chunnilal-chauhan.jpg\"><img class=\"alignnone size-full wp-image-3219\" src=\"https://anuugyabooks.com/wp-content/uploads/2022/01/ajit-chunnilal-chauhan.jpg\" alt=\"\" width=\"201\" height=\"251\" /></a>\r\n<p style=\"text-align: center\"><span style=\"color: #993300\"><strong>अजित चुनिलाल चव्हाण</strong></span></p>\r\n<p style=\"text-align: left\">जन्म : नन्दुरबार (महाराष्‍ट्र) l शिक्षा : एम.ए., पीएच. डी. l प्रकाशन : 1. कहानीकार महीप सिंह : संवेदना और शिल्प; 2. भवानी प्रसाद मिश्र के काव्य में व्यंग्य; 3. क्रान्तिसूर्य (मराठी) सम्पादित पुस्तक; l 4. आम आदमी की कविता (कविता-संग्रह) l इतर : 1. आकाशवाणी केन्द्र, जलगॉंव से काव्य, कहानी पाठ; 2. समाचार-पत्रों में लेखन; 3. अनेकानेक पत्रिकाओं में शोधालेखों का प्रकाशन; 4. अनेक संगोष्ठियों में सक्रिय सहभाग, शोध-निबन्धों का पठन; 5. राष्‍ट्रीय सेवा योजना, स्थानीय इकाई भू-कार्यक्रम अधिकारी l सम्प्रति : सातपुड़ा शिक्षा प्रसारक मंडल, विद्यावाडी, धुले संचालित वसन्तराव नाईक कला, विज्ञान एवं वाणिज्य महाविद्यालय, शहादा, जि. नन्दुरबार (महाराष्‍ट्र) l सम्पर्क : ‘श्री हेरम्ब’, प्लॉट नं. 17/ए, सरस्वती कालोनी, साईंबाबा नगर के पास, शहादा-425409, जि. नन्दुरबार (महाराष्‍ट्र)।</p>",
+    "link": "https://anuugyabooks.com/bookauthor/ajit-chunnilal-chavhan/",
+    "name": "Ajit Chunnilal Chavhan / अजित चुनिलाल चव्हाण",
+    "slug": "ajit-chunnilal-chavhan",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/86",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=86"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=86"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 98,
+    "count": 2,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2018/11/Ajit-Singnar-G.jpg\"><img class=\"alignnone size-full wp-image-601\" src=\"https://anuugyabooks.com/wp-content/uploads/2018/11/Ajit-Singnar-G.jpg\" alt=\"\" width=\"201\" height=\"251\" /></a>\r\n<h2><span style=\"color: #800000\">अजित सिंगनर</span></h2>\r\nअजित सिंगनर का जन्म वर्ष 1965 में असम के नगाँव जिले के आमसै गांव में हुआ। 1989 में उन्होंने गुवाहाटी के असम इंजीनियरिंग कालेज से सिविल इंजीनियरिंग की डिग्री हासिल की और 1992 से असम सरकार के लोक निर्माण विभाग में नौकरी करने लगे। उन्होंने कार्बी जनजाति को केन्द्र में रखकर कई असमिया उपन्यास लिखे हैं। उनको असम साहित्य सभा की तरफ से उपन्यास  ‘लंगरी आतमन’  के लिए पुरस्कृत भी किया जा चुका है। उनके अन्य चर्चित उपन्यास हैं–सेर हंगथम और सन्ध्या बेलार शोकगाथा। सम्पर्क–कार्यकारी अभियन्ता, लोक निर्माण विभाग, डिफू (असम) फोन– 9435396522",
+    "link": "https://anuugyabooks.com/bookauthor/ajit-singnar/",
+    "name": "Ajit Singnar / अजित सिंगनार",
+    "slug": "ajit-singnar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/98",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=98"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=98"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 532,
+    "count": 8,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2023/04/Ajmal-Kamal-g-web.jpg\"><img class=\"alignnone size-medium wp-image-4139\" src=\"https://anuugyabooks.com/wp-content/uploads/2023/04/Ajmal-Kamal-g-web-240x300.jpg\" alt=\"\" width=\"240\" height=\"300\" /></a>\r\n<h2><span style=\"color: #800000\"><strong>Ajmal Kamal</strong></span></h2>\r\nAjmal Kamal has been editing the Urdu literary journal \"Aaj\" from Karachi since 1981, and the English journal of South Asian literature \"City\" since 2017. He runs a small-scale publishing house and a bookshop in Karachi. He translates fiction and non-fiction into Urdu and occasionally writes for Urdu and English publications and websites.",
+    "link": "https://anuugyabooks.com/bookauthor/ajmal-kamal/",
+    "name": "Ajmal Kamal / अजमल कमाल",
+    "slug": "ajmal-kamal",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/532",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=532"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=532"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 779,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/alexander-gregorian-%e0%a4%85%e0%a4%b2%e0%a4%bf%e0%a4%95%e0%a4%b8%e0%a4%be%e0%a4%a8%e0%a5%8d%e0%a4%a6%e0%a4%b0-%e0%a4%97%e0%a5%8d%e0%a4%b0%e0%a4%bf%e0%a4%97%e0%a4%b0%e0%a4%bf%e0%a4%af%e0%a4%be/",
+    "name": "Alexander Gregorian / अलिकसान्दर ग्रिगरियान",
+    "slug": "alexander-gregorian-%e0%a4%85%e0%a4%b2%e0%a4%bf%e0%a4%95%e0%a4%b8%e0%a4%be%e0%a4%a8%e0%a5%8d%e0%a4%a6%e0%a4%b0-%e0%a4%97%e0%a5%8d%e0%a4%b0%e0%a4%bf%e0%a4%97%e0%a4%b0%e0%a4%bf%e0%a4%af%e0%a4%be",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/779",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=779"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=779"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 690,
+    "count": 1,
+    "description": "अलिकसान्दर कुप्रीन\r\n1915 में जब पहली बार अलिकसान्दर कुप्रीन का यह दस्तावेज़ी उपन्यास प्रकाशित हुआ तो रूस के साहित्यिक हलकों में तहलका मच गया था क्योंकि यह तात्कालिक रूस में होने वाली वेश्यावृत्ति के बारे में ऐसा सच था, जिसे रूसी समाज देखकर भी अनदेखा करता था। इस किताब में बहुत कुछ ऐसा है, जो आज के रूसी जीवन की भी बखिया उधेड़ता है। रूस में आज भी इन लड़कियों को ‘रात्रिकालीन तितलियाँ’ यानी ‘नचनीए बाबचकी’ कहा जाता है। हालाँकि आज रूस में ‘बरदेल’ यानी वेश्यालय खोलना और उन्हें चलाना एक अपराध माना जाता है, लेकिन फिर भी ‘बरदेल’ खुले हुए हैं और काम कर रहे हैं। हमारी ज़िन्दगी और समाज के काले सच को उजागर करने वाला और इन स्त्रियों की क़िस्मत का विस्तार से वर्णन करने वाला यह एक त्रासद उपन्यास है।",
+    "link": "https://anuugyabooks.com/bookauthor/alexander-kuprin/",
+    "name": "Alexander Kuprin / अलिकसान्दर कुप्रीन",
+    "slug": "alexander-kuprin",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/690",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=690"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=690"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 382,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/aloka-kujur/",
+    "name": "Aloka Kujur / अलोका कुजूर",
+    "slug": "aloka-kujur",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/382",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=382"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=382"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 101,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/amerendra-kumar-sharma/",
+    "name": "Amerendra Kumar Sharma / अमरेंद्र कुमार शर्मा",
+    "slug": "amerendra-kumar-sharma",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/101",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=101"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=101"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 213,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/amit/",
+    "name": "Amit / अमित",
+    "slug": "amit",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/213",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=213"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=213"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 329,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/anand-bihari/",
+    "name": "Anand Bihari / आनन्द बिहारी",
+    "slug": "anand-bihari",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/329",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=329"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=329"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 229,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/anand-kumar-shukla/",
+    "name": "Anand Kumar Shukla / आनन्द कुमार शुक्ला",
+    "slug": "anand-kumar-shukla",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/229",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=229"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=229"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 295,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/anand-prakash-tripathy/",
+    "name": "Anand Prakash Tripathy / आनन्द प्रकाश त्रिपाठी",
+    "slug": "anand-prakash-tripathy",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/295",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=295"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=295"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 544,
+    "count": 1,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2023/05/Anant-Dwivedi-web.jpg\"><img class=\"alignnone size-full wp-image-4238\" src=\"https://anuugyabooks.com/wp-content/uploads/2023/05/Anant-Dwivedi-web.jpg\" alt=\"\" width=\"151\" height=\"189\" /></a>\r\n<h2>डॉ. अनन्त द्विवेदी</h2>\r\n<span style=\"color: #800000\"><strong>संप्रति -</strong></span> सहायक प्राध्यापक, के.जे. सोमैया कला एवं वाणिज्य महाविद्यालय, विद्याविहार, मुंबई-77\r\n<span style=\"color: #800000\"><strong>रचना कर्म -</strong></span> विभिन्न पत्र-पत्रिकाओं एवं जर्नल में लगभग 25 शोध-आलेख प्रकाशित। संलग्न- दूरस्थ शिक्षा संस्थान मुंबई विश्वविद्यालय, मुंबई के परास्नातक पाठ्यक्रम में अध्ययन सामग्री का लेखन।\r\n<strong><span style=\"color: #800000\">सम्मान -</span></strong> हिंदुस्तानी प्रचार सभा मुंबई द्वारा महात्मा गांधी शिक्षा प्रतिभा सम्मान से सम्मानित।",
+    "link": "https://anuugyabooks.com/bookauthor/anant-dwivedi/",
+    "name": "Anant Dwivedi / अनन्त द्विवेदी",
+    "slug": "anant-dwivedi",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/544",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=544"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=544"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 296,
+    "count": 2,
+    "description": "This is the description of author \"anchit\"",
+    "link": "https://anuugyabooks.com/bookauthor/anchit/",
+    "name": "Anchit / अंचित",
+    "slug": "anchit",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/296",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=296"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=296"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 426,
+    "count": 13,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2021/12/Anil-Janvijay.jpg\"></a>\r\nअनिल जनविजय\r\n28 जुलाई 1957, बरेली (उत्तर प्रदेश) में एक निम्न-मध्यवर्गीय परिवार में जन्म। प्रारम्भिक शिक्षा बरेली स्थित केन्द्रीय विद्यालय में। माँ की मृत्यु के बाद दादा-दादी के पास दिल्ली आ गए। 1977 में दिल्ली विश्वविद्यालय से बी.कॉम. फिर हिन्दी में एम.ए.। 1980 में जवाहरलाल नेहरू विश्वविद्यालय की रूसी भाषा और साहित्य फेकल्टी में एम.ए. में प्रवेश। 1982 में उच्च अध्ययन के लिए सोवियत सरकार की छात्रवृत्ति पाकर मास्को विश्वविद्यालय पहुँचे। फिर 1989 में मास्को स्थित गोर्की लिटरेरी इंस्टीटयूट से सर्जनात्मक लेखन में एम.ए.। 1983 से 1992 तक मास्को रेडिओ की हिन्दी प्रसारण सेवा से जुड़े रहे। 1996 से मास्को विश्वविद्यालय (रूस) में ‘हिन्दी साहित्य’ और ‘अनुवाद’ का अध्यापन।\r\n1976 में पहली कविता लिखी। 1977 में पहली बार साहित्यिक पत्रिका लहर में कविताएँ प्रकाशित। 1978 में ‘पश्यन्ती’ के कवितांक में कविताएँ सम्मिलित। 1982 में पहला कविता संग्रह ‘कविता नहीं है यह’ प्रकाशित।\r\nकविता संग्रह – ‘कविता नहीं है यह’ (1982), ‘माँ, बापू कब आएंगे’ (1990), ‘राम जी भला करें’ (2004)।\r\nअनुवाद संग्रह – फ़िलिस्तीनी कविताएँ, ‘माँ की मीठी आवाज़’ (अनातोली पारपरा), ‘तेरे क़दमों का संगीत’ (ओसिप मंदेलश्ताम), ‘सूखे होंठों की प्यास’ (ओसिप मंदेलश्ताम), ‘धूप खिली थी और रिमझिम वर्षा’ (येव्गेनी येव्तुशेंको), ‘यह आवाज़ कभी सुनी क्या तुमने’ (अलेक्जेंडर पुश्किन), ‘चमकदार आसमानी आभा’ (इवान बूनिन)।",
+    "link": "https://anuugyabooks.com/bookauthor/https-www-anuugyabooks-com-wp-content-uploads-2021-11-anil-janvijay-jpg/",
+    "name": "Anil Janvijay / अनिल जनविजय",
+    "slug": "https-www-anuugyabooks-com-wp-content-uploads-2021-11-anil-janvijay-jpg",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/426",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=426"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=426"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 543,
+    "count": 1,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2023/05/Anil-Singh-Web.jpg\"><img class=\"alignnone size-full wp-image-4237\" src=\"https://anuugyabooks.com/wp-content/uploads/2023/05/Anil-Singh-Web.jpg\" alt=\"\" width=\"151\" height=\"189\" /></a>\r\n<h2><span style=\"color: #800000\">प्र. प्राचार्य डॉ. अनिलकुमार शिवनारायण सिंह</span></h2>\r\n<h3>प्रोफेसर एवं हिन्दी विभागाध्यक्ष, एस.बी. कॉलेज, शहापुर, महाराष्ट्र, जिला ठाणे - 421601</h3>\r\n<strong><span style=\"color: #800000\">संप्रति :</span></strong> प्रभारी अधिष्ठाता, मानवविज्ञान विद्या शाखा, मुंबई विश्वविद्यालय, मुंबई - 400032\r\n<span style=\"color: #800000\"><strong>दूरभाष :</strong></span> 07028029016 / 09422669524\r\n<strong><span style=\"color: #800000\">मेल :</span></strong> dranilsingh129@gmail.com\r\n<span style=\"color: #800000\"><strong>शैक्षणिक अनुभव :</strong></span> यू.जी. स्तर पर 34 वर्ष, पी.जी. स्तर पर 24 वर्ष\r\n<strong><span style=\"color: #800000\">शोध निर्देशक :</span></strong> 12 विद्यार्थियों को मुंबई विश्व-विद्यालय से पीएच.डी. उपाधि प्राप्त हो चुकी है।\r\n<span style=\"color: #800000\"><strong>रचना कर्म :</strong></span> 4 पुस्तकें प्रकाशित, 21 पुस्तकें संपादित, 70 से अधिक पुस्तकों और राष्ट्रीय, अन्तर्राष्ट्रीय पत्र-पत्रिकाओं में लेख व समीक्षाएँ प्रकाशित।\r\n<span style=\"color: #800000\"><strong>सम्मान व पुरस्कार प्राप्त :</strong></span>\r\n2015 हिंदी सेवी विद्वान, हिंदी साहित्य अकादेमी, मॅारीशस।\r\n2015 आदर्श शिक्षक पुरस्कार, मुंबई विश्वविद्यालय, मुंबई।\r\n2016 महाराष्ट्र साहित्य अकादमी “मामावरेरकर” सम्मान, महाराष्ट्र शासन द्वारा।\r\n2018 साहित्य सृजन सम्मान, स्वामी विवेकानंद सांस्कृतिक केंद्र, बाली, इंडोनेशिया।\r\n<span style=\"color: #800000\"><strong>आकाशवाणी मुंबई से वार्ताएँ :</strong></span> आकाशवाणी, मुंबई से रेडियो वार्ताऍ प्रसारित।\r\n<span style=\"color: #800000\"><strong>अन्तर्राष्ट्रीय सम्मेलन में सहभाग :</strong></span> मॅारीशस, श्रीलंका, ताशकंद, मॅास्को, स्विजरलैंड, जर्मनी, इंडोनेशिया।",
+    "link": "https://anuugyabooks.com/bookauthor/anil-singh/",
+    "name": "Anil Singh / अनिल सिंह",
+    "slug": "anil-singh",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/543",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=543"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=543"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 181,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/anish-ankur/",
+    "name": "Anish Ankur / अनीश अंकुर",
+    "slug": "anish-ankur",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/181",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=181"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=181"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 770,
+    "count": 0,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/anjana-singh-sengar/",
+    "name": "Anjana Singh Sengar",
+    "slug": "anjana-singh-sengar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/770",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=770"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=770"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 769,
+    "count": 1,
+    "description": "डॉ. अंजना सिंह सेंगर, पीएच.डी.\r\nकेंद्र सरकार की सेवा से स्वैच्छिक सेवानिवृत्त अधिकारी\r\nजन्म – लिटावली, ज़िला-जालौन (उत्तर प्रदेश)\r\nपति - श्री चंद्र भूषण सिंह\r\nनिवास – नोएडा, जिला-गौतमबुद्ध नगर (उ.प्र.)\r\nई-मेल : anjanasiak90@gmail.com\r\nवेब : anjanasinghsengar.com\r\n\r\nकृतित्व \r\nl ‘मन के पंख’ (काव्य संग्रह)\r\nl ‘जुगनू की जंग’ (काव्य संग्रह)\r\nl ‘अगर तुम मुझसे कह देते’ (हिन्दी एवं उर्दू ग़ज़ल संग्रह)\r\nl विदग्ध वनदेवी (खण्ड-काव्य)\r\nl जनमानस के महाराज\r\nl पं श्याम नारायण पाण्डेय ग्रंथावली के चार खंडों का उप-संपादन।\r\n\r\nउपलब्धियाँ – हिन्दी गजल संग्रह ‘अगर तुम मुझसे कह देते’ के लिए उत्तर प्रदेश सरकार की हिंदुस्तानी एकेडमी द्वारा ‘फिराक गोरखपुरी सम्मान’ l संयुक्त राज्य अमेरिका की अंतरराष्ट्रीय हिन्दी समिति द्वारा ‘हिन्दी सेवा सम्मान’ l फ्रांस की संसद में ‘भारत गौरव अवॉर्ड’ l 8वाँ ‘एशियाई लिटरेरी एक्सीलेंस अवॉर्ड’ (दुबई स्थित भारतीय दूतावास में) l 26वाँ ‘आशीर्वाद राजभाषा सारस्वत सम्मान’, मुंबई l ‘डॉ. गोपालदास नीरज गीत रत्न सम्मान’ l राज्य कर्मचारी साहित्य संस्थान, उत्तर प्रदेश द्वारा ‘साहित्य गौरव सम्मान’ l 11वाँ ‘नेशनल वुमेन एक्सीलेंस अवॉर्ड’, नई दिल्ली l अवॉर्ड काउन्सिल ऑफ इंडिया द्वारा ‘साहित्य सेवा गौरव सम्मान’ l पश्चिम बंगाल के राज्यपाल द्वारा ‘मानस संगम साहित्य सम्मान’ l इंडो-यूरोपीयन चैम्बर द्वारा ‘अन्तर्राष्ट्रीय शक्ति अचीवमेंट अवॉर्ड’ l ए.एम.यू. के कुलपति द्वारा सम्मानित l उत्तर प्रदेश लोकसेवक परिवार महासमिति द्वारा ‘तेजस्विता उमेश गुरू लेखन’ सम्मान l प्रयागराज की गुफ़्तगू संस्था द्वारा ‡‘सुभद्रा कुमारी चौहान सम्मान’ l ‘अंजना एक शख़्सियत – एक शायरा’ नाम से साहित्कारों की समीक्षाओं के संकलन का प्रकाशन l आकाशवाणी आगरा से कविताओं का प्रसारण l मुम्बई दूरदर्शन की साहित्यिक परिचर्चा में सहभागी l दूरदर्शन उत्तर-प्रदेश से काव्य पाठ प्रसारित l कुछ राष्ट्रीय स्तर की पत्रिकाओं का सम्पादन l राष्ट्रीय व प्रादेशिक न्यूज चैनल्स में साक्षात्कार के साथ ही काव्य प्रस्तुति l देश की विभिन्न साहित्यिक संस्थाओं द्वारा 60 से अधिक पुरस्कारों से सम्मानित।\r\nसाहित्यिक विदेश यात्राएं – अमेरिका, दुबई, फ्रांस, मॉरीशस, मलेशिया, इण्डोनेशिया और म्यामांर आदि देशों की साहित्यक संगोष्ठियों व सम्मेलनों में सहभागिता।",
+    "link": "https://anuugyabooks.com/bookauthor/anjana-singh-sengar-%e0%a4%85%e0%a4%82%e0%a4%9c%e0%a4%a8%e0%a4%be-%e0%a4%b8%e0%a4%bf%e0%a4%82%e0%a4%b9-%e0%a4%b8%e0%a5%87%e0%a4%82%e0%a4%97%e0%a4%b0/",
+    "name": "Anjana Singh Sengar / अंजना सिंह सेंगर",
+    "slug": "anjana-singh-sengar-%e0%a4%85%e0%a4%82%e0%a4%9c%e0%a4%a8%e0%a4%be-%e0%a4%b8%e0%a4%bf%e0%a4%82%e0%a4%b9-%e0%a4%b8%e0%a5%87%e0%a4%82%e0%a4%97%e0%a4%b0",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/769",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=769"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=769"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 689,
+    "count": 4,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2024/05/Saligram-Web.jpg\"></a>\r\nडॉ. अंजु बाला\r\n1 दिसंबर 1978 को हरियाणा के मिर्चपुर (हिसार) के एक शिक्षित किसान परिवार में जन्म। आरंभिक शिक्षा गांव में। कुरुक्षेत्र विश्वविद्यालय, कुरुक्षेत्र से बी.ए., एम.ए., बी.एड. और पीएच.डी.। जर्मन भाषा और साहित्य का तीन वर्षीय पाठ्यक्रम तथा पत्रकारिता एवं जनसंचार में डिप्लोमा भी। दर्जनों शोध आलेख राष्ट्रीय - अंतरराष्ट्रीय पत्रिकाओं में प्रकाशित। तीस से अधिक राष्ट्रीय - अंतरराष्ट्रीय संगोष्ठियों में शोध पत्रों की प्रस्तुति। अंतरानुशासिक पूर्व समीक्षित शोध पत्रिका ‘बोहल शोध मंजूषा’ के दो अंकों का संपादन। दिल्ली विश्वविद्यालय के श्री गुरु नानक देव खालसा कॉलेज में 2011 से अध्यापन। प्रकाशित कृतियाँ : ‘नारीवाद की हिंदी कथा’, ‘साहित्य, मीडिया और आजीविका', ‘नामवर सिंह का संसार’, ‘हिंदी साहित्य में दलित विमर्श’, ‘हिंदी साहित्य विमर्श के नये आयाम’। संप्रति : असिस्टेंट प्रोफेसर, हिंदी विभाग, श्री गुरु नानक देव खालसा कॉलेज (दिल्ली विश्वविद्यालय) देव नगर, करोलबाग, नई दिल्ली-110005",
+    "link": "https://anuugyabooks.com/bookauthor/anju-bala/",
+    "name": "Anju Bala / अंजु बाला",
+    "slug": "anju-bala",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/689",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=689"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=689"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 780,
+    "count": 2,
+    "description": "Anton Pavlovich Chekhov (Tsjechov)\r\nAnton Pavlovich Chekhov (29 January 1860 – 15 July 1904) was born in Taganrog, a commercial port city on the Sea of Azov – on Politseyskaya (Police) street, later renamed Chekhova street – in southern Russia. He was the third of six surviving children; he had two older brothers, Alexander and Nikolai, and three younger siblings, Ivan, Maria, and Mikhail. His father, Pavel Yegorovich Chekhov, the son of a former serf and his wife, was from the village Olkhovatka (Voronezh Governorate) and ran a grocery store. He was a director of the parish choir, a devout Orthodox Christian, and a physically abusive father. Pavel Chekhov has been seen by some historians as the model for his son's many portraits of hypocrisy. Chekhov's mother, Yevgeniya (Morozova), was an excellent storyteller who entertained the children with tales of her travels all over Russia with her cloth-merchant father. \"Our talents we got from our father,\" Chekhov recalled, \"but our soul from our mother.\" Chekhov then assumed responsibility for the whole family. To support them and to pay his tuition fees, he wrote daily short, humorous sketches and vignettes of contemporary Russian life, many under pseudonyms such as \"Antosha Chekhonte\" and \"Man Without Spleen\". His prodigious output gradually earned him a reputation as a satirical chronicler of Russian street life very soon he became an established playwrighter and short-story writer. He was widely considered to be the one of the greatest writers of all time. His career as a playwright produced four classics, and his best short stories are held in high esteem by writers and critics. Along with Henrik Ibsen and August Strindberg, Chekhov is often referred to as one of the three seminal figures in the birth of early modernism in the theatre. Chekhov was a physician by profession. \"Medicine is my lawful wife,\" he once said, \"and literature is my mistress.\" \r\nChekhov renounced the theatre after the reception of The Seagull in 1896, but the play was revived to acclaim in 1898 by Konstantin Stanislavski's Moscow Art Theatre, which subsequently also produced Chekhov's Uncle Vanya and premiered his last two plays, Three Sisters and The Cherry Orchard. These four works present a challenge to the acting ensemble as well as to audiences, because in place of conventional action Chekhov offers a \"theatre of mood\" and a \"submerged life in the text.\" The plays that Chekhov wrote were not complex, and created a somewhat haunting atmosphere for the audience. Chekhov began writing stories to earn money, but as his artistic ambition grew, he made formal innovations that influenced the evolution of the modern short story. He made no apologies for the difficulties this posed to readers, insisting that the role of an artist was to ask questions, not to answer them. In 1884, Chekhov qualified as a physician, which he considered his principal profession though he made little money from it and treated the poor free of charge. In 1884 and 1885, Chekhov found himself coughing blood, and in 1886 the attacks worsened, but he would not admit his tuberculosis to his family or his friends. He confessed to Leykin, \"I am afraid to submit myself to be sounded by my colleagues.\" He continued writing for weekly periodicals, earning enough money to move the family into progressively better accommodations.",
+    "link": "https://anuugyabooks.com/bookauthor/anton-chekhov/",
+    "name": "Anton Chekhov (Tsjechov) / अंतोन च्येख़फ़",
+    "slug": "anton-chekhov",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/780",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=780"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=780"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 555,
+    "count": 1,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2023/09/Anupinder-Web.jpg\"><img class=\"alignnone size-full wp-image-4432\" src=\"https://anuugyabooks.com/wp-content/uploads/2023/09/Anupinder-Web.jpg\" alt=\"\" width=\"181\" height=\"226\" /></a>\r\n<h2><strong><span style=\"color: #800000\">अनुपिंदर सिंह अनूप</span></strong></h2>\r\nपिता : सरदार गुरबचन सिंह ‘हितैषी’\r\nमाता : सरदारनी सुरिंदर कौर\r\nजन्म : 23 मार्च, 1975 करनाल (मां के अनुसार); 24 मार्च, 1974 (काग़ज़ों में)\r\nशिक्षा : डिप्लोमा (इलेक्ट्रिक इंजीनियरिंग), M.A. (जन संचार), M.B.A. (मानव संसाधन प्रबंधन)\r\nजीविका : पानीपत रिफाइनरी में EA के पद पर कार्यरत\r\nपुस्तकें : आस के बूटे (हिंदी ग़ज़ल संग्रह); उड़ीकां (पंजाबी ग़ज़ल संग्रह); लोग पत्थर हो गए (हिंदी ग़ज़ल संग्रह); चानन दा अनुवाद (पंजाबी ग़ज़ल); ग़ज़ल दा गणित (ग़ज़ल व्याकरण)। आधा दर्जन से अधिक सांझा संग्रह; विभिन्न संस्थाओं द्वारा सम्मानित; हरियाणा साहित्य अकादमी द्वारा दो पुस्तकों को अनुदान।\r\nपता : बी 3737, रिफाइनरी टाउनशिप, पानीपत-132140 (हरियाणा)",
+    "link": "https://anuugyabooks.com/bookauthor/anupinder-singh-anoop/",
+    "name": "Anupinder Singh Anoop / अनुपिंदर सिंह अनूप",
+    "slug": "anupinder-singh-anoop",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/555",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=555"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=555"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 298,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/archana-dwivedi/",
+    "name": "Archana Dwivedi / अर्चना द्विवेदी",
+    "slug": "archana-dwivedi",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/298",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=298"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=298"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 536,
+    "count": 2,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2023/04/Arjumand-web.jpg\"><img class=\"alignnone size-medium wp-image-4176\" src=\"https://anuugyabooks.com/wp-content/uploads/2023/04/Arjumand-web-240x300.jpg\" alt=\"\" width=\"240\" height=\"300\" /></a>\r\n<h1><span style=\"color: #800000\">अर्जुमन्द आरा</span></h1>\r\n<span style=\"color: #800000\"><strong>अर्जुमन्द आरा –</strong></span> उर्दू आलोचक और अनुवादक अर्जुमन्द आरा दिल्ली विश्‍वविद्यालय में उर्दू साहित्य की प्रोफ़ेसर हैं। उर्दू-हिन्दी में अनूदित उनकी लगभग दो दर्जन पुस्तकें हैं, जिनमें उपन्यास, कहानी-संग्रह और आप-बीतियाँ शामिल हैं। उर्दू में अनूदित पुस्तकों में ये बसारत-कुश अँधेरे (ताहर बिन जल्लून, 2020), लाश की नुमाइश और दीगर इराक़ी कहानियाँ (हसन ब्लासिम, 2019), सूरज का सातवाँ घोड़ा (धर्मवीर भारती, 2019), बेपनाह शादमानी की मम्लिकत (अरुंधति राय, 2018); हाशिमपुरा, 22 मई (विभूति नारायण राय, 2018); अतीक़ रहीमी के तीन उपन्यास संगे-सबूर (2016), ख़ाकिस्तर-ओ-ख़ाक (2017), और ख़ाब और खौफ़ की हज़ार भूल-भुलय्याँ (2021); शुमाल की जानिब हिजरत का मौसम (तय्यब सालिह, 2016), जुइंदा याबिन्दा (राल्फ़ रसल, 2005) इत्यादि शामिल हैं। जबकि हिन्दी में नादिर सिक्‍कों का बक्स और दूसरी कहानियाँ (सिद्दीक़ आलम, 2022), सारा शगुफ़्ता के दो काव्य-संग्रह आँखें और नींद का रंग (लिप्यांतरण और संपादन, 2022), मजाज़ की प्रतिनिधि शायरी (लिप्यांतरण और संपादन 2011), ख़ेमा (मिस्री लेखिका मीराल तहावी का उपन्यास, 2004) प्रकाशित हुए हैं।\r\nअनुवाद के लिए दिल्ली उर्दू अकादमी ने तर्जुमा इनाम 2013 में, और साहित्य अकादेमी ने अरुंधती रॉय के उपन्यास द मिनिस्ट्री ऑफ़ अटमोस्ट हैपीनेस के उर्दू अनुवाद के लिए 2021 का अनुवाद पुरस्कार प्रदान किया।",
+    "link": "https://anuugyabooks.com/bookauthor/arjumand-ara/",
+    "name": "Arjumand Ara / अर्जुमंद आरा",
+    "slug": "arjumand-ara",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/536",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=536"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=536"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 223,
+    "count": 2,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/arun-prakash-mishra/",
+    "name": "Arun Prakash Mishra / अरुण प्रकाश मिश्रा",
+    "slug": "arun-prakash-mishra",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/223",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=223"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=223"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 299,
+    "count": 2,
+    "description": "अरविंद दास\r\nडीवाई पाटिल इंटरनेशनल यूनिवर्सिटी, पुणे के ‘स्कूल ऑफ मीडिया एंड जर्नलिज्म’ में प्रोफेसर। डीयू, आईआईएमसी और जेएनयू से अर्थशास्त्र, साहित्य और पत्रकारिता की मिली-जुली पढ़ाई। एफटीआईआई से फिल्म एप्रिसिएशन कोर्स। साहित्य में एमफिल और पत्रकारिता में पीएचडी के दौरान जेएनयू में यूजीसी के रिसर्च फेलो और जर्मनी के जिगन यूनिवर्सिटी में डीएफजी के पोस्ट-डॉक्टरल फेलो। बीबीसी समेत विभिन्न मीडिया संस्थानों में बीस वर्षों से अधिक पत्रकारिता का अनुभव। करेंट अफेयर्स कार्यक्रम बनाने वाली प्रतिष्ठित प्रोडक्शन कंपनी आईटीवी (करण थापर), नई दिल्ली से प्रोड्यूसर के रूप में लंबे समय तक जुड़ाव। ‘हिंदी में समाचार’ और ‘मीडिया का मानचित्र’ के लेखक। ‘रिलिजन, पॉलिटिक्स एंड मीडिया : जर्मन एंड इंडियन पर्सपेक्टिव्स’ किताब के संयुक्त संपादक। सिनेमा, कला और संस्कृति पर अंग्रेजी और हिंदी में विभिन्न अखबारों, पत्रिकाओं और वेबसाइट के लिए नियमित लेखन। कई शोध-पत्र प्रकाशित। ई-मेल : arvindkdas@gmail.com",
+    "link": "https://anuugyabooks.com/bookauthor/arvind-das/",
+    "name": "Arvind Das / अरविन्द दास",
+    "slug": "arvind-das",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/299",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=299"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=299"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 378,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/arvind-kumar-singh/",
+    "name": "Arvind Kumar Singh / अरविंद कुमार सिंह",
+    "slug": "arvind-kumar-singh",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/378",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=378"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=378"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 777,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/ashish-saxena-%e0%a4%86%e0%a4%b6%e0%a5%80%e0%a4%b7-%e0%a4%b8%e0%a4%95%e0%a5%8d%e0%a4%b8%e0%a5%87%e0%a4%a8%e0%a4%be/",
+    "name": "Ashish Saxena / आशीष सक्सेना",
+    "slug": "ashish-saxena-%e0%a4%86%e0%a4%b6%e0%a5%80%e0%a4%b7-%e0%a4%b8%e0%a4%95%e0%a5%8d%e0%a4%b8%e0%a5%87%e0%a4%a8%e0%a4%be",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/777",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=777"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=777"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 102,
+    "count": 9,
+    "description": "अशोक भाटिया\r\nजन्म : 05.01.1955 अम्बाला छावनी, हरियाण। रिटायर्ड एसोसिएट प्रोफेसर। विधाएं : कविता, आलोचना, लघुकथा, बाल साहित्य, व्यंग्य, यात्रा-संस्मरण, साक्षात्कार आदि विधाओं की अब तक 49 पुस्तकें प्रकाशित। लघुकथा रचना और आलोचना के प्रमुख हस्ताक्षर। लघुकथाओं के तीन संग्रह—‘जंगल में आदमी’; ‘अंधेरे में आँख’ (तमिल, मराठी और अंग्रेजी में भी); और ‘क्या क्यूँ कैसे@लघुकथा’ तथा तीन आलोचना-पुस्तकें — ‘समकालीन हिंदी लघुकथा’ (हरियाणा ग्रन्थ अकादमी से प्रकाशित), ‘परिंदे पूछते हैं’ और ‘लघुकथा : आकार और प्रकार’। लघुकथा पर संपादित पुस्तकों में ‘पैंसठ हिंदी लघुकथाएं (2001, तीन संस्करण), ‘निर्वाचित लघुकथाएं’ (2005, चार संस्करण, हिंदी लघुकथा की सम्पूर्ण यात्रा), ‘नींव के नायक’ (29 लेखकों की 1970 तक की 177 प्रतिनिधि लघुकथाएं, सन 2010) तथा ‘देश-विदेश से कथाएं’ (2017, दो संस्करण, 19 भाषाओँ के 83 प्रमुख लेखकों की 122 प्रतिनिधि लघुकथाएं) आदि विशेष चर्चित| दिल्ली दूरदर्शन द्वारा लघुकथा पर पहली परिचर्चा (28-04-1988) और साहित्य अकादमी नयी दिल्ली द्वारा आयोजित पहले लघुकथा-पाठ (15-03-2016) में भागीदारी। यू.जी.सी. से लघुकथा पर माइनर प्रोजेक्ट (2011)। पत्र-पत्रिकाओं, आयोजनों आदि में निरंतर अनेकविध सामाजिक-साहित्यिक सक्रियता। दो विदेश यात्राएँ। हरियाणा साहित्य अकादमी के बाबू बालमुकुन्द गुप्त सम्मान सहित अमृतसर, दिल्ली, कोलकाता, पटना, शिलॉंग, हैदराबाद, रायपुर, भोपाल, इंदौर आदि की संस्थाओं द्वारा सम्मानित। संपर्क : बसेरा, 1882, सेक्टर 13, करनाल-132001 हरियाणा। मो. : 9416152100 l  ashokbhatiahes@gmail.com   ashokbhatia.in\r\n   Ashokbhtiasahitya",
+    "link": "https://anuugyabooks.com/bookauthor/ashok-bhatia/",
+    "name": "Ashok Bhatia / अशोक भाटिया",
+    "slug": "ashok-bhatia",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/102",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=102"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=102"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 300,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/ashok-gautam/",
+    "name": "Ashok Gautam / अशोक गौतम",
+    "slug": "ashok-gautam",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/300",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=300"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=300"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 301,
+    "count": 2,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/ashok-kumar/",
+    "name": "Ashok Kumar / अशोक कुमार",
+    "slug": "ashok-kumar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/301",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=301"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=301"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 110,
+    "count": 1,
+    "description": "अशोक सक्सेना\r\n\r\nजन्म : 23 दिसम्बर, 1953 (भरतपुर-राजस्थान)। शिक्षा : एम.ए.(हिन्दी) प्रथम श्रेणी से, यूजीसी से जेआरएफ। अस्तित्ववाद और हिन्दी उपन्यास पर 4 वर्ष तक शोधकार्य। आजीविका के लिए राजस्थान से प्रकाशित कई दैनिक समाचार पत्रों के संपादकीय विभाग में नौकरी। लंबे अर्से तक शहर की एक शिक्षण संस्था से सम्बद्ध। कुछ वर्ष प्राइवेट कालेज में अध्यापन। सम्प्रति स्वतंत्र लेखन। दैनिक समाचार पत्रों के अलावा साहित्य की स्तरीय पत्रिकाओं में कविताएँ, कहानियाँ तथा लेख प्रकाशित। अब तक á‘उसका मरना’ (दूसरा संस्करण) और ‘अब्बू’ कथा संग्रह का प्रकाशन। ‘माई का लाल’ तीसरा कहानी संग्रह। अनेक साहित्यिक एवं सामाजिक संस्थाओं में सक्रिय भागीदारी। सम्पर्क : लक्ष्मी नगर, काकाजी की कोठी, भरतपुर-321001\r\nमो.नं. : 09314780280\r\nईमेल : ashoksaxena1953@gmail.com",
+    "link": "https://anuugyabooks.com/bookauthor/ashok-saxena/",
+    "name": "Ashok Saxena / अशोक सक्सैना",
+    "slug": "ashok-saxena",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/110",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=110"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=110"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 302,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/ashwini-kumar-alok/",
+    "name": "Ashwini Kumar Alok / अश्वनी कुमार आलोक",
+    "slug": "ashwini-kumar-alok",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/302",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=302"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=302"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 522,
+    "count": 2,
+    "description": "<h2 style=\"text-align: center\"><a href=\"https://anuugyabooks.com/wp-content/uploads/2022/07/F-Aushimita-g-w.jpg\"><img class=\"alignnone size-full wp-image-3853\" src=\"https://anuugyabooks.com/wp-content/uploads/2022/07/F-Aushimita-g-w.jpg\" alt=\"\" width=\"121\" height=\"151\" /></a></h2>\r\n<h2 style=\"text-align: center\"><span style=\"color: #993366\">डॉ. अस्मिता सिंह</span></h2>\r\n<h4>जन्म : 9 दिसंबर, 1954, चौगाईं (बक्सर, बिहार)। आत्मजा : दिवंगत कुमारेन्द्र पारसनाथ सिंह। शिक्षा / पेशा : एम.ए, पीएच.डी. (पटना विश्वविद्यालय)। अध्यापन, मगध / पाटलिपुत्र विश्वविद्यालय। रचनाएं – कहानी : लघु पत्रिकाओं के साथ साथ दैनिक नवभारत टाईम्स, हिंदुस्तान, आर्यावर्त्त, पूर्वांचल प्रहरी, जनसत्ता आदि में दर्जनों कहानियाँ समय समय पर प्रकाशित। कहानी संकलन : रंग से बेरंग होती जिंदगी, इंतजार तो खत्म हुआ प्रकाशित। उपन्यास : उजाले की आस। छात्रोपयोगी रचनाएँ : साहित्यिक निबंध, छायावाद एक विश्लेषण। अनुवाद : लू-शून के पत्र, कम्युनिस्ट आंदोलन और भारतीय राष्ट्रीय कांग्रेस, अन्ना अख्मातोव की कविताएँ। संकलन / संपादन : मैं एक सपना पाल रहा हूँ (कुमारेन्द्र की चुनी हुई कविताएं), साहित्यिक पत्रिका 'सबद' और सामाजिक-राजनीतिक पत्रिका 'समर रेखा' का संपादन-प्रकाशन। शोध-प्रबंध – शमशेर : व्यक्तित्व और कृतित्व (पटना विश्वविद्यालय); चित्र-विधान और प्रयोगवादी कविता (निर्देशन); नारी मुक्ति : दशा एवं दिशा; दलित अनुभव का सच। संप्रति : एस.ए. डांगे इंस्टीट्यूट ऑफ़ सोशलिस्ट स्टडीज एंड रिसर्च के निदेशक-प्रमुख के रूप में सक्रिय। संपर्क-सूत्र : 402, रॉयल रिट्रीट मैंन्शन, न्यू पाटलिपुत्र कालोनी, पटना - 800 013। मो. : 98789057436. ई-मेल : 9asmita@gmail.com</h4>",
+    "link": "https://anuugyabooks.com/bookauthor/asmita-singh/",
+    "name": "Asmita Singh / अस्मिता सिंह",
+    "slug": "asmita-singh",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/522",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=522"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=522"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 251,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/bahadur-singh-parmar/",
+    "name": "Bahadur Singh Parmar / बहादुर सिंह परमार",
+    "slug": "bahadur-singh-parmar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/251",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=251"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=251"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 713,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/bajrang-singh-kushwaha-%e0%a4%ac%e0%a4%9c%e0%a4%b0%e0%a4%82%e0%a4%97-%e0%a4%b8%e0%a4%bf%e0%a4%82%e0%a4%b9-%e0%a4%95%e0%a5%81%e0%a4%b6%e0%a4%b5%e0%a4%be%e0%a4%b9/",
+    "name": "Bajrang Singh Kushwaha / बजरंग सिंह कुशवाह",
+    "slug": "bajrang-singh-kushwaha-%e0%a4%ac%e0%a4%9c%e0%a4%b0%e0%a4%82%e0%a4%97-%e0%a4%b8%e0%a4%bf%e0%a4%82%e0%a4%b9-%e0%a4%95%e0%a5%81%e0%a4%b6%e0%a4%b5%e0%a4%be%e0%a4%b9",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/713",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=713"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=713"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 211,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/baldev-bhai-sharma/",
+    "name": "Baldeo Bhai Sharma / बल्देव भाई शर्मा",
+    "slug": "baldev-bhai-sharma",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/211",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=211"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=211"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 303,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/balram-agarwal/",
+    "name": "Balram Agarwal / बलराम अग्रवाल",
+    "slug": "balram-agarwal",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/303",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=303"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=303"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 488,
+    "count": 2,
+    "description": "<p style=\"text-align: center\"><span style=\"color: #993300\"><strong>डॉ. वरुण कुमार तिवारी</strong></span></p>\r\nजन्म : 1946 ई. l शिक्षा : एम.ए., बी.एल., पीएच. डी. l प्रकाशित कृतियाँ : कविता संग्रह – तीसरी दुनिया के लिए (2002); अपने होने का एहसास (2007); कुछ दूर रेत पर चलकर (2009); क्षितिज पर एक पगडंडी (2015) l समीक्षा-ग्रन्थ (मौलिक) – मधुकर गंगाधर की साहित्य-साधना (2013); पाठान्तर (2013); सृजन समीक्षा के अन्तर्पाठ (2015); कोसी अंचल का सृजनात्मक हिन्दी साहित्य, (कहानी खंड, 2019); मधुकर गंगाधर का साहित्य : समग्र मूल्यांकन (2022); कोसी अंचल का सृजनात्मक हिन्दी साहित्य (उपन्यास खंड, 2022) l सम्पादित ग्रन्थ : हरेराम समीप : व्यक्ति और अभिव्यक्ति, (2009); डॉ. मधुकर गंगाधर की कहानी-यात्रा, (2015); डॉ. मधुकर गंगाधर का उपन्यास साहित्य, (2017); डॉ. मधुकर गंगाधर के नाटक, (2018); आदमकद आईना : टुकड़ों में, (मधुकर गंगाधर के साक्षात्कार, 2019); विनय कुमार चौधरी : कृति समाकलन (2020); विश्‍व वेदना के उद्‍गाता : जनार्दन प्रसाद झा 'द्विज' (2022) l अन्य : डॉ. वरुण कुमार तिवारी की कविताओं पर डॉ. आनन्द प्रकाश त्रिपाठी द्वारा सम्पादित ‘प्रतिरोध की ऊर्जस्वल चेतना’ (2015) आलोचना ग्रन्थ प्रकाशित; साहित्य के समकालीन हस्ताक्षर (1989); धरती (1991); उगते प्रश्‍न (1992); शब्द संगम (2001); कविता कोसी (2009) इत्यादि कविता-संकलनों के सहभागी रचनाकार l पत्रिकाएँ : आजकल, समकालीन भारतीय साहित्य, साहित्य अमृत, साक्षात्कार, उत्तर प्रदेश, उद्‍भावना, उन्‍नयन, युद्धरत आम आदमी, काव्यम्, युगीन काव्य, प्रेरणा, नयी धारा, लोक गंगा, अक्षर पर्व, अलाव, सम्बोधन, शुक्रवार, राष्ट्रीय सहारा, साहित्यनामा, नवभारत टाइम्स, परिषद‍् पत्रिका (बिहार राष्‍ट्रभाषा परिषद‍्), अक्सर, अनभै साँचा, राजभाषा भारती, राजभाषा रूपाम्बरा, युग तेवर, किताब, प्रसंग, संवदिया, समय के साखी इत्यादि पत्रिकाओं में कविताएँ और समीक्षाएँ प्रकाशित l आकाशवाणी के दिल्ली, पटना, दरभंगा आदि केन्द्रों से कविताएँ प्रसारित। आकाशवाणी आर्काइव के लिए कथाकार मधुकर गंगाधर के साथ तीन घंटे की बातचीत। कुछ कविताओं के मराठी, गुजराती एवं मैथिली अनुवाद प्रकाशित l पुरस्कार : काव्य साधना पुरस्कार (महाराष्‍ट्र दलित साहित्य अकादमी, 2003); रघुवीर सहाय राष्‍ट्रीय शिखर साहित्य सम्मान (साहित्यकार संसद, बिहार, 2003); विद्यासागर (विक्रमशिला हिन्दी विद्यापीठ, बिहार 2010) एवं अम्बिका प्रसाद दिव्य पुरस्कार (भोपाल, 2017) l सम्पर्क : प्लॉट नम्बर 4/383 प्रथम तल, सेक्टर-4, वैशाली, गाजियाबाद-201010, उत्तर प्रदेश l मो. 8860478066 l ई-मेल : barunktiwari@gmail.com",
+    "link": "https://anuugyabooks.com/bookauthor/barun-kumar-tiwari/",
+    "name": "Barun Kumar Tiwari / वरुण कुमार तिवारी",
+    "slug": "barun-kumar-tiwari",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/488",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=488"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=488"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 604,
+    "count": 1,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2023/10/Bandana-Gupta-Web.jpg\"><img class=\"alignnone size-full wp-image-4707\" src=\"https://anuugyabooks.com/wp-content/uploads/2023/10/Bandana-Gupta-Web.jpg\" alt=\"\" width=\"181\" height=\"226\" /></a>\r\n<h2><span style=\"color: #800000\"><strong>बसुन्धरा गुप्ता</strong></span></h2>\r\nशिक्षा : एम.ए. (हिन्दी), पीएच. डी.\r\nजन्म : 12 फरवरी, ग्राम - मिहोना, जिला – भिण्ड (म.प्र.)\r\nवर्तमान पता : गिरधारी पुरम कॉलोनी, तिली वार्ड, सागर (म.प्र.)\r\n“रस भक्ति धारा के कवि श्री हित परमानंद दास और उनका काव्य” विषय पर मैंने पीएच.डी. श्री हित परमानंद दास जी के वंशज तथा हित परमानंद शोध संस्थान के संस्थापक मेरे मार्गदर्शक चिरवंदनीय आचार्य श्री विष्णुमोहन नगार्च एवं गुरु डॉ. डी.आर. राहुल सर हैं जिनके अमूल्य मार्गदर्शन के फलस्वरूप में इस शोध प्रबंध को कर पाई।\r\nमो. : 9406512898, 9098971800\r\nई-मेल : BasundharaPahariya@gmial.com\r\nसम्प्रति : पं. दीनदयाल उपाध्याय शासकीय कला एवं वाणिज्य महाविद्यालय, सागर (म.प्र.)-470002",
+    "link": "https://anuugyabooks.com/bookauthor/basundhara-gupta/",
+    "name": "Basundhara Gupta / बसुन्धरा गुप्ता",
+    "slug": "basundhara-gupta",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/604",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=604"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=604"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 179,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/bg-verghese/",
+    "name": "BG Verghese / बी.जी. वर्गीज",
+    "slug": "bg-verghese",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/179",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=179"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=179"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 538,
+    "count": 1,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2023/04/Bharat-Bhardwaj-web.jpg\"><img class=\"alignnone size-full wp-image-4199\" src=\"https://anuugyabooks.com/wp-content/uploads/2023/04/Bharat-Bhardwaj-web.jpg\" alt=\"\" width=\"152\" height=\"208\" /></a>\r\n<h1><span style=\"color: #800000\">भारत भारद्वाज</span></h1>\r\nजन्म – 25 जुलाई, 1945 (चाँदपुरा, वैशाली , बिहार)। शिक्षा – एम.ए. (इतिहास), बी.एल. (पटना वि.वि.)। कृतियाँ – बेतरतीब, साहित्य का नेपथ्य, समकालीन-सृजन-सन्दर्भ (दो खंड), परिक्रमा – हिन्दी साहित्य (1990-2020), अनुवाद : पाँच दशक (साहित्य अकादेमी, नई दिल्ली का इतिहास), जेल डायरी (हो-चि-मिन्ह की कविताएँ) इस असंभावित धरती पर (रोवर्तो फर्नाडेज रनोसार की कविताएँ)। संपादन – हमारे युग का खलनायक : राजेन्द्र यादव (डॉ. साधना अ्रवाल के साथ), प्रेमचंद की उपन्यास-कला (प. जनार्दन प्रसाद झां द्विज), हिन्दी साहित्य का दुर्लभ परिप्रेक्ष्य (तीन खंड), पत्रिकाएँ – पदक्षेप, धरातल एवं कसौटी (सौजन्य सहयोग), म.ग.अ.हि.वि., वर्धा (महाराष्ट्र) की द्वैमासिक पत्रिका ‘पुस्तक-वार्ता’ का पाँच वर्षों तक संपादन। वृति : भारत सरकार के गृह मंत्रालय से सेवा निवृत्त। फिलहाल स्वतन्त्र लेखन। सम्मान – जे.सी. जोशी स्मृति ‘शब्द साधक जीवन मानक सम्मान’। वर्तमान पता – पवेलियन कोर्ट 3, 10th फ्लोर, 1005 जे.पी. विश टाऊन सेक्टर 128, नोएडा-201304; मो. 07428271096",
+    "link": "https://anuugyabooks.com/bookauthor/bharat-bhardwaj/",
+    "name": "Bharat Bhardwaj / भारत भारद्वाज",
+    "slug": "bharat-bhardwaj",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/538",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=538"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=538"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 376,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/bharat/",
+    "name": "Bharat Kanf / भरत कनफ",
+    "slug": "bharat",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/376",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=376"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=376"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 304,
+    "count": 2,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/bharat-yayawer/",
+    "name": "Bharat Yayawer / भारत यायावर",
+    "slug": "bharat-yayawer",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/304",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=304"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=304"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 165,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/bharati-mishra/",
+    "name": "Bharati Mishra / भारती मिश्र",
+    "slug": "bharati-mishra",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/165",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=165"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=165"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 383,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/bhartendu-mishra/",
+    "name": "Bhartendu Mishra / भारतेंदु मिश्र",
+    "slug": "bhartendu-mishra",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/383",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=383"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=383"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 306,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/bhimsain-saini/",
+    "name": "Bhimsain Saini / भीमसेन सैनी",
+    "slug": "bhimsain-saini",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/306",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=306"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=306"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 545,
+    "count": 1,
+    "description": "<h2><a href=\"https://anuugyabooks.com/wp-content/uploads/2023/05/Bhishm-Sahani-web.jpg\"><img class=\"alignnone size-full wp-image-4257\" src=\"https://anuugyabooks.com/wp-content/uploads/2023/05/Bhishm-Sahani-web.jpg\" alt=\"\" width=\"151\" height=\"189\" /></a></h2>\r\n<h2><strong><span style=\"color: #800000\">भीष्म साहनी</span></strong></h2>\r\nरावलपिंडी (अब पाकिस्तान) में जन्मे भीष्म साहनी (8 अगस्त 1915 – 11 जुलाई 2003) आधुनिक हिन्दी साहित्य के प्रमुख स्तंभों में से थे। 1937 में लाहौर गवर्नमेन्ट कॉलेज, लाहौर से अंग्रेजी साहित्य में एम.ए. करने के बाद भीष्म साहनी ने 1958 में पंजाब विश्वविद्यालय से पीएच.डी. की उपाधि हासिल की। भारत-पाकिस्तान विभाजन के पूर्व अवैतनिक शिक्षक होने के साथ-साथ ये व्यापार भी करते थे। विभाजन के बाद उन्होंने भारत आकर समाचार पत्रों में लिखने का काम किया। वे बाद में भारतीय जन नाट्य संघ (इप्टा) में शामिल हो गए। इसके पश्चात अंबाला और अमृतसर में अध्यापक रहे। फिर दिल्ली विश्वविद्यालय के ज़ाकिर हुसैन महाविद्यालय में अंग्रेज़ी साहित्य के प्रोफेसर बने। 1957 से 1962 तक मास्को में विदेशी भाषा प्रकाशन गृह में अनुवादक के रूप में कार्यरत रहे। वहां उन्होंने तलस्तोय, अस्त्रोवस्की इत्यादि लेखकों की करीब दो दर्जन किताबों का अंग्रेज़ी से हिंदी में अनुवाद किया। 1965 से 1967 तक उन्होंने नयी कहानियां नामक पात्रिका का सम्पादन किया। वे प्रगतिशील लेखक संघ के महासचिव रहे और अफ्रो-एशियायी लेखक संघ से भी जुड़े रहे। 1993 से 1997 तक वे साहित्य अकादमी की कार्यकारी समिति के सदस्य रहे।\r\nभीष्म साहनी को हिन्दी साहित्य में प्रेमचंद की परंपरा का अग्रणी लेखक माना जाता है। वे मानवीय मूल्यों के हिमायती रहे और उन्होंने अपनी विचारधारा को कभी अपने साहित्य के ऊपर हावी नहीं होने दिया। आपा-धापी और उठा-पटक के युग में भीष्म साहनी का व्यक्तित्व बिल्कुल अलग था। वे वामपंथी विचारधारा से जुड़े थे तथा मानवीय मूल्यों को कभी आंखों से ओझल नहीं करते थे। उन्हें उनके लेखन के लिए तो स्मरण किया ही जाएगा, इसके साथ-साथ उन्हें अपनी सहृदयता के लिए भी हमेशा याद किया जाएगा। भीष्म साहनी हिन्दी फ़िल्मों के जाने माने अभिनेता बलराज साहनी के छोटे भाई थे। उन्हें 1975 में ‘तमस’ के लिए साहित्य अकादमी पुरस्कार, 1975 में शिरोमणि लेखक अवार्ड (पंजाब सरकार), 1980 में अफ्रो-एशियायी लेखक संघ का लोटस अवार्ड, 1983 में सोवियत लैंड नेहरू अवार्ड तथा 1998 में भारत सरकार के पद्मभूषण अलंकरण से विभूषित किया गया। उनके उपन्यास तमस पर 1986 में इसी नाम से एक फिल्म का निर्माण भी किया गया था। प्रमुख रचनाएँ – उपन्यास - झरोखे, तमस, बसंती, मय्यादास की माडी़, कुन्तो, नीलू निलिमा नीलोफर। कहानी संग्रह - मेरी प्रिय कहानियां, भाग्यरेखा, वांगचू, निशाचर। नाटक - हानूश (1977), माधवी (1984), कबिरा खड़ा बजार में (1985), मुआवज़े (1993)। आत्मकथा - आज के अतीत। बालकथा- गुलेल का खेल।",
+    "link": "https://anuugyabooks.com/bookauthor/bhisham-sahni/",
+    "name": "Bhisham Sahni / भीष्म साहनी",
+    "slug": "bhisham-sahni",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/545",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=545"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=545"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 489,
+    "count": 2,
+    "description": "व्रज कुमार पाण्डेय – जन्म स्थान : गायघाट, (बक्सर) बिहार l शिक्षा : एम.ए., पीएच.डी. l रचनाएं : मेनस्ट्रीम, न्यू वेब, न्यू एज, सर्चलाइट, इंडियन नेशन, हिन्दू, जन, जनयुग, बिन्दु, माध्यम, क ख ग, कल्पना, जनसत्ता, जनशक्ति, मुक्तिसंघर्ष, मुक्तधारा, संदर्भ, अब, वर्तमान साहित्य, पहल, आवर्त्त, कसौटी, हिन्दुस्तान, मणिमय, किताब आदि पत्रा-पत्रिकाओं में ढेर सारे आलेख प्रकाशित। बी.आर.ए. बिहार विश्वविद्यालय के राजनारायण कॉलेज, हाजीपुर के स्नातकोत्तर राजनीति विज्ञान विभाग में 35 वर्षों तक अध्यापन l पुस्तकें : जुलाई 2018 तक 70 पुस्तकें प्रकाशित जिसमें कुछ सम्पादित और अनूदित पुस्तकें भी शामिल हैं l प्रमुख पुस्तकें : Encyclopedia of Indian Philosophy, Volume I &amp; II; Encyclopedia of Dharm Shastra, Volume I &amp; II; स्वतंत्रता पूर्व बिहार में जातिवाद, स्वतंत्रताबाद बिहार में जातिवाद (अंग्रेजी में भी); देशरत्न राजेन्द्र प्रसाद (अंग्रेजी में भी); इन्दिरा गांधी; डॉ. राम मनोहर लोहिया : व्यक्ति और विचार (अंग्रेजी में भी); सफेदपोशों का अपराध; बिहार विधान परिषद का इतिहास (दो खण्ड); मार्क्सवादी चिंतन; मार्क्सवाद और लोकतंत्र की समस्याएं; दलित समस्या की राजनीति; भूमंडलीकरण : विविध आयाम; भारत में लोकतंत्र की चुनौतियां; विचार की संस्कृति सहित दर्जनों पुस्तकें l सम्पादन : मैत्री शान्ति, सैद्धान्तिकी, 1857 का प्रथम मुक्ति संग्राम l सम्प्रति : अध्यक्ष - प्रलेस (बिहार); महासचिव - इस्कफ (बिहार), \t\t महासचिव - एप्सो (बिहार) l सम्पर्क : समता कॉलोनी, हाजीपुर (वैशाली) - 844101 l मो. : 9934982306",
+    "link": "https://anuugyabooks.com/bookauthor/braj-kumar-pandey/",
+    "name": "Braj Kumar Pandey / व्रज कुमार पांडेय",
+    "slug": "braj-kumar-pandey",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/489",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=489"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=489"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 397,
+    "count": 1,
+    "description": "<span style=\"color: #800000\"><strong>डॉ. सी.भास्कर राव</strong></span>– जन्म : 22 सितम्बर, 1941 l मातृभाषा : तेलुगु lअध्ययन-अध्यापन-लेखन-प्रकाशन की भाषा मौलिक रूप से हिन्दी lशिक्षा : स्‍नातकोत्तर- हिन्दी (स्वर्णपदक प्राप्त) एवं पीएच.डी. (हिन्दी) l अध्यापन : राँची विश्‍वविद्यालय के विभिन्‍न महाविद्यालयों में l रुचि : साहित्य \\ मीडिया \\ संगीत \\ नाटक l पुस्तक प्रकाशन : साहित्य : 1. उपन्यास (4); 2. कथा-संग्रह (10); 3. व्यंग्य-संग्रह (11); 4. विविध विधा-संग्रह (3); 5. रेडियो नाटक-संग्रह (3); 6. विविध माध्यम नाटक-संग्रह (1); 7. सिनेमा : 1. फ़िल्म और फ़िल्मकार; 2. हिन्दी सिनेमा : एक सफ़रनामा; 3. स्लम डॉग मिलेनियर तथा अन्य समीक्षायें; 4. दादा साहब फ़ाल्के पुरस्कार विजेता (भाग-1 तथा भाग-2); 5. समकालीन हिन्दी सिनेमा (भाग-1 तथा 2); उल्लेख्य– 1. आकाशवाणी, जमशेदपुर की सलाहकार समिति का भूतपूर्व सदस्य, 2. प्रसार भारती के राष्ट्रीय पुरस्कार समिति का भूतपूर्व सदस्य, 3. सूचना एवं प्रसारण मन्त्रालय, भारत सरकार की हिन्दी सलाहकार समिति का भूतपूर्व सदस्य, 4. बिहार संगीत नाटक अकादमी का भूतपूर्व सदस्य, 5. सूरीनाम में आयोजित विश्‍व हिन्दी सम्मेलन में झारखंड राज्य के प्रतिनिधि मंडल के सदस्य के रूप में भागीदारी l सम्मान एवं पुरस्कार : 1. तुलसी सम्मान (हिन्दी साहित्य सम्मेलन, जमशेदपुर) 2. नाट्य श्री सम्मान (इलाहाबाद नाट्य संघ) 3. राधाकृष्ण पुरस्कार ('राँची एक्सप्रेस') 4. अहिन्दी भाषी हिन्दी लेखन पुरस्कार (उत्तर प्रदेश) 5. अहिन्दी भाषी हिन्दी लेखक पुरस्कार (कथा-संग्रह 'दावानल' पर, केन्द्रीय हिन्दी निदेशालय, भारत सरकार द्वारा) 6. फ़ादर कामिल बुल्के सम्मान (राँची) 7. साहित्य शिरोमणि सम्मान (राउरकेला) 8. राष्ट्रभाषा सम्मान (झारखंड सरकार) 9. विश्‍व हिन्दी सम्मान (भारत सरकार\\मारीशस\\2018) तथा अन्य l सम्प्रति : स्वतन्त्र लेखन l सम्पर्क : 59, बी, रोड, एयरबेस कॉलोनी, कदमा, जमशेदपुर-831005 (झारखंड) l फ़ोन : 0657- 2306720 l मो. : 94313-73921; 62012-64469 l मेल : dr.bhaskar1.rao@gmail.com",
+    "link": "https://anuugyabooks.com/bookauthor/c-bhaskar-rao/",
+    "name": "C Bhaskar Rao / सी भास्कर राव",
+    "slug": "c-bhaskar-rao",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/397",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=397"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=397"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 756,
+    "count": 1,
+    "description": "शहीद चंद्रशेखर प्रसाद (20 सितम्बर 1964-31 मार्च 1997) की शिक्षा-दीक्षा सैनिक स्कूल तिलैया (अब झारखंड में), पुणे स्थित राष्‍ट्रीय रक्षा अकादमी (एनडीए), बिहार यूनिवर्सिटी (एम.ए. राजनीति विज्ञान), जवाहरलाल नेहरू विश्‍वविद्यालय (एम.फिल. राजनीति विज्ञान तथा पीएच.डी. (अपूर्ण) से हुई। शहीद ने सीपीआई (एमएल) के नए गठित छात्र संगठन एआईएसए के निर्माण में महत्त्वपूर्ण भूमिका निभाई। शहीद एआईएसए से 1991-92 और 1992-93 के जवाहरलाल नेहरू विश्‍वविद्यालय छात्र-संघ चुनावों में महासचिव पद के उम्मीदवार थे। लेकिन एआईएसए और उनकी पहली जीत 1993-94 के छात्र-संघ चुनावों में हुई जब उन्हें उपाध्यक्ष चुना गया। वे 1994-95 और फिर 1995-96 में इस छात्र-संघ के अध्यक्ष थे। 1995 में, उन्हें दक्षिण कोरिया की राजधानी सियोल में संयुक्त राष्‍ट्र द्वारा आयोजित अंतर्राष्‍ट्रीय युवा सम्मेलन में भारत का प्रतिनिधित्व करने का अवसर मिला। यहाँ उन्होंने अमेरिका और पश्‍चिम के पक्ष में प्रस्तावों के खिलाफ तीसरी दुनिया के छात्रों को संगठित करने की कोशिश की। जेएनयू में अपने लक्ष्य को स्पष्‍ट करते हुए, शहीद पहले ही घोषणा कर चुके थे : अगर हम कहीं जाएँगे, तो हमारे कंधों पर उन दबे हुए स्वरों की ताकत होगी, जिनकी रक्षा के बारे में हम सड़कों पर बात करते हैं। इसलिए, यदि कोई व्यक्तिगत महत्त्वाकांक्षा है, तो वह भगत सिंह की तरह शहीद बनने की होगी, न कि जेएनयू में चुनावों में हेरफेर करके जीतने या हारने की। चंद्रशेखर प्रसाद और श्यामनारायण यादव, जो सिवान के एक स्थानीय नेता और सीपीआई (एमएल) के कार्यकर्ता थे, बिहार के लोगों से न्याय और लोकतंत्र के लिए आन्दोलन को तेज करने और 2 अप्रैल 1997 को बिहार बन्द करने का आह्वान कर रहे थे।19 सिवान में सीपीआई (एमएल) की गतिविधियों में तीन महीने की सक्रिय भागीदारी के भीतर, 31 मार्च 1997 को लगभग 04.30 बजे शाम को, सीपीआई (एमएल) लिबरेशन समूह के एक अन्य सदस्य कार्यकर्ता श्यामनारायण यादव, जो जिला समिति के सदस्य थे, के साथ, चंदू की हत्या कर दी गयी।",
+    "link": "https://anuugyabooks.com/bookauthor/chandra-shekha-prasad/",
+    "name": "Chandra Shekha Prasad / चंद्रशेखर प्रसाद",
+    "slug": "chandra-shekha-prasad",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/756",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=756"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=756"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 691,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/chandrabhal-johri/",
+    "name": "Chandrabhal Johri / चन्द्रभाल जौहरी",
+    "slug": "chandrabhal-johri",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/691",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=691"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=691"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 701,
+    "count": 1,
+    "description": "डॉ. चन्द्रिका प्रसाद ‘चन्द्र’\r\nजन्म - 12 फरवरी, 1942 को हनुमना तहसील अन्तर्गत ग्राम गौरी जिला-रीवा, वर्तमान जिला- मऊगंज (म.प्र.)।\r\nशिक्षा - एम.ए., पीएच.डी. (हिन्दी साहित्य)\r\nलेखन - कविता, कहानी, निबन्ध, यात्रा संस्मरण, रेखाचित्र एवं आलोचना।\r\nप्रकाशन - (1) हिमालय की पुकार (कविता संग्रहः सन् 1965); (2) थोर क सुक्ख (बघेली कहानी संग्रहः सन् 2008); (3) लोकायन (निबन्ध संग्रहः सन् 2014); (4) कुछ अपनी बाकी दुनिया की (निबन्ध संग्रहः सन् 2016); (5) लोक के आलोक में (निबन्ध संग्रहः सन् 2019); (6) लोक, शास्त्र और समाज (निबन्ध संग्रहः सन् 2021); (7) का कही, का न कही (निबन्ध संग्रहः सन् 2022); (8) सन्तो घर में झगड़ा भारी (निबन्ध संग्रहः सन् 2022); (9) रिस्तन केर निबाह (बघेली कहानियाँ: सन् 2023)।\r\nप्रकाशनाधीन -\tहिन्दी कहानी संग्रह, कविता संग्रह, निबन्ध संग्रह, संस्मरण संग्रह।\r\nस्थायी पता - ‘लोकायन’, 15/1488, आचार्यनगर रतहरा, रीवा (म.प्र.) 486001\r\nमोबाइल नम्बर - 8839401410, 9407041430\r\nई-मेल - chandrikadwivedi48@gmail.com",
+    "link": "https://anuugyabooks.com/bookauthor/chandrika-prasad-chandra/",
+    "name": "Chandrika Prasad ‘Chandra’ / चन्द्रिका प्रसाद द्विवेदी ‘चन्द्र’",
+    "slug": "chandrika-prasad-chandra",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/701",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=701"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=701"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 198,
+    "count": 2,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/chhaya-chaukase/",
+    "name": "Chhaya Chaukase / छाया चौकसे",
+    "slug": "chhaya-chaukase",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/198",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=198"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=198"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 531,
+    "count": 1,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2023/04/CM-Naim-g-web.jpg\"><img class=\"alignnone size-medium wp-image-4140\" src=\"https://anuugyabooks.com/wp-content/uploads/2023/04/CM-Naim-g-web-240x300.jpg\" alt=\"\" width=\"240\" height=\"300\" /></a>\r\n\r\n<b>Choudhri Mohammed Naim</b> (born 3 June 1936) is an American scholar of Urdu language and literature. He is currently professor emeritus at the University of Chicago.\r\n\r\nNaim is the founding editor of both <i>Annual of Urdu Studies</i> and <i>Mahfil</i> (now <i>Journal of South Asian Literature</i>), as well as the author of the definitive textbook for Urdu pedagogy in English.\r\n\r\nNaim was born in Barabanki, India, and educated at Lucknow University, Lucknow, Deccan College, Poona, and the University of California, Berkeley. In 1961, he joined the faculty of the Department of South Asian Languages and Civilizations at the University of Chicago, which he chaired from 1985 to 1991. He retired in 2001. He was a national fellow at the Indian Institute of Advanced Study, Shimla, in 2009, and a visiting professor at the Jamia Millia Islamia, New Delhi, in 2003",
+    "link": "https://anuugyabooks.com/bookauthor/choudhri-mohammed-naim/",
+    "name": "Choudhri Mohammed Naim / चौधरी मोहम्मद नईम",
+    "slug": "choudhri-mohammed-naim",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/531",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=531"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=531"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 118,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/col-pramod-sharma/",
+    "name": "Col. Pramod Sharma / कर्नल प्रमोद शर्मा",
+    "slug": "col-pramod-sharma",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/118",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=118"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=118"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 735,
+    "count": 2,
+    "description": "Chandrashekhar Shankar Dharmadhikari (Dr. C.S. Dharmadhikari) (20 November 1927 – 3 January 2019) was an Indian judge, independence activist, lawyer, author. He was acting chief justice of Bombay High Court. He was awarded Padma Bhushan in 2003. He authored many books in the Hindi, Marathi and Gujarati languages. He died on 3 January 2019 in Nagpur at the age of 91 years.\r\n\r\nEarly life — Dharmadhikari was born to Damayanti Dharmadhikari and Acharya Dada Dharmadhikari. In his childhood biography Shashvat Shikshan Sampatti taken from “Aathvanitil Shala Ani Shikshak” from Jivan Shikshan, he mentions how he and other freedom fighters’ children grew up like a “Cactus” meaning that they grew up and learned independently as their parents would be away in freedom campaigns most of their time. His father was imprisoned in 1930, 1932 and 1942 and his mother took part in individual Satyagraha in 1941 and Quit India Movement of 1942 and was imprisoned for about three years due to which the upper class would say to him (also to other children like him) that \"Neither the fear for father nor mother; the son turned into a volunteer.” (Na Baap ka Dar, Na Maa ka Dar, Beta bana Voluntar”)\r\n\r\nAs a child he went to primary municipal school near Chitnis Park in Nagpur for one year. In 1935 he moved to Wardha and used to stay at Bajajwadi which was a center for many freedom fighters. There he took entry in second standard at Tilak Municipal Primary School. At that time he with his friend found a club which was named Ghanchakkar Samaj by his father Dada Dharmdhikari. After completing his primary education he took admission at Nav Bharat Vidyalaya, Wardha which was set up under the influence of Mahatma Gandhi. C.S. Dharmadhikari was also educated from S.B. City College, Noshar Mahavidyala and University College of Law Nagpur.\r\n\r\nIndian independence movement activist — He was named in a list of freedom fighters by the Government of Maharashtra.\r\n\r\nJudge — He graduated as M.A., L.L.B. from Nagpur University College of Law. He enrolled as an Advocate of the Nagpur High Court on 25 October 1956, of the Bombay High Court on 21 July 1958 and of the Supreme Court on 20 July 1959. He was appointed Assistant Government Pleader at Nagpur in August 1965 and Additional Government Pleader High Court at Bombay, Nagpur Bench, in October 1970. He served as Government Pleader of High Court of Bombay, Nagpur Bench from 1965 to 1972. C.S. Dharmadhikari was appointed Additional Judge of the Bombay High Court on 13 July 1972 and Permanent Judge from 24 November 1972. He retired on 20 November 1989.\r\n\r\nHe was also the chairman of Maharashtra Administrative Tribunal from 7 July 1991 to 20 November 1992.\r\n\r\nJudgments delivered by him, relating to Rights of Women, tribal people, children, insane people, prisoners are landmarks. In his Judgment during the Emergency, he held that apart from the Constitutional Right, Right to Life is natural and human right and therefore, even during the Emergency, a citizen has a right to approach the High Court, as natural and human right to life cannot be taken away which was a unique judgment. As per this Judgment he entertained the petitions and released the detained people, against whom there was no material.\r\n\r\nIn 2014, his committee recommended to Maharashtra government a “complete ban on bar girls in hotels and restaurants” as well as “curbs on social media” as these have a \"corrupting influence\", in order to reduce crimes against women.\r\n\r\nHe was the chairman of Maharashtra Administrative Tribunal from 1991 to 1992 and was also chairman, Educational Regulatory Authority. He is associated with Maharashtra State as well as National Women’s Commission, Jamnalal Bajaj Foundation and Global Schools Foundation. Chandrashekhar Dharmadhikari believed in Gandhian values and held the trusteeship of Gandhi Research Foundation and several other Mahatma Gandhi foundations. He was also head of Dahanu Taluka Environment Protection Protection Authority (DTEPA).\r\n\r\nHaving retired as judge, Dharmadhikari served as director with cricketer Chandu Borde in a consulting company\r\n",
+    "link": "https://anuugyabooks.com/bookauthor/cs-dharmadhakri-cs/",
+    "name": "CS Dharmadhakri (CS)",
+    "slug": "cs-dharmadhakri-cs",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/735",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=735"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=735"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 575,
+    "count": 0,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/dai-sieji-%e0%a4%a6%e0%a4%be%e0%a4%88-%e0%a4%b8%e0%a5%80%e0%a4%9c%e0%a5%80/",
+    "name": "Dai Sieji / दाई सीजी",
+    "slug": "dai-sieji-%e0%a4%a6%e0%a4%be%e0%a4%88-%e0%a4%b8%e0%a5%80%e0%a4%9c%e0%a5%80",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/575",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=575"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=575"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 222,
+    "count": 3,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/dayashankar/",
+    "name": "Dayashankar / दयाशंकर",
+    "slug": "dayashankar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/222",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=222"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=222"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 225,
+    "count": 7,
+    "description": "दीपचन्द्र निर्मोही\r\nजन्म : 4 जुलाई 1940, को मुजफ्फरनगर (उ. प्र.) जनपद के गाँव खुड्डा में।\r\nशिक्षा : प्रारम्भिक शिक्षा गाँव की प्राथमिक पाठशाला में। दसवीं से लेकर मेरठ विश्‍वविद्यालय और पंजाब विश्‍वविद्यालय तक अनियमित। जीवनभर अध्यापन। प्राचार्य पद से सेवा निवृत। दो दर्जन से अधिक पुस्तकें प्रकाशित–उपन्यास, कहानी, कविता और जीवनवृत। कुछ सम्पादित। बच्चों के लिए विशेष।  हिन्दी अकादमी, दिल्ली द्वारा ‘बाल साहित्य सम्मान’, ‘इतिहास के झरोखे से’ एवं ‘सूरज का सफर’ हरियाणा साहित्य अकादमी द्वारा प्रथम पुरस्कृत। राष्‍ट्रीय प्रगतिशील लेखक महासंघ, विश्‍वशान्ति संगठन, अखिल भारत रचनात्मक समाज और भारत सोवियत सांस्कृतिक समिति आदि संस्थाओं से जुड़े रहे।\r\nसम्प्रति : स्वतंत्र लेखन। शिक्षा प्रणाली से बाहर पड़े बच्चों के लिए निःशुल्क चेतना स्कूलों के निर्माण में सक्रियता।\r\nसम्पर्क सूत्र : आर्य नगर, सेक्टर-17, जी.टी. रोड, पानीपत-132103\r\nफोन : 98136-32105",
+    "link": "https://anuugyabooks.com/bookauthor/deepchandra-nirmohi/",
+    "name": "Deepchandra Nirmohi / दीपचंद्र निर्मोही",
+    "slug": "deepchandra-nirmohi",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/225",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=225"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=225"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 224,
+    "count": 2,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/dharmendra-sushant/",
+    "name": "Dharmendra Kumar / धर्मेंद्र कुमार",
+    "slug": "dharmendra-sushant",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/224",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=224"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=224"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 130,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/dheeraj-kumar/",
+    "name": "Dheeraj Kumar / धीरज कुमार",
+    "slug": "dheeraj-kumar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/130",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=130"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=130"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 105,
+    "count": 2,
+    "description": "डॉ. दिलीप मेहरा\r\nजन्म : 1968; ग्रा.-बार, ता. विरपुर, जि.-महिसागर, गुजरात\r\nशिक्षा : एम.ए., एम.फिल., पीएच.डी.। \r\nप्रकाशन : मन्नू भंडारी का कथा संसार (आलोचना) \r\nउपन्यासकार धर्मवीर भारती (आलोचना)\r\nसम्पादक, साठोत्तरी हिन्दी उपन्यास \r\nहिन्दी उपन्यास : नये आयाम (लेख संग्रह) \r\nसम्पादक, मीडिया लेखन \r\nदृश्य-श्रव्य माध्यम : विविध परिप्रेक्ष्य, (आलोचना) \r\nसम्पादक, हिन्दी कथा-साहित्य में दलित-विमर्श \r\nवाङ्गमय वाटिका के विविध रंग, (आलोचना) \r\nदलित केन्द्रित हिन्दी उपन्यास \r\nआदिवासी संवेदना और हिन्दी उपन्यास \r\nइक्कीसवीं सदी के हिन्दी उपन्यास \r\nहिन्दी उपन्यासों में किन्नर समाज \r\nजल संस्कृतिना वाहक मेहरा, गुजराती, (आलोचना) \r\nहिन्दी साहित्य में किन्नर जीवन \r\nअग्निदाह (कहानी संग्रह) \r\nकोरोना (कहानी संग्रह) \r\nवृद्धावस्था केंद्रित हिंदी कहानियां \r\nहिंदी कथा साहित्य में वृद्ध विमर्श \r\nहिंदी कथा साहित्य में आदिवासी संवेदना \r\nभारतीय ज्ञान परंपरा और हिंदी साहित्य \r\nहिंदी साहित्य में शिक्षा एवं जीवन मूल्य \r\nसमकालीन हिंदी साहित्य : नव विमर्श के आलोक में \r\nमकान पुराण (कहानी संग्रह, 2018 गुजरात हिंदी साहित्य अकादमी का द्वितीय य पुरस्कार) \r\nदलित संदर्भ हिंदी उपन्यास (गुजराती हिंदी साहित्य अकादमी आलोचना 2019 का प्रथम पुरस्कार)\r\nसम्प्रति : आचार्य एवं विभागाध्यक्ष, स्नातकोत्तर हिन्दी विभाग, सरदार पटेल विश्वविद्यालय, वल्लभ विद्यानगर, आणंद, गुजरात \r\nसम्पर्क सूत्र : 1423/1 यश भवन, नाना बाजार, वल्लभ विद्यानगर, जि. आनन्द, गुजरात \r\nदूरभाष : सचलभाष-9426363370;\r\ne-mail : mehradilip52@gmail.com; \r\nWebsite : www.dilipmehra.wordpress.com",
+    "link": "https://anuugyabooks.com/bookauthor/dil-p-mehra/",
+    "name": "Dilip Mehra / दिलीप मेहरा",
+    "slug": "dil-p-mehra",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/105",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=105"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=105"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 87,
+    "count": 2,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2018/11/Dinkar-Kumar-G.jpg\"><img class=\"alignnone size-full wp-image-602\" src=\"https://anuugyabooks.com/wp-content/uploads/2018/11/Dinkar-Kumar-G.jpg\" alt=\"\" width=\"201\" height=\"251\" /></a>\r\n<h2><span style=\"color: #800000\">दिनकर कुमार</span></h2>\r\nदिनकर कुमार का जन्म 5  अक्टूबर,  1967  को दरभंगा जिले के मनीगाछी प्रखंड स्थित ब्रह्मपुरा गाँव में हुआ। तेरह वर्ष की उम्र में वह असम चले गए जहाँ उनकी शिक्षा-दीक्षा हुई और\r\nजहाँ 28  वर्षों से पत्रकारिता और लेखन करते रहे हैं। वह  14  वर्षों तक गुवाहाटी से प्रकाशित हिन्दी दैनिक सेंटिनल के सम्पादक रहे। उनके नौ कविता-संग्रह (आत्म-निर्वासन , लोग मेरे लोग, एक हत्यारे, शहर में वसन्त आता है, मैं तुम्हारी भावनाओं का अनुवाद बनना चाहता हूँ, वैशाख प्रिय वैशाख, क्षुधा मेरी जननी, मेरा देश तुम्हारी घृणा की प्रयोगशाला नहीं है, ब्रह्मपुत्र को देखा है और जा सकता तो जरूर जाता), दो उपन्यास (नीहारिका और काली पूजा), दो जीवनी और असमिया से  55  पुस्तकों का अनुवाद प्रकाशित है। उनको सोमदत्त सम्मान, जस्टिस शारदाचरण मित्र स्मृति भाषा सेतु सम्मान,  अनुवादश्री सम्मान और अन्तरराष्ट्रीय पुश्किन सम्मान मिल चुके हैं।\r\nसम्पर्क – 4-बी-1, ग्लोरी अपार्टमेंट, तरुण नगर मेन रोड, गुवाहाटी-781005 (असम)\r\nफोन – 9435103755",
+    "link": "https://anuugyabooks.com/bookauthor/dinkar-kumar/",
+    "name": "Dinkar Kumar / दिनकर कुमार",
+    "slug": "dinkar-kumar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/87",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=87"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=87"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 490,
+    "count": 1,
+    "description": "<span style=\"color: #800000\"><strong>डॉ. डी. एन. प्रसाद</strong></span>\r\nबिहार की वैभवशाली परम्परा से उद्‍बुद्ध सारण्यक तथा दुनिया के पहले गणतन्त्र वैशाली की परिवेशित परम्परा से उच्च शिक्षा प्राप्त; काशी की पांडित्य-परम्परा में शामिल होकर जैन तीर्थ, बौद्ध तीर्थ तथा गाँधी तीर्थ की परिघटना से परिव्यात डॉ. धूपनाथ प्रसाद की छवि एक साम्ययोग की तरह है। शिक्षण की शुरुआत ऋषि गौतम की तपोभूमि से प्रारम्भ कर सर्व विद्या की राजधानी काशी में परिगणित हुए, तदुपरान्त बौद्ध काबा लेह, लद्दाख की नीरव शान्ति से परीक्षित भी! कभी सपने में आयी थी महाराष्‍ट्र के पूना में शान्ति विश्‍वविद्यालय की परिकल्पना!\r\nजहाँ भारत छोड़ो आन्दोलन का ब्लूप्रिंट तैयार हुआ और राष्‍ट्रभाषा हिन्दी प्रचार का पताका लहराया, गाँधी की उसी प्रयोगभूमि वर्धा, महाराष्‍ट्र स्थित महात्मा गाँधी अन्तरराष्‍ट्रीय हिन्दी विश्‍वविद्यालय में प्राध्यापकी! कविमना प्रसाद के लेखन की भाषा काव्यभाषा है। गद्य हो या पद्य भाषा की भाषिकी काव्यभाषा है।\r\nहिन्दी साहित्य सम्मेलन, नागरी प्रचारिणी सभा, भारतीय गाँधी अध्ययन समिति के आजीवन सदस्य, डॉ. प्रसाद धर्मवीर भारती सृजन पीठ के अध्यक्ष तथा सेंटर फॉर अप्लायड गाँधीयन थॉट के मानद् निदेशक के साथ भारतीय दर्शन परिषद् के सदस्य भी हैं। वैविध्यपूर्ण लेखन के साथ आलोचना की रचना इन्हें प्रिय है।\r\nसंपर्क : 9420063304; dnpsayal@yahoo.co.in",
+    "link": "https://anuugyabooks.com/bookauthor/dn-prasad/",
+    "name": "DN Prasad / डी.एन. प्रसाद",
+    "slug": "dn-prasad",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/490",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=490"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=490"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 249,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/dn-srinath/",
+    "name": "DN Srinath / डी.एन. श्रीनाथ",
+    "slug": "dn-srinath",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/249",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=249"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=249"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 307,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/dwarika-prasad-charumitra/",
+    "name": "Dwarika Prasad Charumitra / द्वारिका प्रसाद चारुमित्र",
+    "slug": "dwarika-prasad-charumitra",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/307",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=307"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=307"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 346,
+    "count": 0,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/franz-kafka/",
+    "name": "Franz Kafka / फ्रांज काफ्का",
+    "slug": "franz-kafka",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/346",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=346"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=346"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 534,
+    "count": 13,
+    "description": "<a href=\"https://anuugyabooks.com/wp-content/uploads/2023/04/Fyodor-dastoivasky-web.jpg\"></a>\r\n<b>फ़्योदर दस्ताएवस्की</b>\r\n<b>फ़्योदर दस्ताएवस्की –</b> <abbr>30 अक्तूबर</abbr> [11 नवम्बर] 1821, मसक्वा [मास्को], रूसी साम्राज्य — <abbr>28 जनवरी</abbr> [9 फ़रवरी] 1881, सांक्त पितेरबूर्ग [सेण्ट पीटर्सबर्ग], रूसी साम्राज्य) — रूसी भाषा के एक महान् साहित्यकार, विचारक, दार्शनिक और निबन्धकार थे, जिन्होंने अनेक उपन्यास और कहानियाँ लिखीं पर जिन्हें अपने जीवनकाल में लेखक के रूप में कोई महत्व नहीं दिया गया। मृत्यु होने के बाद दस्ताएवस्की को रूसी यथार्थवाद का प्रवर्तक माना गया और रूस के महान लेखकों में उनका नाम शामिल किया गया। मॉस्को में जन्मे फ़्योदर दस्ताएवस्की को रूसी विचारक और सामाजिक कार्यकर्ता मिख़अईल पित्रअशेव्स्की के राज्यविरोधी गुप्त दल का सदस्य होने के कारण 20 अन्य लोगों के साथ गिरफ़्तार कर लिया गया और उन्हें मृत्युदण्ड की सज़ा दी गई। लेकिन इस सज़ा पर अमल होने से पहले ही अंतिम समय में उनकी सज़ा को चार वर्ष के सश्रम कारावास में बदल दिया गया। दस्ताएवस्की ने गिरफ़्तार होने से पहले ही लिखना शुरू कर दिया था। साइबेरिया में कारावास की सज़ा बिताने के बाद उन्होंने फिर से लिखना शुरू कर दिया। <i>'अपराध और दंड</i> ', <i>'बौड़म</i> ', <i>’नर-पिशाच’, ’करमअजोफ़ बन्धु’, ’ग़रीब लोग’</i> और ’<i>जुआरी’</i> जैसे विख्यात उपन्यासों के रचनाकार दस्ताएवस्की को मनोवैज्ञानिक विषयों का महान लेखक माना जाता है। रूसी और पश्चिम के कई लेखकों को इन्होंने प्रभावित किया - जिनमें एंटन चेखव [अन्तोन चेख़फ़] भी शामिल हैं। 2002 में नार्वे पुस्तक क्लब ने विश्व साहित्य की सौ प्रमुख किताबों में दस्ताएवस्की की पाँच किताबों को शामिल किया है।\r\n\r\n\r\n\r\nजीवन-परिचय\r\nफ़्योदर दस्ताएवस्की के पिता मिख़अईल दस्ताएवस्की ज़ार की सेना में डॉक्टर थे। अप्रैल 1818 में उन्हें मसक्वा [मास्को] के सैन्य अस्पताल में नियुक्त कर दिया गया, जहाँ उनका परिचय मसक्वा के एक स्थानीय बड़े व्यापारी फ़्योदर निचाएफ़ की बेटी मरीया निचाएवा से हुआ। बाद में यह परिचय प्रेम में बदल गया और 14 जनवरी 1820 को दोनों का विवाह हो गया। उसी वर्ष 13 अक्तूबर को दस्ताएवस्की परिवार में पहले पुत्र का जन्म हुआ, जिसका नाम पिता के नाम पर मिख़अईल रखा गया। 30 अक्तूबर 1821 के दिन दस्ताएवस्की परिवार में दूसरे पुत्र का जन्म हुआ, जिसका नाम नाना के नाम पर फ़्योदर रखा गया। अपना परिचय देते हुए फ़्योदर दस्ताएवस्की ने एक जगह लिखा है — मेरा जन्म मसक्वा में एक रूसी धर्मपरायण परिवार में हुआ था। जब से मैंने होश सम्भाला है, तभी से मैं अपने परिवार से गहरा प्यार करता रहा हूँ। दस्ताएवस्की के परिवार में पिता ही गृहप्रमुख माने जाते थे। घर में उन्हीं का राज चलता था। दोपहर में ठीक बारह बजे पूरा परिवार दिन का खाना खाने के लिए इकट्ठा होता था और शाम को सोने के लिए बिस्तर पर जाने से पहले सभी बच्चे ईश्वर की प्रार्थना किया करते थे। 1822 में दो लड़कों के बाद एक पुत्री ने जन्म लिया, जिसका नाम वर्वारा रखा गया। फिर 1825 में दस्ताएवस्की परिवार में तीसरे पुत्र अन्द्रेय ने जन्म लिया। दस्ताएवस्की परिवार अस्पताल के ही एक हिस्से में बने दो कमरों के एक छोटे से मकान में रहता था, जिसमें बच्चों के लिए बिना खिड़की वाली एक अन्धेरी सी कोठरी थी। हर रविवार को पूरा परिवार अस्पताल के अहाते में ही बने गिरजे में होने वाली प्रार्थना में शामिल होता था।\r\nप्रारम्भिक शिक्षा\r\nदस्ताएवस्की परिवार पढ़ा-लिखा परिवार माना जाता था। बचपन से ही फ़्योदर दस्ताएवस्की का परिचय पूश्किन, झुकोवस्की, करमज़ीन और दिरझाविन जैसे लेखकों की रचनाओं से हो गया था। फ़्योदर के पिता इतिहासकार निकलाय करमज़ीन द्वारा लिखे गए ’रूस के विस्तृत इतिहास’ पर फ़िदा थे और बच्चों को इस इतिहास को पढ़कर सुनाया करते थे। फ़्योदर दस्ताएवस्की ने लिखा है — मैं जब सिर्फ़ दस साल का था, करमज़ीन का इतिहास मुझे मुँहज़बानी याद था। चार वर्ष की उम्र में ही फ़्योदर को अक्षर ज्ञान हो गया था और उन्होंने रूसी भाषा पढ़ना शुरू कर दिया था। 1828 में ज़ार ने दस्ताएवस्की परिवार को कुलीन वर्ग में शामिल कर लिया। इसके बाद दस्ताएवस्की परिवार को जागीर ख़रीदने व कृषिदास रखने का अधिकार मिल गया। फ़्योदर के पिता ने अपनी बचत और कुछ धन उधार लेकर 30 हज़ार रूबल में 1931 में मसक्वा से 150 किलोमीटर दूर तूला प्रदेश में ’दरअवोय’ नाम का एक गाँव ख़रीद लिया, जिसमें कृषिदासों के नौ परिवार रहते थे और जागीर के मालिकों के लिए तीन कमरों का एक छोटा-सा कच्चा-पक्का मकान बना हुआ था। लेकिन मार्च-अप्रैल 1832 में गाँव में आग लग गई और मालिक के मकान के साथ-साथ कृषिदासों के झोंपड़े भी राख हो गए। दस्ताएवस्की ने अपने संस्मरणों में लिखा है कि कुल 9 हज़ार रूबल का नुक़सान हुआ था। फ़्योदर के पिता ने ऋण लेकर फिर से सारे झोंपड़े और मकान बनवा लिया। इस तरह गर्मियों में दस्ताएवस्की परिवार आराम करने के लिए अपने गाँव पहुँच गया और बच्चों ने अपने जीवन में पहली बार रूस का कोई गाँव देखा। कृषिदासों की स्त्रियाँ दस्ताएवस्की परिवार के बच्चों को बेहद प्यार करती थीं और फ़्योदर इतना सीधा था कि उसपर तो वे जान छिड़कती थीं। बाद में बचपन में अपने मन पर पड़े इन प्रभावों का ज़िक्र दस्ताएवस्की ने ’नर-पिशाच’ और ’ग़रीब लोग’ उपन्यासों में किया है।\r\n\r\nगाँव से वापिस आने के बाद दोनों बड़े पुत्रों मिख़अईल और फ़्योदर का दाख़िला स्कूल में करा दिया गया। लेकिन जब बच्चों के पिता को यह मालूम हुआ कि स्कूल में बच्चों को शारीरिक दण्ड दिया जाता है तो उन्होंने अपने बच्चों को स्कूल से निकाल लिया और घर पर ही बच्चों की शिक्षा-दीक्षा का प्रबन्ध कर दिया। फ़्योदर के बड़े भाई मिख़अईल ने बाद में अपने पिता मिख़अईल के स्वभाव का ज़िक्र करते हुए अपने संस्मरणों में लिखा है — हमारे पिता बेहद दयालु थे, लेकिन इसके साथ-साथ वे बड़े बेसब्र, कठोर और गर्म स्वभाव के थे। दस्ताएवस्की ने लिखा है कि 1834-35 में दस्ताएवस्की परिवार के पास क़रीब सौ कृषिदास और 7000 एकड़ ज़मीन थी। उसी दौरान दस्ताएवस्की को किताबें पढ़ने की लत लग गई। 1934 में दस्ताएवस्की ने वॉल्टर स्कॉट के सभी उपन्यास पढ़ डाले। इन रचनाओं का दस्तोएवस्की के किशोर मन पर भारी प्रभाव पड़ा और उनकी कल्पनाओं ने पर फैलाने शुरू कर दिए। उन्हीं दिनों निकलाय बिलेविच नाम के एक अध्यापक फ़्योदर को रूसी पढ़ाने के लिए आने लगे। बिलेविच कभी निकलाय गोगल नामक प्रसिद्ध रूसी लेखक के सहपाठी रह चुके थे और ख़ुद भी कविता लिखा करते थे। उन्होंने अँग्रेज़ी के कवि शिलेर की कविताओं का रूसी में अनुवाद किया था। 1835 में दस्ताएवस्की ’बिबलिअचेका द्ल्या च्तेन्या’ (पाठक-पुस्तकालय) नामक एक साहित्यिक पत्रिका के वार्षिक सदस्य बन गए और यह पत्रिका घर पर मंगाने लगे। इस पत्रिका में ही उन्होंने अलिक्सान्दर पूश्किन की कहानी ’हुक़्म की बेग़म’ पहली बार पढ़ी। पत्रिका के माध्यम से ही उनका परिचय ओनेरो दे बालज़ाक, विक्टर ह्यूगो, जार्ज सान्द और एज़ेन स्क्रीबा जैसे विश्व-प्रसिद्ध लेखकों से हुआ, जिनकी रचनाओं का किशोर फ़्योदर पर गहरा प्रभाव पड़ा और फ़्योदर ने मन ही मन यह तय कर लिया कि बड़ा होकर वह भी लेखक बनेगा।\r\n\r\nअप्रैल, 1835 में फ़्योदर की माँ मरीया दोनों छोटे बच्चों को लेकर अपने गाँव की जागीर में आराम करने के लिए चली गई, जहाँ 29 अप्रैल को वे बुरी तरह से बीमार हो गईं। इसके बाद उनकी हालत ख़राब होती चली गई। रोग बढ़ता गया, ज्यों-ज्यों दवा की। 1836-37 की सर्दियों में वे पूरी तरह से बिस्तर से चिपक गई थीं। उनमें इतनी ताक़त ही नहीं रह गई थी कि वे दो क़दम भी चल सकें। 27 फ़रवरी 1837 को साढ़े 36 वर्ष की उम्र में उनका देहान्त हो गया और पहली मार्च को उन्हें दफ़्ना दिया गया।\r\nकैशौर्य काल\r\nदस्ताएवस्की जब 16 साल के हुए तो उनके पिता मिख़अईल उन्हें लेकर सांक्त पितेरबूर्ग [सेण्ट पीटर्सबर्ग] पहुँचे और उन्होंने इंजीनियरिंग कालेज में दस्ताएवस्की का दाख़िला करा दिया। दस्ताएवस्की हालाँकि लेखक बनना चाहते थे, पर पिता के दबाव में इंजीनियरिंग पढ़ने के लिए मजबूर हो गए। अपने संस्मरणों में दस्ताएवस्की ने लिखा है कि मसक्वा से पितिरबूर्ग का पूरा रास्ता दोनों भाइयों ने विभिन्न कवियों की कविता पर बातचीत करते हुए गुज़ार दिया था। दस्ताएवस्की का दिमाग उस समय वियना के बारे में एक उपन्यास की रूपरेखा बनाने में उलझा हुआ था।\r\n\r\nइंजीनियरिंग की पढ़ाई दस्ताएवस्की के लिए बेहद मुश्किल और ऊबाऊ सिद्ध हुई। अपनी इस पढ़ाई के दौरान ही उन्होंने होमर, कारनेली, रासिन, बालज़ाक, ह्यूगो, ग्योटे, हॉफ़मैन, शिलर, शेक्सपियर और बायरन की रचनावलियों को कई-कई बार पढ़ डाला। रूसी लेखकों में से पूश्किन, लेरमन्तफ़, दिर्झाविन, गोगल की रचनाओं को उन्होंने इस बुरी तरह से चाट डाला था कि वे सभी उन्हें मुँह-ज़ुबानी याद हो गई थीं। दस्ताएवस्की इतने ज़्यादा पढ़ाकू थे कि निक्रासफ़, पनाएफ़, ग्रिगोरिविच और प्लिशेइफ़ जैसे लेखक उनके ज्ञान और जानकारी के सामने पानी भरते नज़र आते हैं।\r\n\r\nसितम्बर 1838 में दस्ताएवस्की ने अपने इंजीनियरिंग क्लब में एक साहित्यिक क्लब की नींव रख दी। अन्द्रेय बिकेतफ़, दिमीत्रि ग्रिगअरोविच, इवान बिरिझेत्स्की और निकलाय वितकोव्स्की जैसे भावी लेखक इस क्लब के सदस्य थे।\r\nप्रकाशित पुस्तकें\r\n\r\n \t<b>गरीब लोग</b> (दरिद्रनारायण) -1845\r\n \t<b>प्रतिरूप</b> (The Double) -1846\r\n \t<b>रजत रातें</b> (श्वेत रातें) -1848\r\n \t<b>नेतोच्का नेज़्नानोवा</b> -1849\r\n \t<b>सपना दादा का</b> (चाचा का सपना) -1859\r\n \t<b>स्तेपान्चिको गाँव तथा उसके वासी</b> -1859\r\n \t<b>अपमानित और अवमानित</b> (Humiliated and insulted) 1861\r\n \t<b>बेजान घर</b> (मुर्दाघर की टिप्पणियाँ) -1861-62\r\n \t<b>यादें गर्मियों की</b> (ग्रीष्मकालीन इंप्रेशंस पर शीतकालीन टिप्पणियाँ -1863\r\n \t<b>एक भूमिगत आदमी की कहानी</b> (भूमिगत जीवन से टिप्पणियाँ -1864\r\n \t<b>अपराध और दण्ड</b> -1866\r\n \t<b>बौड़म</b> (The Idiot) -1868\r\n \t<b>शाश्वत पति</b> (The eternal Husband) -1870\r\n \t<b>भूत</b> (Demons) -1871-72\r\n \t<b>किशोर</b> -1875\r\n \t<b>करामाज़ोव ब्रदर्स</b> -1879-80\r\n",
+    "link": "https://anuugyabooks.com/bookauthor/fyodor-dostoyevsky/",
+    "name": "Fyodor Dostoyevsky / फ़्योदर दसतायेव्स्की",
+    "slug": "fyodor-dostoyevsky",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/534",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=534"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=534"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 332,
+    "count": 2,
+    "description": "<div>\r\n<div class=\"xv55zj0 x1vvkbs x1rg5ohu xxymvpz\">\r\n<div class=\"x3nfvp2 x1n2onr6 xxymvpz xh8yej3\">\r\n<div class=\"xdl72j9 x1iyjqo2 xs83m0k xeuugli xh8yej3\">\r\n<div>\r\n<div class=\"x1tlxs6b x1g8br2z x1gn5b1j x230xth x9f619 xzsf02u x1rg5ohu xdj266r x11i5rnm xat24cr x1mh8g0r x193iq5w x1mzt3pk x1n2onr6 xeaf4i8 x13faqbe xfmpgtx\">\r\n<div class=\"x1y1aw1k xn6708d xwib8y2 x1ye3gou\">\r\n<div class=\"x1lliihq xjkvuk6 x1iorvi4\">\r\n<div>\r\n<div class=\"xv55zj0 x1vvkbs x1rg5ohu xxymvpz\">\r\n<div class=\"x3nfvp2 x1n2onr6 xxymvpz xh8yej3\">\r\n<div class=\"xdl72j9 x1iyjqo2 xs83m0k xeuugli xh8yej3\">\r\n<div>\r\n<div class=\"x1tlxs6b x1g8br2z x1gn5b1j x230xth x9f619 xzsf02u x1rg5ohu xdj266r x11i5rnm xat24cr x1mh8g0r x193iq5w x1mzt3pk x1n2onr6 xeaf4i8 x13faqbe xfmpgtx\">\r\n<div class=\"x1y1aw1k xn6708d xwib8y2 x1ye3gou\">\r\n<div class=\"x1lliihq xjkvuk6 x1iorvi4\">\r\n<div class=\"xdj266r x11i5rnm xat24cr x1mh8g0r x1vvkbs\">\r\n<div dir=\"auto\"><span style=\"color: #800000\">फ़्योदर करोफ़्किन</span></div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\n</div>\r\nमशहूर सोवियत इतिहासकार। 1 जून (नये कैलेण्डर के अनुसार 14 जून) 1903 को रू स के बेज़्हेट्स्क कस्बे के एक व्यवसायी परिवार में जन्म। 1926 में मास्को स्टेट यूनिवर्सिटी के इतिहास एवं अभिलेखागार विभाग से स्नातक किया। लगभग उसी समय से 1957 तक मास्को के स्कूलों में इतिहास का अध्यापन किया। शिक्षाशास्त्र के प्रशिक्षण के क्षेत्र में भी उल्लेखनीय कार्य किया। 1961 में पीएच.डी. की। 1973 में सोवियत संघ राज्य पुरस्कार से सम्मानित किया गया।1 दिसंबर 1981 को मास्को में अन्तिम सांस ली।\r\nप्राचीन विश्व इतिहास का परिचय इनकी सर्वाधिक लोकप्रिय कृतियों में शुमार है, जिसका विश्व की अनेक भाषाओं में अनुवाद हो चुका ह",
+    "link": "https://anuugyabooks.com/bookauthor/fyodor-korovkin/",
+    "name": "Fyodor Korovkin / फ़्योदर करोफ़्किन",
+    "slug": "fyodor-korovkin",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/332",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=332"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=332"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 323,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/ganesh-shekokar/",
+    "name": "Ganesh Shekokar / गणेश शेकोकार",
+    "slug": "ganesh-shekokar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/323",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=323"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=323"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 758,
+    "count": 2,
+    "description": "डॉ. गंगाप्रसाद गुप्त ‘बरसैंया’ (आत्मज श्री सखाराम गुप्त)। जन्म स्थान : भौंरी, जिला बाँदा, (अब चित्रकूट) उ.प्र.। जन्म तिथि : 6 फरवरी, 1937। योग्यता : एम.ए. (हिन्दी), पीएच.डी. (जबलपुर वि.वि. से ‘हिन्दी साहित्य में व्यक्तिवादी निबन्ध और निबन्धकार’ विषय पर सन् 1964)। प्रकाशित कृतियाँ : हिन्दी साहित्य में व्यक्तिवादी निबन्ध और निबन्धकार; छत्तीसगढ‍़ का साहित्य और उसके साहित्यकार; आधुनिक काव्य : सन्दर्भ और प्रकृति; हिन्दी के प्रमुख एकांकी और एकांकीकार; बुन्देलखंड के अज्ञात रचनाकार (शोध-निबन्धों का संग्रह); चिन्तन-अनुचिन्तन (समीक्षात्मक निबन्ध); हिन्दी का प्रथम अज्ञात सुदामा चरित्र (सम्पादन); वीर विलास (आल्हा सम्बन्धी प्राचीनतम पाण्डुलिपि); अरमान वर पाने का (व्यंग्य लेखों का संग्रह); निन्दक नियरे राखिये (व्यंग्य लेखों का संग्रह); अथ काटना कुत्ते का भइया जी को (व्यंग्य-संग्रह); कर्म और आराधना (चिन्तनपरक आलेख); रचना से रचना तक (समीक्षात्मक लेखों का संग्रह); तुलसी के तेवर; रस विलास (सम्पादन); मेरी जन्मभूमि : मेरा गाँव; कभी-कभी यह भी (काव्य-संग्रह); नारी : एक अध्ययन; बुन्देली : एक भाषा वैज्ञानिक अध्ययन (सम्पादन); मानस मनीषा; रूपक और साक्षात्कार; विन्ध्यालोक (सम्पादन); लोक वाटिका; शब्दों के रंग : बदलते प्रसंग; रचना अनुशीलन (समीक्षा); सृजन-विमर्श (समीक्षा); खरी-खरी (काव्य); संवाद : साहित्यकारों से; एकांकी संकलन; मध्यकालीन काव्य; बुन्देलखंड का साहित्यिक एवं सांस्कृतिक परिदृश्य; बुन्देली धरा के अनखुले पृष्‍ठ; छत्तीसगढ़ की साहित्यिक-विभूतियाँ; मनोभूमि के विविध रंग; छतरपुर जिले का साहित्यिक गजेटियर; आठ रूपक (अप्रकाशित); बुन्देली विविधा; कलम की अनंत दिशायें। अन्य प्रकाशन : लगभग 200 शोधपरक निबन्धों का देश की प्रतिष्‍ठित पत्र-पत्रिकाओं में प्रकाशन तथा अनेक ग्रन्थों का संकलन। समय-समय पर अनेक शोध पत्रिकाओं, स्मारिकाओं व ग्रन्थों का सम्पादन। साहित्यिक सम्बद्धता : अनेकों साहित्यिक कार्यक्रमों का आयोजन व साहित्यिक संस्थाओं से सम्बन्ध। सम्मान : महामहिम उप-राष्‍ट्रपति डॉ. शंकरदयाल जी शर्मा द्वारा अ.भा. भाषा साहित्य सम्मेलन की ‘साहित्य श्री’ उपाधि से सम्मानित तथा सम्मेलन द्वारा सर्वोच्‍च राष्ट्रीय अलंकरण ‘भारत भाषा भूषण एवं सरस्वती सम्मान’ के साथ अनेकों सम्मानों व पुरस्कारों से अलंकृत। प्रशासनिक अनुभव : 40 वर्षों तक हिन्दी के आचार्य, विभागाध्यक्ष एवं स्‍नातक व स्‍नातकोत्तर प्राचार्य, म.प्र. शासन के उच्‍च शिक्षा विभाग के अन्तर्गत महाविद्यालयीन सेवा के अन्तर्गत। केशव अनुसंधान केंद्र, ओरछा के दो वर्ष संचालक रहे। वर्तमान पता : HIG–124, भरहुत नगर, सतना (म.प्र.)–485-001",
+    "link": "https://anuugyabooks.com/bookauthor/ganga-prasad-barsaiyan/",
+    "name": "Ganga Prasad Barsaiyan / गंगा प्रसाद बरसैंया",
+    "slug": "ganga-prasad-barsaiyan",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/758",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=758"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=758"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 252,
+    "count": 3,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/gautam-bhaidass-kunwar/",
+    "name": "Gautam Bhaidass Kunwar / गोतम भाईदास कुँवर",
+    "slug": "gautam-bhaidass-kunwar",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/252",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=252"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=252"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 685,
+    "count": 1,
+    "description": "डॉ. गायत्रीदेवी जे. लालवानी l जन्म : 12 फरवरी 1990, कानपुर (उत्तर प्रदेश) l शिक्षा : एम.ए., पीएच.डी., जीसेट, कम्प्युटर साइंस l प्रकाशित विवेचनात्मक कृतियां : 1. हिंदी दलित कथा साहित्य : एक अध्ययन; 2. हिंदी में दलित आत्मकथाएं व आत्मकथाकरों का विवेचन l सह-संपादित कृतियां : 1. प्रवासी मजदूरों की समस्या, चुनौतियां और समाधान  (दो भाग में); 2. हिंदी कथा एवं कथेतर साहित्य में सामाजिक विमर्श ललित साहित्य : 1. फिर मानवता कुम्हलाई (काव्य संग्रह); 2. प्यार जी पुल (सिंधी देवनागरी काव्य संग्रह) l लेखन : आश्वस्त, हरिगंधा, हिंदी प्रभा, साहित्य विथिका, साहित्यसेतु ई-जर्नल, के.सी.जी. ई-जर्नल, साहित्य गुंजन आदि राष्ट्रीय-अंतरराष्ट्रीय पत्र-पत्रिकाओं में शोधालेख एवं कविताएं प्रकाशित। राष्ट्रीय-अंतरराष्ट्रीय सेमीनार, वर्कशॉप में पेपर प्रस्तुति एवं भागीदारी। l पुरस्कार : 1. श्रेष्ठ पुस्तक पुरस्कार-2019, गुजरात साहित्य अकादमी, गांधीनगर; 2. साहित्य सर्जक पुरस्कार, दलित साहित्य अकादमी, गुजरात प्रदेश l संप्रति : अध्यापक सहायक, हिंदी विभाग, श्री कृष्ण प्रणामी आर्ट्स कॉलेज, दाहोद l संपर्क : सी-3, पशुपतिनाथ नगर, गोदीरोड, दाहोद-389151 (गुजरात) l मो.नं. : 7984498390 l ई-मेल : gsvttrust@gmail.com",
+    "link": "https://anuugyabooks.com/bookauthor/gayatri-lalwani/",
+    "name": "Gayatri Lalwani / गायत्री ललवानी",
+    "slug": "gayatri-lalwani",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/685",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=685"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=685"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 703,
+    "count": 2,
+    "description": "गीता शुक्ला ‘गीत’\r\nजन्म -\t21 फरवरी, 1966\r\nमाता -\tश्रीमती उर्मिला मिश्रा\r\nपिता -\tश्री लक्ष्मीशंकर मिश्रा\r\nपति -\tश्री नवेन्दु कुमार शुक्ल\r\nशिक्षा -\tएम.कॉम., बी.एड.\r\nसम्प्रति - \tशिक्षा विभाग में अध्यापन के साथ-साथ अध्ययन एवं लेखन में प्रवृत्त।\r\nलेखन -\tहिन्दी एवं बघेली बोली में गीत, ग़ज़ल, कहानियाँ, लघुकथाएँ, संस्मरण, लेख आदि।\r\nप्रकाशन-\tहिन्दी ग़ज़ल संग्रह ‘नग़मा-ए-दिल’\r\n\tहिन्दी ग़ज़ल संग्रह ‘रेत में थोड़ा सा पानी’\r\n\tबघेली लघुकथा संग्रह ‘अपना के बिट्टो’\r\n\tबघेली लघुकथा संग्रह ‘केतने कुरुछेत्र’\r\n\tहिन्दी लघुकथा संग्रह ‘तुम करती क्या हो’\r\n\tबघेली कहानी संग्रह ‘बिट्टो के बिदाई’\r\n\tबघेली लघुकथा संग्रह ‘को बनाइस’\r\n\tइनके अतिरिक्त अनेक साझा संकलनों में\r\n\tग़ज़लें, कहानियाँ, लघुकथाएँ प्रकाशित।\r\nनिवास-\t17/786, शुभेन्दु प्रेस, केक कैफे के सामने, अमहिया-पीलीकोठी रोड, रीवा  (म.प्र.) 486001 मो.-8989842361 email : geetashukla1966@gmail.com",
+    "link": "https://anuugyabooks.com/bookauthor/geeta-shukla-geet-%e0%a4%97%e0%a5%80%e0%a4%a4%e0%a4%be-%e0%a4%b6%e0%a5%81%e0%a4%95%e0%a5%8d%e0%a4%b2%e0%a4%be-%e0%a4%97%e0%a5%80%e0%a4%a4/",
+    "name": "Geeta Shukla ‘Geet’ / गीता शुक्ला ‘गीत’",
+    "slug": "geeta-shukla-geet-%e0%a4%97%e0%a5%80%e0%a4%a4%e0%a4%be-%e0%a4%b6%e0%a5%81%e0%a4%95%e0%a5%8d%e0%a4%b2%e0%a4%be-%e0%a4%97%e0%a5%80%e0%a4%a4",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/703",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=703"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=703"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 111,
+    "count": 2,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/ghanshyam-sharma/",
+    "name": "Ghanshyam Sharma / घनश्याम शर्मा",
+    "slug": "ghanshyam-sharma",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/111",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=111"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=111"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 253,
+    "count": 0,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/gobind-prasad/",
+    "name": "Gobind Prasad / गोबिन्द प्रसाद",
+    "slug": "gobind-prasad",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/253",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=253"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=253"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 103,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/gopal-sharma/",
+    "name": "Gopal Sharma / गोपाल शर्मा",
+    "slug": "gopal-sharma",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/103",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=103"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=103"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 564,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/gouri-patwardhan/",
+    "name": "Gouri Patwardhan",
+    "slug": "gouri-patwardhan",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/564",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=564"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=564"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 356,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/grace-kujur/",
+    "name": "Grace Kujur / ग्रेस कुजूर",
+    "slug": "grace-kujur",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/356",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=356"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=356"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 391,
+    "count": 0,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/gumpi-nguso/",
+    "name": "Gumpi Nguso / गुम्पी ङूसो",
+    "slug": "gumpi-nguso",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/391",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=391"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=391"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 511,
+    "count": 4,
+    "description": "Gyanendra Awana, former DCP, Delhi Police\r\nGyanendra Awana is a post graduate in Economics from Delhi University and has several degrees and diplomas in various subjects like Sociology, Traffic Engineering, Law, Naturopathy, Computer etc. He is fluent in speaking, reading and writing several languages He served Delhi Police in the rank of Deputy Commissioner of Police. \r\nFrom his early days itself, he developed a deep interest in Vedic philosophy.\r\n\r\nMr. Awana has a deep interest in Indian spiritual literature and epics. He is indeed very inspired by Vedic philosophy. While studying the literature, he was overwhelmed by the beauty of Vedic Dharma and was inspired to write about the Vedas based on his understanding and explanations in simplified manner. As a result, he adopted the teachings of Vedas in his real life. While writing on the importance of Vedas in life, he has tried to focus on the importance of Karma and its impact on our lives.\r\n\r\nThe Vedas refer to the totality of mankind's actions and their concomitant reactions in the present and past lives, all of which determine the future.\r\n\r\nHe has written various blogs on Indian literature, Vedas and Upanishads, which show their importance in our lives. He has made full use of technology and social networking platforms to share simple meanings of verses of the Vedas so that everyone can understand them easily and we can look at life from a different perspective.\r\n\r\nHe is a well-known Vedic Commentator and involved in various preaching sessions He authored several books. \r\n\r\nHis famous work is compilation of selected verses of all four Vedas with translation in Hindi and English which is written for a common man so that he can get a glimpse of the hidden treasures in the Vedas. The author translated selected verses of Vedas in more acceptable and widely understandable languages of Hindi and English.",
+    "link": "https://anuugyabooks.com/bookauthor/gyanandra-awana/",
+    "name": "Gyanandra Awana / ज्ञानेन्द्र अवाना",
+    "slug": "gyanandra-awana",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/511",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=511"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=511"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 579,
+    "count": 0,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/habib-selmi-%e0%a4%b9%e0%a4%ac%e0%a5%80%e0%a4%ac-%e0%a4%b8%e0%a5%87%e0%a4%b2%e0%a4%ae%e0%a5%80/",
+    "name": "Habib Selmi / हबीब सेलमी",
+    "slug": "habib-selmi-%e0%a4%b9%e0%a4%ac%e0%a5%80%e0%a4%ac-%e0%a4%b8%e0%a5%87%e0%a4%b2%e0%a4%ae%e0%a5%80",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/579",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=579"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=579"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 396,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/harendra-pandey/",
+    "name": "Harendra Pandey / हरेन्द्र पाण्डेय",
+    "slug": "harendra-pandey",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/396",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=396"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=396"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 311,
+    "count": 1,
+    "description": "हरिराम मीणा – परिचय : आई.पी.एस. (सेवानिवृत)। जन्म : 1 मई, 1952 ग्राम-बामनवास, जिला-सवाईमाधोपुर, राजस्थान। शिक्षा : एम.ए., (राजनीति विज्ञान, 1975), राजस्थान विश्वविद्यालय। साहित्यिक कृतियाँ : अब तक तीन कविता संकलन, एक प्रबंध काव्य, तीन यात्रा वृत्तान्त, आदिवासी विमर्श की दो पुस्तकें, संस्मरणों की एक पुस्तक और तीन उपन्यास प्रकाशित। आदिवासी मुद्दों पर विशेष कार्य। पुरस्कार : पुलिस अधिकारी के रूप में दी गयी सराहनीय सेवा के लिए भारतीय पुलिस पदक, उत्कृष्ट सेवा के लिए राष्ट्रपति का पुलिस पदक और वन्यजीव संरक्षण के लिए पद्मश्री सांखला अवार्ड से सम्मानित। साहित्यिक योगदान के लिए डा. अम्बेडकर राष्ट्रीय पुरस्कार, राजस्थान साहित्य अकादमी का सर्वोच्च मीरां पुरस्कार, केन्द्रीय हिंदी संस्थान द्वारा महापंडित राहुल सांकृत्यायन सम्मान, बिड़ला फाऊँडेशन का बिहारी पुरस्कार और विश्व हिंदी सम्मान 2015 सहित अनेकों पुरस्कारों से सम्मानित। अनुवाद : इनकी कृतियों में से ‘धूणी तपे तीर’ उपन्यास का अंग्रेजी अनुवाद ‘When Arrows Were Heated up’ शीर्षक से, यात्रा वृत्तान्त ‘जंगल जंगल जलियांवाला’ का पंजाबी में और अनेक कविताओं का अनुवाद अंग्रेजी, बंगाली, मराठी व गुजराती में हो चुका है। शोध-कार्य : इनके साहित्य पर तीन शोधार्थियों को पीएच.डी. अवार्ड हो चुकी है। करीब 100 से अधिक शोधार्थी एम.फिल. कर चुके हैं, कई अन्य कर रहे हैं। करीब आधा दर्ज़न पीएच.डी. कर रहे हैं। शैक्षणिक पाठ्यक्रम : इनकी पुस्तकें दिल्ली विश्वविद्यालय सहित करीब चार दर्ज़न केन्द्रीय एवं प्रांतीय विश्वविद्यालयों के पाठ्यक्रमों में सम्मिलित हैं। सम्प्रति : स्वतंत्र लेखन, पूर्व विजिटिंग प्रोफ़ेसर, हैदराबाद केंद्रीय विश्वविद्यालय; राजस्थान जनजातीय विश्वविद्यालय हेतु राजस्थान सरकार द्वारा मनोनीत सलाहकार। संपर्क : 31, शिवशक्ति नगर, किंग्स रोड, अजमेर हाई-वे, जयपुर - 302019 (राजस्थान)। e-mail : hrmbms@yahoo.co.in; Mob. : 94141 24101",
+    "link": "https://anuugyabooks.com/bookauthor/hariram-meena/",
+    "name": "Hariram Meena / हरिराम मीणा",
+    "slug": "hariram-meena",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/311",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=311"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=311"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 77,
+    "count": 3,
+    "description": "हरियश  राय\r\nउत्तर प्रदेश के फतेहगढ़ में प्रारम्भिक शिक्षा, 1971 के बाद  की  शिक्षा  दिल्ली  से।\r\nशुरुआती  दौर  में  व्यंग्य  लेखन  से  थोड़ा  बहुत  नाता।\r\nदो  उपन्यासों ‘नागफनी के जंगल में’ और ‘मुट्ठी में बादल’ के अलावा छ: कहानी संकलन ‘बर्फ होती नदी’, ‘उधर भी सहरा’, ‘अंतिम पड़ाव’, ‘वजूद के लिए’, ‘सुबह- सवेरे’ व ‘किस मुकाम तक’ प्रकाशित।\r\nइसके साथ ही सामयिक विषयों से संबंधित चार अन्य किताबें ‘भारत-विभाजन और हिंदी उपन्यास’, ‘सूचना तकनीक, बाज़ार एवं बैंकिंग’, ‘समय के सरोकार’, ‘शिक्षा,भाषा और औपनिवेशिक दासता’  प्रकाशित।\r\nउद्भावना पत्रिका के भीष्म साहनी अंक का  \r\nसंपादन। \r\nलगभग 32 वर्ष तक बैंक में कार्य करने के उपरांत \r\nउप-महाप्रबंधक  के  पद  से  सेवा  मुक्त।\r\nअब  दिल्ली  में  निवास।\r\nसंपर्क  : 73, मनोचा एपार्टमैंट, एफ-ब्लाक, विकास-पुरी,  नई  दिल्ली–110018\r\nई-मेल : hariyashrai@gmail.com\r\nमो. : 09873225505",
+    "link": "https://anuugyabooks.com/bookauthor/hariyash-rai/",
+    "name": "Hariyash Rai / हरियश राय",
+    "slug": "hariyash-rai",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/77",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=77"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=77"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 316,
+    "count": 0,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/harpreet-singh/",
+    "name": "Harpreet Singh / हरप्रीत सिंह",
+    "slug": "harpreet-singh",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/316",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=316"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=316"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 163,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/dr-hillol-kanti-pal/",
+    "name": "Hillol Kanti Pal / हिल्लोल कांति पॉल",
+    "slug": "dr-hillol-kanti-pal",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/163",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=163"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=163"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 704,
+    "count": 1,
+    "description": "इन्दिरा अग्निहोत्री ‘इन्दू’\r\nजन्म- 01 जनवरी, 1966 को रीवा जिला अन्तर्गत, गुढ़ के समीपी गाँव बंजारी में।\r\nशिक्षा- स्नातकोत्तर, हिन्दी साहित्य\r\nमाता- स्वर्गीय रामदुलारी मिश्रा\r\nपिता- श्री कृष्ण प्रसाद मिश्र\r\nपति- श्री आनन्द अग्निहोत्री\r\nलेखन- विगत बीस वर्षों से बघेली कहानियों का लेखन, जो अनवरत जारी है। आकाशवाणीं रीवा से बघेली कहानियों का प्रसारण एवं समाचार पत्रों में कई कहानियाँ प्रकाशित।\r\nस्थायी पता - ग्राम- मैदानी, बनकुइयाँ रोड रीवा मध्य प्रदेश।\r\nमोबाइल- 8224852111",
+    "link": "https://anuugyabooks.com/bookauthor/indira-agnihotri/",
+    "name": "Indira Agnihotri / इन्दिरा अग्निहोत्री",
+    "slug": "indira-agnihotri",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/704",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=704"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=704"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  },
+  {
+    "id": 730,
+    "count": 1,
+    "description": "",
+    "link": "https://anuugyabooks.com/bookauthor/ivan-turgenev-%e0%a4%87%e0%a4%b5%e0%a4%be%e0%a4%a8-%e0%a4%a4%e0%a5%81%e0%a4%b0%e0%a4%97%e0%a5%87%e0%a4%a8%e0%a4%bf%e0%a4%ab%e0%a4%bc/",
+    "name": "Ivan Turgenev / इवान तुरगेनिफ़",
+    "slug": "ivan-turgenev-%e0%a4%87%e0%a4%b5%e0%a4%be%e0%a4%a8-%e0%a4%a4%e0%a5%81%e0%a4%b0%e0%a4%97%e0%a5%87%e0%a4%a8%e0%a4%bf%e0%a4%ab%e0%a4%bc",
+    "taxonomy": "bookauthor",
+    "parent": 0,
+    "meta": [],
+    "acf": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor/730",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/bookauthor"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/taxonomies/bookauthor"
+        }
+      ],
+      "wp:post_type": [
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/media?bookauthor=730"
+        },
+        {
+          "href": "https://anuugyabooks.com/wp-json/wp/v2/product?bookauthor=730"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]
