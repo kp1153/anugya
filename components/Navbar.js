@@ -85,8 +85,8 @@ const Navbar = () => {
       ]
     },
     { name: 'रचनावली', href: '/rachnawali' },
-    { name: 'अनुवादक', href: '/translators' },
-    { name: 'लेखक', href: '/authors' },
+    { name: 'पॉपुलर', href: '/popular' },
+    { name: 'लेटेस्ट', href: '/latest' },
     { name: 'विविध', href: '/miscellaneous' },
     { name: 'ट्रैकिंग', href: '/tracking' },
     { name: 'संपर्क', href: '/contact' },
@@ -161,8 +161,8 @@ const Navbar = () => {
       ]
     },
     { name: 'Rachnawali', href: '/rachnawali' },
-    { name: 'Translators', href: '/translators' },
-    { name: 'Authors', href: '/authors' },
+    { name: 'Popular', href: '/popular' },
+    { name: 'Latest', href: '/latest' },
     { name: 'Miscellaneous', href: '/miscellaneous' },
     { name: 'Tracking', href: '/tracking' },
     { name: 'Contact', href: '/contact' },
