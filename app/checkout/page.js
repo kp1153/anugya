@@ -2,12 +2,13 @@
 
 import { useCart } from '@/context/CartContext';
 import { useRouter } from 'next/navigation';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function CheckoutPage() {
   const { cart, clearCart } = useCart();
   const router = useRouter();
   const [loading, setLoading] = useState(false);
+  const [mounted, setMounted] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -17,6 +18,16 @@ export default function CheckoutPage() {
     state: '',
     pincode: ''
   });
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (mounted && cart.length === 0) {
+      router.push('/cart');
+    }
+  }, [mounted, cart, router]);
 
   const totalPrice = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
@@ -101,8 +112,7 @@ export default function CheckoutPage() {
     }
   };
 
-  if (cart.length === 0) {
-    router.push('/cart');
+  if (!mounted || cart.length === 0) {
     return null;
   }
 

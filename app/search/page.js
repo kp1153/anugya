@@ -1,12 +1,12 @@
 'use client';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import FilterSidebar from '@/components/FilterSidebar';
 import { FaSearch, FaSpinner } from 'react-icons/fa';
 
-export default function SearchPage() {
+function SearchContent() {
   const searchParams = useSearchParams();
   const router = useRouter();
   const [books, setBooks] = useState([]);
@@ -240,5 +240,17 @@ export default function SearchPage() {
         </div>
       </div>
     </div>
+  );
+}
+
+export default function SearchPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen bg-gray-50 flex justify-center items-center">
+        <FaSpinner className="animate-spin text-4xl text-[#8B4513]" />
+      </div>
+    }>
+      <SearchContent />
+    </Suspense>
   );
 }
