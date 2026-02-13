@@ -1,152 +1,86 @@
 'use client';
 
-import { useState } from 'react';
-
 export default function CategoriesPage() {
-  const [categories, setCategories] = useState([
-    'साहित्य',
-    'कविता',
-    'उपन्यास',
-    'कहानी संग्रह',
-    'निबंध',
-    'आत्मकथा'
-  ]);
-  const [newCategory, setNewCategory] = useState('');
-  const [editIndex, setEditIndex] = useState(null);
-  const [editValue, setEditValue] = useState('');
-
-  function addCategory() {
-    if (!newCategory.trim()) {
-      alert('कैटेगरी का नाम लिखें');
-      return;
+  const categories = [
+    {
+      name: 'विधा',
+      icon: '📖',
+      subcategories: ['कहानी', 'उपन्यास', 'कविता', 'लघुकथा', 'शायरी', 'काव्यशास्त्र']
+    },
+    {
+      name: 'आदिवासी साहित्य',
+      icon: '🏞️',
+      subcategories: ['कहानी', 'उपन्यास', 'कविता', 'विचार']
+    },
+    {
+      name: 'अनुवाद',
+      icon: '🌍',
+      subcategories: ['विदेशी - कहानी', 'विदेशी - उपन्यास', 'विदेशी - कविता', 'भारतीय - कहानी', 'भारतीय - उपन्यास', 'भारतीय - कविता']
+    },
+    {
+      name: 'अकादमिक',
+      icon: '🎓',
+      subcategories: ['सिनेमा', 'पत्रकारिता', 'इतिहास', 'राजनीति', 'गांधी', 'अर्थशास्त्र', 'प्रबंधन', 'शिक्षा', 'सामान्य ज्ञान', 'भाषाविज्ञान', 'शब्दकोश', 'चिकित्सा विज्ञान', 'दर्शनशास्त्र', 'समाजशास्त्र']
+    },
+    {
+      name: 'विमर्श',
+      icon: '💭',
+      subcategories: ['आलोचना', 'दलित विमर्श', 'दिव्यांग', 'पर्यावरण', 'सांप्रदायिकता', 'स्त्री विमर्श']
+    },
+    {
+      name: 'विविध',
+      icon: '🎨',
+      subcategories: ['संचयन', 'निबंध', 'आत्मकथा', 'संस्मरण', 'जीवनी', 'डायरी', 'पत्र', 'साक्षात्कार', 'ग्रामीण', 'पुलिसिंग', 'व्यंग्य', 'समग्र', 'कला एवं संस्कृति', 'संगीत', 'धार्मिक', 'रंगमंच', 'राष्ट्रवाद', 'किशोर साहित्य', 'ईसाई धर्म']
+    },
+    {
+      name: 'भाषा/प्रादेशिक',
+      icon: '🗣️',
+      subcategories: ['अंग्रेजी', 'उर्दू', 'भोजपुरी', 'बुंदेली', 'हरियाणवी', 'राजस्थानी', 'नॉर्थ-ईस्ट', 'झारखंड', 'हिमाचली', 'बघेली', 'छत्तीसगढ़ी', 'प्रवासी साहित्य', 'संस्कृत', 'अंडमानी']
+    },
+    {
+      name: 'क्लासिक्स',
+      icon: '📜',
+      subcategories: ['हिंदी', 'अंग्रेजी', 'उर्दू']
+    },
+    {
+      name: 'जिल्द',
+      icon: '📕',
+      subcategories: ['हार्ड बाउंड - 2026', 'हार्ड बाउंड - 2025', 'पेपर बाउंड', 'पिन बाउंड', 'कॉम्बो पैक']
     }
-    if (categories.includes(newCategory.trim())) {
-      alert('यह कैटेगरी पहले से मौजूद है');
-      return;
-    }
-    setCategories([...categories, newCategory.trim()]);
-    setNewCategory('');
-  }
-
-  function deleteCategory(index) {
-    if (!confirm('क्या आप इस कैटेगरी को डिलीट करना चाहते हैं?')) return;
-    setCategories(categories.filter((_, i) => i !== index));
-  }
-
-  function startEdit(index) {
-    setEditIndex(index);
-    setEditValue(categories[index]);
-  }
-
-  function saveEdit() {
-    if (!editValue.trim()) {
-      alert('कैटेगरी का नाम लिखें');
-      return;
-    }
-    const updated = [...categories];
-    updated[editIndex] = editValue.trim();
-    setCategories(updated);
-    setEditIndex(null);
-    setEditValue('');
-  }
-
-  function cancelEdit() {
-    setEditIndex(null);
-    setEditValue('');
-  }
+  ];
 
   return (
     <div>
       <h2 className="text-3xl font-bold text-gray-800 mb-6">कैटेगरी प्रबंधन</h2>
 
-      {/* नई कैटेगरी जोड़ें */}
-      <div className="bg-white rounded-lg shadow p-6 mb-6">
-        <h3 className="text-xl font-bold text-gray-800 mb-4">नई कैटेगरी जोड़ें</h3>
-        <div className="flex gap-4">
-          <input
-            type="text"
-            value={newCategory}
-            onChange={(e) => setNewCategory(e.target.value)}
-            onKeyPress={(e) => e.key === 'Enter' && addCategory()}
-            placeholder="कैटेगरी का नाम लिखें..."
-            className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-          />
-          <button
-            onClick={addCategory}
-            className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-2 rounded-lg font-semibold transition-colors"
-          >
-            जोड़ें
-          </button>
-        </div>
-      </div>
-
-      {/* कैटेगरी लिस्ट */}
-      <div className="bg-white rounded-lg shadow p-6">
-        <h3 className="text-xl font-bold text-gray-800 mb-4">सभी कैटेगरी ({categories.length})</h3>
-        
-        {categories.length === 0 ? (
-          <p className="text-gray-500 text-center py-8">कोई कैटेगरी नहीं है</p>
-        ) : (
-          <div className="space-y-3">
-            {categories.map((category, index) => (
-              <div
-                key={index}
-                className="flex items-center justify-between p-4 border border-gray-200 rounded-lg hover:bg-gray-50"
-              >
-                {editIndex === index ? (
-                  <div className="flex-1 flex gap-3">
-                    <input
-                      type="text"
-                      value={editValue}
-                      onChange={(e) => setEditValue(e.target.value)}
-                      onKeyPress={(e) => e.key === 'Enter' && saveEdit()}
-                      className="flex-1 px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-teal-500 focus:border-transparent"
-                      autoFocus
-                    />
-                    <button
-                      onClick={saveEdit}
-                      className="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg font-semibold transition-colors"
-                    >
-                      सेव
-                    </button>
-                    <button
-                      onClick={cancelEdit}
-                      className="bg-gray-500 hover:bg-gray-600 text-white px-4 py-2 rounded-lg font-semibold transition-colors"
-                    >
-                      रद्द
-                    </button>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {categories.map((category, index) => (
+          <div key={index} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-3xl">{category.icon}</span>
+              <h3 className="text-xl font-bold text-gray-800">{category.name}</h3>
+            </div>
+            
+            <div className="space-y-2">
+              <p className="text-sm font-semibold text-gray-600 mb-2">
+                उप-श्रेणियाँ ({category.subcategories.length})
+              </p>
+              <div className="max-h-40 overflow-y-auto space-y-1">
+                {category.subcategories.map((sub, subIndex) => (
+                  <div key={subIndex} className="flex items-center gap-2 text-sm text-gray-700 bg-gray-50 px-3 py-1.5 rounded">
+                    <span className="text-xs">•</span>
+                    <span>{sub}</span>
                   </div>
-                ) : (
-                  <>
-                    <div className="flex items-center gap-3">
-                      <span className="text-2xl">📁</span>
-                      <span className="text-lg font-semibold text-gray-800">{category}</span>
-                    </div>
-                    <div className="flex gap-2">
-                      <button
-                        onClick={() => startEdit(index)}
-                        className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors"
-                      >
-                        एडिट
-                      </button>
-                      <button
-                        onClick={() => deleteCategory(index)}
-                        className="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-colors"
-                      >
-                        डिलीट
-                      </button>
-                    </div>
-                  </>
-                )}
+                ))}
               </div>
-            ))}
+            </div>
           </div>
-        )}
+        ))}
       </div>
 
-      <div className="mt-6 bg-yellow-50 border border-yellow-200 rounded-lg p-4">
-        <p className="text-sm text-yellow-800">
-          <strong>नोट:</strong> कैटेगरी डिलीट करने से पहले सुनिश्चित करें कि कोई किताब उस कैटेगरी में नहीं है।
+      <div className="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
+        <p className="text-sm text-blue-800">
+          <strong>ℹ️ नोट:</strong> ये सभी कैटेगरीज नैवबार से सिंक हैं। कुल {categories.length} मुख्य श्रेणियाँ और {categories.reduce((acc, cat) => acc + cat.subcategories.length, 0)} उप-श्रेणियाँ।
         </p>
       </div>
     </div>

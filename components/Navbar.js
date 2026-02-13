@@ -200,7 +200,7 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="bg-[#8B4513] border-b-2 border-[#654321] shadow-md sticky top-0 z-50">
+      <nav className="bg-[#8B4513] border-b-2 border-[#654321] shadow-md z-50">
         <style dangerouslySetInnerHTML={{__html: `
           *::-webkit-scrollbar { width: 12px; height: 12px; }
           *::-webkit-scrollbar-track { background: #654321; }
