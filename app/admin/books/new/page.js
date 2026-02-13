@@ -173,27 +173,102 @@ export default function NewBookPage() {
               onChange={(e) => setFormData({...formData, category: e.target.value})}
               className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
             >
-              <option value="">Select Category</option>
-              <option value="novel">Novel</option>
-              <option value="story">Story</option>
-              <option value="russian-literature">Russian Literature</option>
-              <option value="autobiography">Autobiography</option>
-              <option value="biography">Biography</option>
-              <option value="criticism">Criticism</option>
-              <option value="ghazal">Ghazal</option>
-              <option value="tribal-literature/poetry">Tribal Literature - Poetry</option>
-              <option value="tribal-literature/prose">Tribal Literature - Prose</option>
-              <option value="dalit-literature/poetry">Dalit Literature - Poetry</option>
-              <option value="dalit-literature/prose">Dalit Literature - Prose</option>
-              <option value="classics/anuugya-classics">Anuugya Classics</option>
-              <option value="northeast-literature">North-East Literature</option>
-              <option value="discourse/women">Women Discourse</option>
-              <option value="academic/journalism">Academic - Journalism</option>
-              <option value="academic/linguistics">Academic - Linguistics</option>
-              <option value="academic/philosophy">Academic - Philosophy</option>
-              <option value="academic/history-politics">Academic - History & Politics</option>
-              <option value="rachnawali">Rachnawali</option>
-              <option value="miscellaneous">Miscellaneous</option>
+              <option value="">कैटेगरी चुनें</option>
+<optgroup label="विधा">
+  <option value="vidha/kahani">कहानी</option>
+  <option value="vidha/upanyas">उपन्यास</option>
+  <option value="vidha/poetry">कविता</option>
+  <option value="vidha/laghukatha">लघुकथा</option>
+  <option value="vidha/shayri">शायरी</option>
+  <option value="vidha/poetics">काव्यशास्त्र</option>
+</optgroup>
+<optgroup label="आदिवासी साहित्य">
+  <option value="aadivasi/kahani">कहानी</option>
+  <option value="aadivasi/upanyas">उपन्यास</option>
+  <option value="aadivasi/poetry">कविता</option>
+  <option value="aadivasi/vichar">विचार</option>
+</optgroup>
+<optgroup label="अनुवाद">
+  <option value="anuvaad/videshi/kahani">विदेशी - कहानी</option>
+  <option value="anuvaad/videshi/upanyas">विदेशी - उपन्यास</option>
+  <option value="anuvaad/videshi/poetry">विदेशी - कविता</option>
+  <option value="anuvaad/bhartiya/kahani">भारतीय - कहानी</option>
+  <option value="anuvaad/bhartiya/upanyas">भारतीय - उपन्यास</option>
+  <option value="anuvaad/bhartiya/poetry">भारतीय - कविता</option>
+</optgroup>
+<optgroup label="अकादमिक">
+  <option value="akadmik/cinema">सिनेमा</option>
+  <option value="akadmik/journalism">पत्रकारिता</option>
+  <option value="akadmik/history">इतिहास</option>
+  <option value="akadmik/politics">राजनीति</option>
+  <option value="akadmik/gandhi">गांधी</option>
+  <option value="akadmik/economics">अर्थशास्त्र</option>
+  <option value="akadmik/management">प्रबंधन</option>
+  <option value="akadmik/education">शिक्षा</option>
+  <option value="akadmik/gk">सामान्य ज्ञान</option>
+  <option value="akadmik/linguistics">भाषाविज्ञान</option>
+  <option value="akadmik/dictionary">शब्दकोश</option>
+  <option value="akadmik/medical">चिकित्सा विज्ञान</option>
+  <option value="akadmik/philosophy">दर्शनशास्त्र</option>
+  <option value="akadmik/sociology">समाजशास्त्र</option>
+</optgroup>
+<optgroup label="विमर्श">
+  <option value="vimarsh/alochana">आलोचना</option>
+  <option value="vimarsh/dalit">दलित विमर्श</option>
+  <option value="vimarsh/divyang">दिव्यांग</option>
+  <option value="vimarsh/environment">पर्यावरण</option>
+  <option value="vimarsh/communalism">सांप्रदायिकता</option>
+  <option value="vimarsh/stri">स्त्री विमर्श</option>
+</optgroup>
+<optgroup label="विविध">
+  <option value="vividh/sanchayan">संचयन</option>
+  <option value="vividh/nibandh">निबंध</option>
+  <option value="vividh/aatmkatha">आत्मकथा</option>
+  <option value="vividh/sansmaran">संस्मरण</option>
+  <option value="vividh/jivani">जीवनी</option>
+  <option value="vividh/diary">डायरी</option>
+  <option value="vividh/letter">पत्र</option>
+  <option value="vividh/interview">साक्षात्कार</option>
+  <option value="vividh/gramin">ग्रामीण</option>
+  <option value="vividh/policing">पुलिसिंग</option>
+  <option value="vividh/vyangya">व्यंग्य</option>
+  <option value="vividh/samagra">समग्र</option>
+  <option value="vividh/art-culture">कला एवं संस्कृति</option>
+  <option value="vividh/music">संगीत</option>
+  <option value="vividh/religious">धार्मिक</option>
+  <option value="vividh/theatre">रंगमंच</option>
+  <option value="vividh/nationalism">राष्ट्रवाद</option>
+  <option value="vividh/kishore">किशोर साहित्य</option>
+  <option value="vividh/christianity">ईसाई धर्म</option>
+</optgroup>
+<optgroup label="भाषा/प्रादेशिक">
+  <option value="bhasha/english">अंग्रेजी</option>
+  <option value="bhasha/urdu">उर्दू</option>
+  <option value="bhasha/bhojpuri">भोजपुरी</option>
+  <option value="bhasha/bundeli">बुंदेली</option>
+  <option value="bhasha/haryanvi">हरियाणवी</option>
+  <option value="bhasha/rajasthani">राजस्थानी</option>
+  <option value="bhasha/north-east">नॉर्थ-ईस्ट</option>
+  <option value="bhasha/jharkhand">झारखंड</option>
+  <option value="bhasha/himachali">हिमाचली</option>
+  <option value="bhasha/bagheli">बघेली</option>
+  <option value="bhasha/chhattisgarhi">छत्तीसगढ़ी</option>
+  <option value="bhasha/pravasi">प्रवासी साहित्य</option>
+  <option value="bhasha/sanskrit">संस्कृत</option>
+  <option value="bhasha/andamani">अंडमानी</option>
+</optgroup>
+<optgroup label="क्लासिक्स">
+  <option value="classics/hindi">हिंदी</option>
+  <option value="classics/english">अंग्रेजी</option>
+  <option value="classics/urdu">उर्दू</option>
+</optgroup>
+<optgroup label="जिल्द">
+  <option value="jild/hardbound-2026">हार्ड बाउंड - 2026</option>
+  <option value="jild/hardbound-2025">हार्ड बाउंड - 2025</option>
+  <option value="jild/paperbound">पेपर बाउंड</option>
+  <option value="jild/pinbound">पिन बाउंड</option>
+  <option value="jild/combo">कॉम्बो पैक</option>
+</optgroup>
             </select>
           </div>
 
