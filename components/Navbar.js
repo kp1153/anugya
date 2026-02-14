@@ -29,42 +29,95 @@ const navItems = {
           name: 'आदिवासी साहित्य', 
           href: '/vidha/aadivasi',
           children: [
+            { name: 'कविता', href: '/vidha/aadivasi/poetry' },
             { name: 'कहानी', href: '/vidha/aadivasi/kahani' },
             { name: 'उपन्यास', href: '/vidha/aadivasi/upanyas' },
-            { name: 'कविता', href: '/vidha/aadivasi/poetry' },
             { name: 'विचार', href: '/vidha/aadivasi/vichar' },
-          ]
-        },
-        { 
-          name: 'अनुवाद', 
-          href: '/vidha/anuvaad',
-          children: [
-            { name: 'विदेशी - कहानी', href: '/vidha/anuvaad/videshi/kahani' },
-            { name: 'विदेशी - उपन्यास', href: '/vidha/anuvaad/videshi/upanyas' },
-            { name: 'विदेशी - कविता', href: '/vidha/anuvaad/videshi/poetry' },
-            { name: 'भारतीय - कहानी', href: '/vidha/anuvaad/bhartiya/kahani' },
-            { name: 'भारतीय - उपन्यास', href: '/vidha/anuvaad/bhartiya/upanyas' },
-            { name: 'भारतीय - कविता', href: '/vidha/anuvaad/bhartiya/poetry' },
           ]
         },
         { 
           name: 'अकादमिक', 
           href: '/vidha/akadmik',
           children: [
-            { name: 'सिनेमा', href: '/vidha/akadmik/cinema' },
-            { name: 'पत्रकारिता', href: '/vidha/akadmik/journalism' },
-            { name: 'इतिहास', href: '/vidha/akadmik/history' },
-            { name: 'राजनीति', href: '/vidha/akadmik/politics' },
-            { name: 'गांधी', href: '/vidha/akadmik/gandhi' },
             { name: 'अर्थशास्त्र', href: '/vidha/akadmik/economics' },
-            { name: 'प्रबंधन', href: '/vidha/akadmik/management' },
-            { name: 'शिक्षा', href: '/vidha/akadmik/education' },
-            { name: 'सामान्य ज्ञान', href: '/vidha/akadmik/gk' },
-            { name: 'भाषाविज्ञान', href: '/vidha/akadmik/linguistics' },
-            { name: 'शब्दकोश', href: '/vidha/akadmik/dictionary' },
+            { name: 'इतिहास', href: '/vidha/akadmik/history' },
+            { name: 'गांधी', href: '/vidha/akadmik/gandhi' },
             { name: 'चिकित्सा विज्ञान', href: '/vidha/akadmik/medical' },
             { name: 'दर्शनशास्त्र', href: '/vidha/akadmik/philosophy' },
+            { name: 'पत्रकारिता', href: '/vidha/akadmik/journalism' },
+            { name: 'प्रबंधन', href: '/vidha/akadmik/management' },
+            { name: 'भाषाविज्ञान', href: '/vidha/akadmik/linguistics' },
+            { name: 'राजनीति', href: '/vidha/akadmik/politics' },
             { name: 'समाजशास्त्र', href: '/vidha/akadmik/sociology' },
+            { name: 'सामान्य ज्ञान', href: '/vidha/akadmik/gk' },
+            { name: 'सिनेमा', href: '/vidha/akadmik/cinema' },
+            { name: 'शब्दकोश', href: '/vidha/akadmik/dictionary' },
+            { name: 'शिक्षा', href: '/vidha/akadmik/education' },
+          ]
+        },
+        { 
+          name: 'अनुवाद', 
+          href: '/vidha/anuvaad',
+          children: [
+            { name: 'भारतीय - कविता', href: '/vidha/anuvaad/bhartiya/poetry' },
+            { name: 'भारतीय - कहानी', href: '/vidha/anuvaad/bhartiya/kahani' },
+            { name: 'भारतीय - उपन्यास', href: '/vidha/anuvaad/bhartiya/upanyas' },
+            { name: 'विदेशी - कविता', href: '/vidha/anuvaad/videshi/poetry' },
+            { name: 'विदेशी - कहानी', href: '/vidha/anuvaad/videshi/kahani' },
+            { name: 'विदेशी - उपन्यास', href: '/vidha/anuvaad/videshi/upanyas' },
+          ]
+        },
+        { 
+          name: 'क्लासिक्स', 
+          href: '/vidha/classics',
+          children: [
+            { name: 'अंग्रेजी', href: '/vidha/classics/english' },
+            { name: 'उर्दू', href: '/vidha/classics/urdu' },
+            { name: 'हिंदी', href: '/vidha/classics/hindi' },
+          ]
+        },
+        { 
+          name: 'जिल्द', 
+          href: '/vidha/jild',
+          children: [
+            { name: 'कॉम्बो पैक', href: '/vidha/jild/combo' },
+            { name: 'पिन बाउंड', href: '/vidha/jild/pinbound' },
+            { name: 'पेपर बाउंड', href: '/vidha/jild/paperbound' },
+            { name: 'हार्ड बाउंड - 2024', href: '/vidha/jild/hardbound-2024' },
+            { name: 'हार्ड बाउंड - 2025', href: '/vidha/jild/hardbound-2025' },
+            { name: 'हार्ड बाउंड - 2026', href: '/vidha/jild/hardbound-2026' },
+          ]
+        },
+        { 
+          name: 'फ़िक्शन', 
+          href: '/vidha/fiction',
+          children: [
+            { name: 'कविता', href: '/vidha/fiction/poetry' },
+            { name: 'कहानी', href: '/vidha/fiction/kahani' },
+            { name: 'काव्यशास्त्र', href: '/vidha/fiction/poetics' },
+            { name: 'उपन्यास', href: '/vidha/fiction/upanyas' },
+            { name: 'लघुकथा', href: '/vidha/fiction/laghukatha' },
+            { name: 'शायरी', href: '/vidha/fiction/shayri' },
+          ]
+        },
+        { 
+          name: 'भाषा/प्रादेशिक', 
+          href: '/vidha/bhasha',
+          children: [
+            { name: 'अंग्रेजी', href: '/vidha/bhasha/english' },
+            { name: 'अंडमानी', href: '/vidha/bhasha/andamani' },
+            { name: 'उर्दू', href: '/vidha/bhasha/urdu' },
+            { name: 'छत्तीसगढ़ी', href: '/vidha/bhasha/chhattisgarhi' },
+            { name: 'झारखंड', href: '/vidha/bhasha/jharkhand' },
+            { name: 'नॉर्थ-ईस्ट', href: '/vidha/bhasha/north-east' },
+            { name: 'प्रवासी साहित्य', href: '/vidha/bhasha/pravasi' },
+            { name: 'बघेली', href: '/vidha/bhasha/bagheli' },
+            { name: 'बुंदेली', href: '/vidha/bhasha/bundeli' },
+            { name: 'भोजपुरी', href: '/vidha/bhasha/bhojpuri' },
+            { name: 'राजस्थानी', href: '/vidha/bhasha/rajasthani' },
+            { name: 'संस्कृत', href: '/vidha/bhasha/sanskrit' },
+            { name: 'हरियाणवी', href: '/vidha/bhasha/haryanvi' },
+            { name: 'हिमाचली', href: '/vidha/bhasha/himachali' },
           ]
         },
         { 
@@ -83,84 +136,31 @@ const navItems = {
           name: 'विविध', 
           href: '/vidha/vividh',
           children: [
-            { name: 'संचयन', href: '/vidha/vividh/sanchayan' },
-            { name: 'निबंध', href: '/vidha/vividh/nibandh' },
             { name: 'आत्मकथा', href: '/vidha/vividh/aatmkatha' },
-            { name: 'संस्मरण', href: '/vidha/vividh/sansmaran' },
+            { name: 'ईसाई धर्म', href: '/vidha/vividh/christianity' },
+            { name: 'कला एवं संस्कृति', href: '/vidha/vividh/art-culture' },
+            { name: 'किशोर साहित्य', href: '/vidha/vividh/kishore' },
+            { name: 'ग्रामीण', href: '/vidha/vividh/gramin' },
             { name: 'जीवनी', href: '/vidha/vividh/jivani' },
             { name: 'डायरी', href: '/vidha/vividh/diary' },
-            { name: 'पत्र', href: '/vidha/vividh/letter' },
-            { name: 'साक्षात्कार', href: '/vidha/vividh/interview' },
-            { name: 'ग्रामीण', href: '/vidha/vividh/gramin' },
-            { name: 'पुलिसिंग', href: '/vidha/vividh/policing' },
-            { name: 'व्यंग्य', href: '/vidha/vividh/vyangya' },
-            { name: 'समग्र', href: '/vidha/vividh/samagra' },
-            { name: 'कला एवं संस्कृति', href: '/vidha/vividh/art-culture' },
-            { name: 'संगीत', href: '/vidha/vividh/music' },
             { name: 'धार्मिक', href: '/vidha/vividh/religious' },
-            { name: 'रंगमंच', href: '/vidha/vividh/theatre' },
+            { name: 'निबंध', href: '/vidha/vividh/nibandh' },
+            { name: 'पत्र', href: '/vidha/vividh/letter' },
+            { name: 'पुलिसिंग', href: '/vidha/vividh/policing' },
             { name: 'राष्ट्रवाद', href: '/vidha/vividh/nationalism' },
-            { name: 'किशोर साहित्य', href: '/vidha/vividh/kishore' },
-            { name: 'ईसाई धर्म', href: '/vidha/vividh/christianity' },
-          ]
-        },
-        { 
-          name: 'भाषा/प्रादेशिक', 
-          href: '/vidha/bhasha',
-          children: [
-            { name: 'अंग्रेजी', href: '/vidha/bhasha/english' },
-            { name: 'उर्दू', href: '/vidha/bhasha/urdu' },
-            { name: 'भोजपुरी', href: '/vidha/bhasha/bhojpuri' },
-            { name: 'बुंदेली', href: '/vidha/bhasha/bundeli' },
-            { name: 'हरियाणवी', href: '/vidha/bhasha/haryanvi' },
-            { name: 'राजस्थानी', href: '/vidha/bhasha/rajasthani' },
-            { name: 'नॉर्थ-ईस्ट', href: '/vidha/bhasha/north-east' },
-            { name: 'झारखंड', href: '/vidha/bhasha/jharkhand' },
-            { name: 'हिमाचली', href: '/vidha/bhasha/himachali' },
-            { name: 'बघेली', href: '/vidha/bhasha/bagheli' },
-            { name: 'छत्तीसगढ़ी', href: '/vidha/bhasha/chhattisgarhi' },
-            { name: 'प्रवासी साहित्य', href: '/vidha/bhasha/pravasi' },
-            { name: 'संस्कृत', href: '/vidha/bhasha/sanskrit' },
-            { name: 'अंडमानी', href: '/vidha/bhasha/andamani' },
-          ]
-        },
-        { 
-          name: 'Fiction', 
-          href: '/vidha/fiction',
-          children: [
-            { name: 'कहानी', href: '/vidha/fiction/kahani' },
-            { name: 'उपन्यास', href: '/vidha/fiction/upanyas' },
-            { name: 'कविता', href: '/vidha/fiction/poetry' },
-            { name: 'लघुकथा', href: '/vidha/fiction/laghukatha' },
-            { name: 'शायरी', href: '/vidha/fiction/shayri' },
-            { name: 'काव्यशास्त्र', href: '/vidha/fiction/poetics' },
-          ]
-        },
-        { 
-          name: 'क्लासिक्स', 
-          href: '/vidha/classics',
-          children: [
-            { name: 'हिंदी', href: '/vidha/classics/hindi' },
-            { name: 'अंग्रेजी', href: '/vidha/classics/english' },
-            { name: 'उर्दू', href: '/vidha/classics/urdu' },
-          ]
-        },
-        { 
-          name: 'जिल्द', 
-          href: '/vidha/jild',
-          children: [
-            { name: 'हार्ड बाउंड - 2026', href: '/vidha/jild/hardbound-2026' },
-            { name: 'हार्ड बाउंड - 2025', href: '/vidha/jild/hardbound-2025' },
-            { name: 'हार्ड बाउंड - 2024', href: '/vidha/jild/hardbound-2025' },
-
-            { name: 'पेपर बाउंड', href: '/vidha/jild/paperbound' },
-            { name: 'पिन बाउंड', href: '/vidha/jild/pinbound' },
-            { name: 'कॉम्बो पैक', href: '/vidha/jild/combo' },
+            { name: 'रंगमंच', href: '/vidha/vividh/theatre' },
+            { name: 'व्यंग्य', href: '/vidha/vividh/vyangya' },
+            { name: 'संगीत', href: '/vidha/vividh/music' },
+            { name: 'संचयन', href: '/vidha/vividh/sanchayan' },
+            { name: 'संस्मरण', href: '/vidha/vividh/sansmaran' },
+            { name: 'साक्षात्कार', href: '/vidha/vividh/interview' },
+            { name: 'समग्र', href: '/vidha/vividh/samagra' },
           ]
         },
       ]
     },
     { name: 'लेखक', href: '/author' },
+    { name: 'ब्लॉग', href: '/blog' },
     { name: 'ट्रैकिंग', href: '/tracking' },
     { name: 'कैटलॉग', href: '/catalogue' },
     { name: 'ई-बुक्स', href: '/ebooks' },
@@ -182,14 +182,14 @@ const navItems = {
       ]
     },
     { name: 'Authors', href: '/author' },
+    { name: 'Blog', href: '/blog' },
     { name: 'Tracking', href: '/tracking' },
     { name: 'Catalogue', href: '/catalogue' },
     { name: 'E-books', href: '/ebooks' },
     { name: 'Contact', href: '/contact' },
   ]
 };
-
-  const currentNavItems = navItems[language];
+ const currentNavItems = navItems[language];
   const isActive = (href) => pathname === href || pathname.startsWith(href + '/');
 
   const handleDropdownClick = (index) => {
@@ -245,17 +245,8 @@ const navItems = {
               />
             </Link>
             
-            {/* Right: Blog, Search, Cart, Login */}
+            {/* Right: Search, Cart, Login */}
             <div className="flex items-center gap-3">
-              <Link
-                href="/blog"
-                className={`px-3 py-1.5 text-white hover:bg-[#A0522D] rounded-lg transition-colors text-sm font-medium ${
-                  isActive('/blog') ? "bg-[#A0522D]" : ""
-                }`}
-              >
-                {language === 'hi' ? 'ब्लॉग' : 'Blog'}
-              </Link>
-              
               <button
                 onClick={() => setShowSearch(!showSearch)}
                 className="text-white hover:text-gray-200 transition-colors p-2"
@@ -264,13 +255,15 @@ const navItems = {
                 <FaSearch className="text-xl" />
               </button>
               
-              <Link href="/cart" className="relative text-white hover:text-gray-200 transition-colors p-2">
-                <FaShoppingCart className="text-2xl" />
-                {totalItems > 0 && (
-                  <span className="absolute -top-1 -right-1 bg-red-600 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center font-bold border-2 border-white">
-                    {totalItems}
-                  </span>
-                )}
+              <Link href="/cart" className="relative group">
+                <div className="bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white px-4 py-2.5 rounded-lg transition-all shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center gap-2">
+                  <FaShoppingCart className="text-2xl" />
+                  {totalItems > 0 && (
+                    <span className="bg-yellow-400 text-red-900 text-sm font-bold px-2.5 py-0.5 rounded-full animate-pulse">
+                      {totalItems}
+                    </span>
+                  )}
+                </div>
               </Link>
               
               <Link href="/admin/login" className="text-white hover:text-gray-200 transition-colors p-2">

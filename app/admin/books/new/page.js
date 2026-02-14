@@ -175,34 +175,71 @@ export default function NewBookPage() {
             >
               <option value="">कैटेगरी चुनें</option>
 <optgroup label="विधा - आदिवासी साहित्य">
+  <option value="vidha/aadivasi/poetry">कविता</option>
   <option value="vidha/aadivasi/kahani">कहानी</option>
   <option value="vidha/aadivasi/upanyas">उपन्यास</option>
-  <option value="vidha/aadivasi/poetry">कविता</option>
   <option value="vidha/aadivasi/vichar">विचार</option>
 </optgroup>
-<optgroup label="विधा - अनुवाद">
-  <option value="vidha/anuvaad/videshi/kahani">विदेशी - कहानी</option>
-  <option value="vidha/anuvaad/videshi/upanyas">विदेशी - उपन्यास</option>
-  <option value="vidha/anuvaad/videshi/poetry">विदेशी - कविता</option>
-  <option value="vidha/anuvaad/bhartiya/kahani">भारतीय - कहानी</option>
-  <option value="vidha/anuvaad/bhartiya/upanyas">भारतीय - उपन्यास</option>
-  <option value="vidha/anuvaad/bhartiya/poetry">भारतीय - कविता</option>
-</optgroup>
 <optgroup label="विधा - अकादमिक">
-  <option value="vidha/akadmik/cinema">सिनेमा</option>
-  <option value="vidha/akadmik/journalism">पत्रकारिता</option>
-  <option value="vidha/akadmik/history">इतिहास</option>
-  <option value="vidha/akadmik/politics">राजनीति</option>
-  <option value="vidha/akadmik/gandhi">गांधी</option>
   <option value="vidha/akadmik/economics">अर्थशास्त्र</option>
-  <option value="vidha/akadmik/management">प्रबंधन</option>
-  <option value="vidha/akadmik/education">शिक्षा</option>
-  <option value="vidha/akadmik/gk">सामान्य ज्ञान</option>
-  <option value="vidha/akadmik/linguistics">भाषाविज्ञान</option>
-  <option value="vidha/akadmik/dictionary">शब्दकोश</option>
+  <option value="vidha/akadmik/history">इतिहास</option>
+  <option value="vidha/akadmik/gandhi">गांधी</option>
   <option value="vidha/akadmik/medical">चिकित्सा विज्ञान</option>
   <option value="vidha/akadmik/philosophy">दर्शनशास्त्र</option>
+  <option value="vidha/akadmik/journalism">पत्रकारिता</option>
+  <option value="vidha/akadmik/management">प्रबंधन</option>
+  <option value="vidha/akadmik/linguistics">भाषाविज्ञान</option>
+  <option value="vidha/akadmik/politics">राजनीति</option>
   <option value="vidha/akadmik/sociology">समाजशास्त्र</option>
+  <option value="vidha/akadmik/gk">सामान्य ज्ञान</option>
+  <option value="vidha/akadmik/cinema">सिनेमा</option>
+  <option value="vidha/akadmik/dictionary">शब्दकोश</option>
+  <option value="vidha/akadmik/education">शिक्षा</option>
+</optgroup>
+<optgroup label="विधा - अनुवाद">
+  <option value="vidha/anuvaad/bhartiya/poetry">भारतीय - कविता</option>
+  <option value="vidha/anuvaad/bhartiya/kahani">भारतीय - कहानी</option>
+  <option value="vidha/anuvaad/bhartiya/upanyas">भारतीय - उपन्यास</option>
+  <option value="vidha/anuvaad/videshi/poetry">विदेशी - कविता</option>
+  <option value="vidha/anuvaad/videshi/kahani">विदेशी - कहानी</option>
+  <option value="vidha/anuvaad/videshi/upanyas">विदेशी - उपन्यास</option>
+</optgroup>
+<optgroup label="विधा - क्लासिक्स">
+  <option value="vidha/classics/english">अंग्रेजी</option>
+  <option value="vidha/classics/urdu">उर्दू</option>
+  <option value="vidha/classics/hindi">हिंदी</option>
+</optgroup>
+<optgroup label="विधा - जिल्द">
+  <option value="vidha/jild/combo">कॉम्बो पैक</option>
+  <option value="vidha/jild/pinbound">पिन बाउंड</option>
+  <option value="vidha/jild/paperbound">पेपर बाउंड</option>
+  <option value="vidha/jild/hardbound-2024">हार्ड बाउंड - 2024</option>
+  <option value="vidha/jild/hardbound-2025">हार्ड बाउंड - 2025</option>
+  <option value="vidha/jild/hardbound-2026">हार्ड बाउंड - 2026</option>
+</optgroup>
+<optgroup label="विधा - फ़िक्शन">
+  <option value="vidha/fiction/poetry">कविता</option>
+  <option value="vidha/fiction/kahani">कहानी</option>
+  <option value="vidha/fiction/poetics">काव्यशास्त्र</option>
+  <option value="vidha/fiction/upanyas">उपन्यास</option>
+  <option value="vidha/fiction/laghukatha">लघुकथा</option>
+  <option value="vidha/fiction/shayri">शायरी</option>
+</optgroup>
+<optgroup label="विधा - भाषा/प्रादेशिक">
+  <option value="vidha/bhasha/english">अंग्रेजी</option>
+  <option value="vidha/bhasha/andamani">अंडमानी</option>
+  <option value="vidha/bhasha/urdu">उर्दू</option>
+  <option value="vidha/bhasha/chhattisgarhi">छत्तीसगढ़ी</option>
+  <option value="vidha/bhasha/jharkhand">झारखंड</option>
+  <option value="vidha/bhasha/north-east">नॉर्थ-ईस्ट</option>
+  <option value="vidha/bhasha/pravasi">प्रवासी साहित्य</option>
+  <option value="vidha/bhasha/bagheli">बघेली</option>
+  <option value="vidha/bhasha/bundeli">बुंदेली</option>
+  <option value="vidha/bhasha/bhojpuri">भोजपुरी</option>
+  <option value="vidha/bhasha/rajasthani">राजस्थानी</option>
+  <option value="vidha/bhasha/sanskrit">संस्कृत</option>
+  <option value="vidha/bhasha/haryanvi">हरियाणवी</option>
+  <option value="vidha/bhasha/himachali">हिमाचली</option>
 </optgroup>
 <optgroup label="विधा - विमर्श">
   <option value="vidha/vimarsh/alochana">आलोचना</option>
@@ -213,63 +250,26 @@ export default function NewBookPage() {
   <option value="vidha/vimarsh/stri">स्त्री विमर्श</option>
 </optgroup>
 <optgroup label="विधा - विविध">
-  <option value="vidha/vividh/sanchayan">संचयन</option>
-  <option value="vidha/vividh/nibandh">निबंध</option>
   <option value="vidha/vividh/aatmkatha">आत्मकथा</option>
-  <option value="vidha/vividh/sansmaran">संस्मरण</option>
+  <option value="vidha/vividh/christianity">ईसाई धर्म</option>
+  <option value="vidha/vividh/art-culture">कला एवं संस्कृति</option>
+  <option value="vidha/vividh/kishore">किशोर साहित्य</option>
+  <option value="vidha/vividh/gramin">ग्रामीण</option>
   <option value="vidha/vividh/jivani">जीवनी</option>
   <option value="vidha/vividh/diary">डायरी</option>
-  <option value="vidha/vividh/letter">पत्र</option>
-  <option value="vidha/vividh/interview">साक्षात्कार</option>
-  <option value="vidha/vividh/gramin">ग्रामीण</option>
-  <option value="vidha/vividh/policing">पुलिसिंग</option>
-  <option value="vidha/vividh/vyangya">व्यंग्य</option>
-  <option value="vidha/vividh/samagra">समग्र</option>
-  <option value="vidha/vividh/art-culture">कला एवं संस्कृति</option>
-  <option value="vidha/vividh/music">संगीत</option>
   <option value="vidha/vividh/religious">धार्मिक</option>
-  <option value="vidha/vividh/theatre">रंगमंच</option>
+  <option value="vidha/vividh/nibandh">निबंध</option>
+  <option value="vidha/vividh/letter">पत्र</option>
+  <option value="vidha/vividh/policing">पुलिसिंग</option>
   <option value="vidha/vividh/nationalism">राष्ट्रवाद</option>
-  <option value="vidha/vividh/kishore">किशोर साहित्य</option>
-  <option value="vidha/vividh/christianity">ईसाई धर्म</option>
-</optgroup>
-<optgroup label="विधा - भाषा/प्रादेशिक">
-  <option value="vidha/bhasha/english">अंग्रेजी</option>
-  <option value="vidha/bhasha/urdu">उर्दू</option>
-  <option value="vidha/bhasha/bhojpuri">भोजपुरी</option>
-  <option value="vidha/bhasha/bundeli">बुंदेली</option>
-  <option value="vidha/bhasha/haryanvi">हरियाणवी</option>
-  <option value="vidha/bhasha/rajasthani">राजस्थानी</option>
-  <option value="vidha/bhasha/north-east">नॉर्थ-ईस्ट</option>
-  <option value="vidha/bhasha/jharkhand">झारखंड</option>
-  <option value="vidha/bhasha/himachali">हिमाचली</option>
-  <option value="vidha/bhasha/bagheli">बघेली</option>
-  <option value="vidha/bhasha/chhattisgarhi">छत्तीसगढ़ी</option>
-  <option value="vidha/bhasha/pravasi">प्रवासी साहित्य</option>
-  <option value="vidha/bhasha/sanskrit">संस्कृत</option>
-  <option value="vidha/bhasha/andamani">अंडमानी</option>
-</optgroup>
-<optgroup label="विधा - Fiction">
-  <option value="vidha/fiction/kahani">कहानी</option>
-  <option value="vidha/fiction/upanyas">उपन्यास</option>
-  <option value="vidha/fiction/poetry">कविता</option>
-  <option value="vidha/fiction/laghukatha">लघुकथा</option>
-  <option value="vidha/fiction/shayri">शायरी</option>
-  <option value="vidha/fiction/poetics">काव्यशास्त्र</option>
-</optgroup>
-<optgroup label="विधा - क्लासिक्स">
-  <option value="vidha/classics/hindi">हिंदी</option>
-  <option value="vidha/classics/english">अंग्रेजी</option>
-  <option value="vidha/classics/urdu">उर्दू</option>
-</optgroup>
-<optgroup label="विधा - जिल्द">
-  <option value="vidha/jild/hardbound-2026">हार्ड बाउंड - 2026</option>
-  <option value="vidha/jild/hardbound-2025">हार्ड बाउंड - 2025</option>
-  <option value="vidha/jild/paperbound">पेपर बाउंड</option>
-  <option value="vidha/jild/pinbound">पिन बाउंड</option>
-  <option value="vidha/jild/combo">कॉम्बो पैक</option>
-</optgroup>
-            </select>
+  <option value="vidha/vividh/theatre">रंगमंच</option>
+  <option value="vidha/vividh/vyangya">व्यंग्य</option>
+  <option value="vidha/vividh/music">संगीत</option>
+  <option value="vidha/vividh/sanchayan">संचयन</option>
+  <option value="vidha/vividh/sansmaran">संस्मरण</option>
+  <option value="vidha/vividh/interview">साक्षात्कार</option>
+  <option value="vidha/vividh/samagra">समग्र</option>
+</optgroup>            </select>
           </div>
 
           <div>
