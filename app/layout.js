@@ -9,7 +9,7 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "अनुग्या बुक्स",
+  title: "अनुज्ञा बुक्स",
   description: "हिंदी साहित्य का प्रकाशन",
 };
 
