@@ -20,7 +20,6 @@ const Navbar = () => {
 const navItems = {
   hi: [
     { name: 'होम', href: '/' },
-    { name: 'नई रिलीज', href: '/new-release' },
     { 
       name: 'विधा', 
       href: '/vidha',
@@ -160,15 +159,13 @@ const navItems = {
       ]
     },
     { name: 'लेखक', href: '/author' },
-    { name: 'ब्लॉग', href: '/blog' },
-    { name: 'ट्रैकिंग', href: '/tracking' },
+    { name: 'अनुवादक', href: '/translator' },
     { name: 'कैटलॉग', href: '/catalogue' },
     { name: 'ई-बुक्स', href: '/ebooks' },
     { name: 'संपर्क', href: '/contact' },
   ],
   en: [
     { name: 'Home', href: '/' },
-    { name: 'New Release', href: '/new-release' },
     { 
       name: 'Genre', 
       href: '/vidha',
@@ -182,8 +179,7 @@ const navItems = {
       ]
     },
     { name: 'Authors', href: '/author' },
-    { name: 'Blog', href: '/blog' },
-    { name: 'Tracking', href: '/tracking' },
+    { name: 'Translators', href: '/translator' },
     { name: 'Catalogue', href: '/catalogue' },
     { name: 'E-books', href: '/ebooks' },
     { name: 'Contact', href: '/contact' },
@@ -245,8 +241,16 @@ const navItems = {
               />
             </Link>
             
-            {/* Right: Search, Cart, Login */}
+            {/* Right: Blog, Tracking, Search, Cart, Login */}
             <div className="flex items-center gap-3">
+              <Link href="/blog" className="text-white hover:text-gray-200 transition-colors text-sm font-medium">
+                {language === 'hi' ? 'ब्लॉग' : 'Blog'}
+              </Link>
+              
+              <Link href="/tracking" className="text-white hover:text-gray-200 transition-colors text-sm font-medium">
+                {language === 'hi' ? 'ट्रैकिंग' : 'Tracking'}
+              </Link>
+              
               <button
                 onClick={() => setShowSearch(!showSearch)}
                 className="text-white hover:text-gray-200 transition-colors p-2"
@@ -327,7 +331,7 @@ const navItems = {
         </div>
       </nav>
       
-      {/* ड्रॉपडाउन मेन्यू */}
+      {/* ड्रॉपडाउन मेन्यू - वर्टिकल */}
       {activeDropdown !== null && currentNavItems[activeDropdown]?.children && (
         <>
           <div 
@@ -339,7 +343,7 @@ const navItems = {
           />
           <div className="fixed left-0 right-0 bg-[#654321] shadow-lg py-4 z-[100] max-h-96 overflow-y-auto">
             <div className="max-w-7xl mx-auto px-4">
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
+              <div className="flex flex-col gap-1">
                 {currentNavItems[activeDropdown].children.map((child, childIndex) => (
                   <div key={child.name} className="border border-[#8B4513] rounded-lg overflow-hidden">
                     {!child.children ? (
