@@ -3,18 +3,24 @@
 import { use, useState, useEffect } from 'react';
 import Link from 'next/link';
 
-export default function CategoryPage({ params }) {
+export default function VidhaPage({ params }) {
   const resolvedParams = use(params);
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
+  
+  const fullPath = Array.isArray(resolvedParams.slug) 
+    ? resolvedParams.slug.join('/') 
+    : resolvedParams.slug;
+  
+  const category = `vidha/${fullPath}`;
 
   useEffect(() => {
     fetchBooks();
-  }, [resolvedParams.category]);
+  }, [category]);
 
   async function fetchBooks() {
     try {
-      const res = await fetch(`/api/books?category=${resolvedParams.category}`);
+      const res = await fetch(`/api/books?category=${encodeURIComponent(category)}`);
       const data = await res.json();
       setBooks(Array.isArray(data) ? data : []);
     } catch (error) {
@@ -29,10 +35,12 @@ export default function CategoryPage({ params }) {
     return <div className="container mx-auto px-4 py-8 text-center">लोड हो रहा है...</div>;
   }
 
+  const displayTitle = fullPath.split('/').pop().replace(/-/g, ' ');
+
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-3xl font-bold mb-6 text-gray-800 capitalize">
-        {resolvedParams.category.replace(/-/g, ' ')}
+        {displayTitle}
       </h1>
       
       {books.length === 0 ? (
@@ -53,7 +61,7 @@ export default function CategoryPage({ params }) {
                 <p className="text-gray-600 text-sm mb-2">{book.author}</p>
                 <div className="flex items-center justify-between mt-3">
                   <span className="text-teal-600 font-bold text-lg">₹{book.price}</span>
-                  <Link href={`/${resolvedParams.category}/${book.slug}`} className="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700 text-sm">
+                  <Link href={`/book/${book.slug}`} className="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700 text-sm">
                     विवरण देखें
                   </Link>
                 </div>
