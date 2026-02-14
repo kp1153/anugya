@@ -2,6 +2,7 @@
 
 import { use, useState, useEffect } from 'react';
 import Link from 'next/link';
+import { useCart } from '@/context/CartContext';
 
 export default function AuthorDetailPage({ params }) {
   const resolvedParams = use(params);
@@ -11,6 +12,7 @@ export default function AuthorDetailPage({ params }) {
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const { addToCart } = useCart();
 
   useEffect(() => {
     if (slug) {
@@ -106,18 +108,22 @@ export default function AuthorDetailPage({ params }) {
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-lg mb-1 line-clamp-2">{book.title}</h3>
-                {book.translator && (
-                  <p className="text-gray-500 text-xs mb-2">Translator: {book.translator}</p>
-                )}
-                <div className="flex items-center justify-between mt-3">
+                <div className="flex items-center justify-between mt-3 mb-2">
                   <span className="text-teal-600 font-bold text-lg">₹{book.price}</span>
                   <Link 
                     href={`/book/${book.slug}`}
-                    className="bg-teal-600 text-white px-4 py-2 rounded hover:bg-teal-700 text-sm"
+                    className="text-blue-600 hover:text-blue-800 text-sm underline"
                   >
                     View Details
                   </Link>
                 </div>
+                <button
+                  onClick={() => addToCart(book)}
+                  disabled={book.stock === 0}
+                  className="w-full bg-teal-600 text-white py-2 rounded hover:bg-teal-700 disabled:bg-gray-400 disabled:cursor-not-allowed text-sm font-semibold"
+                >
+                  {book.stock > 0 ? 'Add to Cart' : 'Out of Stock'}
+                </button>
               </div>
             </div>
           ))}
