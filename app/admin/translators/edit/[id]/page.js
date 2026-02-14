@@ -2,6 +2,7 @@
 
 import { use, useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
+import { CldUploadWidget } from 'next-cloudinary';
 
 export default function EditTranslatorPage({ params }) {
   const resolvedParams = use(params);
@@ -109,13 +110,33 @@ export default function EditTranslatorPage({ params }) {
         </div>
 
         <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">Photo URL</label>
-          <input
-            type="text"
-            value={formData.photo}
-            onChange={(e) => setFormData({ ...formData, photo: e.target.value })}
-            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-          />
+          <label className="block text-sm font-medium text-gray-700 mb-2">Photo</label>
+          <CldUploadWidget
+            uploadPreset={process.env.NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET}
+            onSuccess={(result) => {
+              setFormData({ ...formData, photo: result.info.secure_url });
+            }}
+          >
+            {({ open }) => (
+              <button
+                type="button"
+                onClick={() => open()}
+                className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+              >
+                Upload Photo
+              </button>
+            )}
+          </CldUploadWidget>
+          {formData.photo && (
+            <div className="mt-3">
+              <img
+                src={formData.photo}
+                alt="Translator photo"
+                className="w-32 h-32 rounded-full object-cover"
+              />
+              <p className="text-xs text-gray-600 mt-1 break-all">{formData.photo}</p>
+            </div>
+          )}
         </div>
 
         <div>
