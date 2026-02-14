@@ -3,32 +3,32 @@
 import { use, useState, useEffect } from 'react';
 import Link from 'next/link';
 
-export default function AuthorDetailPage({ params }) {
+export default function TranslatorDetailPage({ params }) {
   const resolvedParams = use(params);
   const slug = resolvedParams.slug;
   
-  const [author, setAuthor] = useState(null);
+  const [translator, setTranslator] = useState(null);
   const [books, setBooks] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
   useEffect(() => {
     if (slug) {
-      fetchAuthorAndBooks();
+      fetchTranslatorAndBooks();
     }
   }, [slug]);
 
-  async function fetchAuthorAndBooks() {
+  async function fetchTranslatorAndBooks() {
     setLoading(true);
     setError(null);
 
     try {
-      const authorRes = await fetch(`/api/authors/slug/${slug}`);
-      if (!authorRes.ok) throw new Error('Author not found');
-      const authorData = await authorRes.json();
-      setAuthor(authorData);
+      const translatorRes = await fetch(`/api/translators/slug/${slug}`);
+      if (!translatorRes.ok) throw new Error('Translator not found');
+      const translatorData = await translatorRes.json();
+      setTranslator(translatorData);
 
-      const booksRes = await fetch(`/api/books?author=${encodeURIComponent(authorData.name)}`);
+      const booksRes = await fetch(`/api/books?translator=${encodeURIComponent(translatorData.name)}`);
       const booksData = await booksRes.json();
       setBooks(booksData);
     } catch (error) {
@@ -60,10 +60,10 @@ export default function AuthorDetailPage({ params }) {
       <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
         <div className="flex items-start gap-6">
           <div className="flex-shrink-0">
-            {author.profile_image ? (
+            {translator.profile_image ? (
               <img 
-                src={author.profile_image} 
-                alt={author.name}
+                src={translator.profile_image} 
+                alt={translator.name}
                 className="w-32 h-32 rounded-full object-cover"
               />
             ) : (
@@ -73,19 +73,19 @@ export default function AuthorDetailPage({ params }) {
             )}
           </div>
           <div className="flex-1">
-            <h1 className="text-3xl font-bold mb-2">{author.name}</h1>
-            {author.description && (
-              <p className="text-gray-700 mt-4 whitespace-pre-wrap">{author.description}</p>
+            <h1 className="text-3xl font-bold mb-2">{translator.name}</h1>
+            {translator.description && (
+              <p className="text-gray-700 mt-4 whitespace-pre-wrap">{translator.description}</p>
             )}
           </div>
         </div>
       </div>
 
-      <h2 className="text-2xl font-bold mb-6">Books ({books.length})</h2>
+      <h2 className="text-2xl font-bold mb-6">Books Translated ({books.length})</h2>
 
       {books.length === 0 ? (
         <div className="text-center py-12">
-          <p className="text-gray-500 text-lg">No books found for this author</p>
+          <p className="text-gray-500 text-lg">No books found for this translator</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
@@ -106,9 +106,6 @@ export default function AuthorDetailPage({ params }) {
               </div>
               <div className="p-4">
                 <h3 className="font-bold text-lg mb-1 line-clamp-2">{book.title}</h3>
-                {book.translator && (
-                  <p className="text-gray-500 text-xs mb-2">Translator: {book.translator}</p>
-                )}
                 <div className="flex items-center justify-between mt-3">
                   <span className="text-teal-600 font-bold text-lg">₹{book.price}</span>
                   <Link 
