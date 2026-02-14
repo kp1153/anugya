@@ -151,6 +151,8 @@ const navItems = {
           children: [
             { name: 'हार्ड बाउंड - 2026', href: '/vidha/jild/hardbound-2026' },
             { name: 'हार्ड बाउंड - 2025', href: '/vidha/jild/hardbound-2025' },
+            { name: 'हार्ड बाउंड - 2024', href: '/vidha/jild/hardbound-2025' },
+
             { name: 'पेपर बाउंड', href: '/vidha/jild/paperbound' },
             { name: 'पिन बाउंड', href: '/vidha/jild/pinbound' },
             { name: 'कॉम्बो पैक', href: '/vidha/jild/combo' },

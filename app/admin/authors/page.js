@@ -12,16 +12,22 @@ export default function AuthorsListPage() {
   }, []);
 
   async function fetchAuthors() {
-    try {
-      const res = await fetch('/api/authors');
-      const data = await res.json();
-      setAuthors(data);
-    } catch (error) {
-      console.error('Error:', error);
-    } finally {
-      setLoading(false);
-    }
+  try {
+    const res = await fetch('/api/authors');
+    const data = await res.json();
+    
+    // Duplicate हटाओ
+    const uniqueAuthors = data.filter((author, index, self) =>
+      index === self.findIndex((a) => a.id === author.id)
+    );
+    
+    setAuthors(uniqueAuthors);
+  } catch (error) {
+    console.error('Error:', error);
+  } finally {
+    setLoading(false);
   }
+}
 
   async function deleteAuthor(id) {
     if (!confirm('Are you sure you want to delete this author?')) return;
