@@ -29,7 +29,8 @@ export default function NewBookPage() {
     hardbound_set_price: '',
     cover_image: '',
     description: '',
-    stock: 0
+    stock: 0,
+    is_new_release: false
   });
 
   useEffect(() => {
@@ -76,7 +77,8 @@ export default function NewBookPage() {
         hardbound_single_price: formData.hardbound_single_price ? parseFloat(formData.hardbound_single_price) : null,
         paperback_set_price: formData.paperback_set_price ? parseFloat(formData.paperback_set_price) : null,
         hardbound_set_price: formData.hardbound_set_price ? parseFloat(formData.hardbound_set_price) : null,
-        stock: parseInt(formData.stock)
+        stock: parseInt(formData.stock),
+        is_new_release: formData.is_new_release
       };
 
       const res = await fetch('/api/books', {
@@ -269,7 +271,8 @@ export default function NewBookPage() {
   <option value="vidha/vividh/sansmaran">संस्मरण</option>
   <option value="vidha/vividh/interview">साक्षात्कार</option>
   <option value="vidha/vividh/samagra">समग्र</option>
-</optgroup>            </select>
+</optgroup>
+            </select>
           </div>
 
           <div>
@@ -487,6 +490,18 @@ export default function NewBookPage() {
             className="w-full px-4 py-2 border rounded focus:outline-none focus:border-blue-500"
             placeholder="Stock quantity"
           />
+        </div>
+
+        {/* New Release */}
+        <div className="flex items-center gap-2">
+          <input
+            type="checkbox"
+            checked={formData.is_new_release}
+            onChange={(e) => setFormData({...formData, is_new_release: e.target.checked})}
+            className="w-4 h-4"
+            id="new-release"
+          />
+          <label htmlFor="new-release" className="text-sm font-medium">नई रिलीज (होमपेज पर दिखाएं)</label>
         </div>
 
         {/* Submit Buttons */}
