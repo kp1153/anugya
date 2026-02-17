@@ -5,7 +5,7 @@ export default function AdminDashboard() {
   return (
     <div className="max-w-6xl mx-auto">
       <h1 className="text-4xl font-bold mb-8 text-gray-800">
-        🏛️ अनुग्या बुक्स डैशबोर्ड
+        🏛️ अनुज्ञा बुक्स डैशबोर्ड
       </h1>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
